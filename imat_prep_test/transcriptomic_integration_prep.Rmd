@@ -1,0 +1,396 @@
+---
+title: "# RNA-seq Data Processing for Context-Specific Salmonella GEM Construction with iMATpy"
+author: Gina Vazquez
+output: html_document
+---
+## Notes
+### 02/09 - 02/13
+
+Options for the iMATpy data integration workflow:
+
+1. Normalize the counts for gene length and sequencing depth
+   - Options are RLE with DESeq2, CPM or TMM with edgeR, and TPM/FPKM.
+2. The iMATpy documentation suggests quantile normalizing?
+3. Combine the gene expression values of the replicates
+   - Average the five replicates per condition
+   - Run iMAT per replicate
+   - Build a model for each replicate and then intersect them
+   
+### 02/16 - 02/17
+
+- I'm not sure what difference there is between using VST, CPM/TMM, and FPKM/TPM.
+- I need to have a featurecounts (fc) table of the entire Metatranscriptome to properly normalize to library size. Currently, the fc tables are a subset of the salmonella genes from the original table. The original table also does not include the mouse genome so I need to change to Snakemake workflow to make a Featurecounts table inclusive of the entire Metranscriptome. 
+- Let's try DeSeq2 median of ratios first and then EdgeR TMM since these were the most accurate in [this paper.](https://www.nature.com/articles/s41540-024-00448-z). 
+
+### 02/18
+
+- Thresholding values to try: <25% and >75%, <10% and >90%, and <15% and >85%.
+  - I'm basing this on two papers: [(Çakir et al., 2024)](https://www.nature.com/articles/s41540-024-00448-z) and [(Lewis et al., 2017)](https://pubmed.ncbi.nlm.nih.gov/28215528/).
+- Question: Do I do this combined for both conditions or seperate? 
+  - Some papers do the thresholding at a global scale regardless of condition. - look into the point of this and do it. 
+- Get total count for genes kept and lost for each threshold. 
+- Get gene names kept and lost. 
+- Get how many genes with a count of 0 (from the raw data) are kept and lost. 
+  - Check how many genes with a count of 0 in raw and normalized. 
+
+## Notes to Self
+
+- The featurecounts table should be regenerated for the entire metatranscriptome.
+- Still need to match the gene_ids to the GEM gene_ids. 
+- Compare RLE normalization to TMM normalization results. 
+  - Worth considering: Recalculate DGE and cross-reference the over/under expressed genes to the threshold list(s). 
+- Double check if aggregating the replicates is the approach. 
+  - Another thought is that the replicates could be aggregated after thresholding. (Does that even make sense?)
+- The Çakir paper determines the thresholds based on all samples regardless of condition. 
+  - I'm not sure why or what difference it makes? (Something to discuss on 02/19 meeting)
+-Get the gene_ids for the genes in the high_differ and low_differ colums of the reports. These are the same as combining the mixed_only and stm_only lists from the comparison lists for both high and low and across thresholds.  
+- **Read [(Çakir et al., 2024)](https://www.nature.com/articles/s41540-024-00448-z) to see how they prepped the data - it seems most accurate.**
+  
+## Future Work from SW/TB 02/19 Meeting
+
+- Regenerate the featurecounts table from the entire metatranscriptome. 
+  - Will need to rerun the snakemake workflow. 
+    - Must transfer data and files from local to Farm. 
+- Compare RLE and TMM normalization results. 
+  - These are the best performing in [this paper.](https://www.nature.com/articles/s41540-024-00448-z)
+- Post-Normalization Questions: 
+  - How do I visualize RLE/TMM normalized data? 
+  - Can they be plotted on log2? 
+- Averaging replicates: 
+  - Can I take the mean of the replicates or do I take the geometric mean? (This is a concern from SW)
+    - Another alternative for dealing with replicates? 
+- Thresholding: 
+  - I designated 1, -1, 0 genes per condition though one study designated the values based on the expression levels of all samples and conditions in [this paper.](https://www.cell.com/cell-systems/fulltext/S2405-4712(17)30010-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2405471217300108%3Fshowall%3Dtrue)
+    - **Double check this source.**
+    - What is the value/difference in doing this? 
+- Evaluating Results: 
+  - Compare the genes categorized as high and low per condition to DGE analysis. 
+     - **Find this paper** - uses DGE to assign the 1, -1, 0 values which is something to look into. 
+
+## Terminal Commands
+
+```bash
+# do not run, these are for notekeeping
+scp /Users/gina/Documents/rnaseq_prelim/exp_stm.csv gmvaz@farm.cse.ucdavis.edu:/home/gmvaz/2026_GEMs
+```
+
+
+
+```{r include = FALSE}
+#packages
+library(DESeq2)
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(readr)
+```
+
+## Read in FeatureCounts Table
+```{r include = TRUE}
+df = read.delim("stm_counts_v4.txt", skip = 1, header = TRUE, row.names = 1, stringsAsFactors = FALSE)
+df_stm = df[c("sam.278.1_stm.sorted.bam",   "sam.278.2_stm.sorted.bam",    "sam.278.3_stm.sorted.bam",    "sam.278.4_stm.sorted.bam",    "sam.278.5_stm.sorted.bam",    "sam.279.1_stm.sorted.bam",    "sam.279.2_stm.sorted.bam",    "sam.279.3_stm.sorted.bam",    "sam.279.4_stm.sorted.bam",    "sam.279.5_stm.sorted.bam")]
+
+colnames(df_stm) = c("278.1", "278.2", "278.3", "278.4", "278.5",
+                      "279.1", "279.2", "279.3", "279.4", "279.5")
+
+
+head(df_stm)
+```
+
+## Read in the Sample Metadata
+```{r include= TRUE}
+csv_exp_stm = read.csv("exp_stm.csv")
+print(csv_exp_stm)
+```
+
+## Make the DeSeq2 Object
+```{r include= TRUE}
+dds = DESeqDataSetFromMatrix(
+    countData = df_stm,
+    colData = csv_exp_stm,
+    design = ~ condition
+)
+```
+
+## RLE Normalization
+```{r include= TRUE}
+# calculates a size factor for each sample
+dds = estimateSizeFactors(dds)
+
+#prints the scaling factor 
+sizeFactors(dds)
+```
+
+## Extract the Normalized Counts 
+```{r include= TRUE}
+# applies the normalization
+normalized_counts = counts(dds, normalized = TRUE)
+head(normalized_counts)
+```
+
+## Compare the Normalized and Raw Counts 
+```{r include = TRUE}
+boxplot(log2(df_stm + 1),
+        main = "Raw Counts",
+        ylab = "log2(count + 1)",
+        las = 2)
+
+boxplot(log2(normalized_counts + 1),
+        main = "RLE Normalized Counts",
+        ylab = "log2(count + 1)",
+        las = 2)
+
+```
+
+## Mean of the Normalized Count for 278.1 - 278.5 and 279.1 - 279.5
+```{r include = TRUE}
+mixed_stm_samples = grep("278", colnames(normalized_counts), value = TRUE)
+stm_samples = grep("279", colnames(normalized_counts), value = TRUE)
+
+mean_mixed_stm_samples = rowMeans(normalized_counts[, mixed_stm_samples])
+mean_stm_samples = rowMeans(normalized_counts[, stm_samples])
+
+head(mean_mixed_stm_samples)
+head(mean_stm_samples)
+
+```
+
+## Compare the Average Samples 278 and 279
+```{r include = TRUE}
+boxplot(log2(mean_mixed_stm_samples + 1),
+        main = "Mean of 278.1 - 278.5 Normalized Counts",
+        ylab = "log2(count + 1)",
+        las = 2)
+
+boxplot(log2(mean_stm_samples + 1),
+        main = "Mean of 279.1 - 279.5 Normalized Counts",
+        ylab = "log2(count + 1)",
+        las = 2)
+
+```
+## Checks to ensure the gene name lengths are the same across all tables 
+```{r include = TRUE}
+# check that the count of gene_ids is the same in the mean of the 278 and 278 samples. 
+length(mean_mixed_stm_samples)
+length(mean_stm_samples)
+
+# check that the count of gene_ids in the normalized counts table is the same.
+nrow(normalized_counts)
+
+# check that the names of the gene_ids are the same in the the normalized counts table, the mean of 278 table, and the mean of 279 table
+head(names(mean_mixed_stm_samples))
+head(names(mean_stm_samples))
+head(rownames(normalized_counts))
+```
+
+## Create a thresholding Function
+Create a function that takes a numeric vector of mean normalized counts and a low and a high quantile cut off. If the normalized gene count is higher than the high quantile, it is assigned a 1. If the If the normalized gene count is lower than the low quantile, it is assigned a -1. All remaining gene counts are assigned a 0.
+```{r include = TRUE}
+thresholding_function = function(expr_vector, low_q, high_q) {
+  
+  low  = quantile(expr_vector, low_q)
+  high = quantile(expr_vector, high_q)
+  
+  ifelse(expr_vector > high, 1,
+         ifelse(expr_vector < low, -1, 0))
+}
+```
+
+## Apply the thresholds to both sample types
+Apply the thresholding function to the mean counts for each condition and apply three threshold stringencies: 25/75, 15/85, and 10/90.  
+```{r include = TRUE}
+# threshold the mean of samples 278.1-278.5 ---- mean_mixed_stm_samples (cs/bth/stm)
+mixed_stm_threshold_25_75 = thresholding_function(mean_mixed_stm_samples, 0.25, 0.75)
+mixed_stm_threshold_10_90 = thresholding_function(mean_mixed_stm_samples, 0.10, 0.90)
+mixed_stm_threshold_15_85 = thresholding_function(mean_mixed_stm_samples, 0.15, 0.85)
+
+# count how many there are in each bin
+table(mixed_stm_threshold_25_75)
+table(mixed_stm_threshold_10_90)
+table(mixed_stm_threshold_15_85)
+
+# threshold the mean of samples 279.1-279.5 ---- mean_stm_samples (stm only)
+stm_threshold_25_75 = thresholding_function(mean_stm_samples, 0.25, 0.75)
+stm_threshold_10_90 = thresholding_function(mean_stm_samples, 0.10, 0.90)
+stm_threshold_15_85 = thresholding_function(mean_stm_samples, 0.15, 0.85)
+
+# count how many there are in each bin
+table(stm_threshold_25_75)
+table(stm_threshold_10_90)
+table(stm_threshold_15_85)
+
+```
+
+## Make dataframes of the threshold values 
+```{r include = TRUE}
+# make named vectors into a dataframe
+
+df_stm_threshold_10_90 = data.frame("genes" = names(stm_threshold_10_90),
+                                    "threshold_category" = stm_threshold_10_90)
+df_stm_threshold_25_75 = data.frame("genes" = names(stm_threshold_25_75),
+                                    "threshold_category" = stm_threshold_25_75)
+df_stm_threshold_15_85 = data.frame("genes" = names(stm_threshold_15_85),
+                                    "threshold_category" = stm_threshold_15_85)
+
+df_mixed_stm_threshold_10_90 = data.frame("genes" = names(mixed_stm_threshold_10_90),
+                                    "threshold_category" = mixed_stm_threshold_10_90)
+df_mixed_stm_threshold_25_75 = data.frame("genes" = names(mixed_stm_threshold_25_75),
+                                    "threshold_category" = mixed_stm_threshold_25_75)
+df_mixed_stm_threshold_15_85 = data.frame("genes" = names(mixed_stm_threshold_15_85),
+                                    "threshold_category" = mixed_stm_threshold_15_85)
+print(df_stm_threshold_10_90)
+```
+
+
+## Save threshold values as CSV
+```{r include = TRUE}
+write_csv(df_stm_threshold_10_90, file = "/home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_10_90.csv")
+write_csv(df_stm_threshold_25_75, file = "/home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_25_75.csv")
+write_csv(df_stm_threshold_15_85, file = "/home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_15_85.csv")
+
+write_csv(df_mixed_stm_threshold_10_90, file = "/home/gmvaz/2026_GEMs/imat_prep_test/mixed_stm_threshold_10_90.csv")
+write_csv(df_mixed_stm_threshold_25_75, file = "/home/gmvaz/2026_GEMs/imat_prep_test/mixed_stm_threshold_25_75.csv")
+write_csv(df_mixed_stm_threshold_15_85, file = "/home/gmvaz/2026_GEMs/imat_prep_test/mixed_stm_threshold_15_85.csv")
+```
+
+
+## Create a Comparison Function 
+Create a function to compare how many genes are high and low in each condition. 
+```{r include = TRUE}
+compare_thresholds = function(mixed_vec, stm_vec) {
+  # extract the names of the high genes in the mixed_stm list
+  # extract the names of the low genes in the mixed_stm list
+  mixed_high = names(mixed_vec)[mixed_vec == 1]
+  mixed_low  = names(mixed_vec)[mixed_vec == -1]
+  
+  # extract the names of the high genes in the stm list
+  # extract the names of the low genes in the stm list  
+  stm_high = names(stm_vec)[stm_vec == 1]
+  stm_low = names(stm_vec)[stm_vec == -1]
+ 
+  # For high genes: 
+  # which genes are high in both sets
+  # which genes are high only in the mixed set
+  # which genes are high only in the stm set 
+  list(
+    high = list(
+      overlap = intersect(mixed_high, stm_high),
+      mixed_only = setdiff(mixed_high, stm_high),
+      stm_only = setdiff(stm_high, mixed_high)
+    ),
+      # For low genes: 
+  # which genes are low in both sets
+  # which genes are low only in the mixed set
+  # which genes are low only in the stm set 
+    low = list(
+      overlap = intersect(mixed_low, stm_low),
+      mixed_only = setdiff(mixed_low, stm_low),
+      stm_only = setdiff(stm_low, mixed_low)
+    )
+  )
+}
+```
+
+## Apply the Comparison Function with all three thresholds
+```{r include = TRUE}
+## make visual gene lists  
+# use the compare_thresholds function with all three thresholds 
+comparison_25_75 = compare_thresholds(mixed_stm_threshold_25_75,
+                                        stm_threshold_25_75)
+
+comparison_10_90 = compare_thresholds(mixed_stm_threshold_10_90,
+                                        stm_threshold_10_90)
+
+comparison_15_85 = compare_thresholds(mixed_stm_threshold_15_85,
+                                        stm_threshold_15_85)
+```
+
+
+## Create reports that compare genes as high or low and either: overlap between both groups or are present in only one group
+```{r include = TRUE}
+report_25_75 = data.frame(
+  high_overlap      = length(comparison_25_75$high$overlap),
+  high_mixed_only   = length(comparison_25_75$high$mixed_only),
+  high_stm_only     = length(comparison_25_75$high$stm_only),
+  low_overlap       = length(comparison_25_75$low$overlap),
+  low_mixed_only    = length(comparison_25_75$low$mixed_only),
+  low_stm_only      = length(comparison_25_75$low$stm_only)
+)
+
+report_15_85 = data.frame(
+  high_overlap      = length(comparison_15_85$high$overlap),
+  high_mixed_only   = length(comparison_15_85$high$mixed_only),
+  high_stm_only     = length(comparison_15_85$high$stm_only),
+  low_overlap       = length(comparison_15_85$low$overlap),
+  low_mixed_only    = length(comparison_15_85$low$mixed_only),
+  low_stm_only      = length(comparison_15_85$low$stm_only)
+)
+
+  report_10_90 = data.frame(
+  high_overlap      = length(comparison_10_90$high$overlap),
+  high_mixed_only   = length(comparison_10_90$high$mixed_only),
+  high_stm_only     = length(comparison_10_90$high$stm_only),
+  low_overlap       = length(comparison_10_90$low$overlap),
+  low_mixed_only    = length(comparison_10_90$low$mixed_only),
+  low_stm_only      = length(comparison_10_90$low$stm_only)
+)
+  
+report_25_75
+report_15_85
+report_10_90
+```
+
+## The total amount of genes classified as high in one condition and not the other (and same for low)
+```{r include = TRUE}
+report_25_75$high_differ = report_25_75$high_mixed_only + report_25_75$high_stm_only
+report_25_75$low_differ  = report_25_75$low_mixed_only  + report_25_75$low_stm_only
+
+report_15_85$high_differ = report_15_85$high_mixed_only + report_15_85$high_stm_only
+report_15_85$low_differ  = report_15_85$low_mixed_only  + report_15_85$low_stm_only
+
+report_10_90$high_differ = report_10_90$high_mixed_only + report_10_90$high_stm_only
+report_10_90$low_differ  = report_10_90$low_mixed_only  + report_10_90$low_stm_only
+
+report_25_75
+report_15_85
+report_10_90
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r include = FALSE}
+switch_high_mixed_low_stm = intersect(
+  names(mixed_stm_threshold_25_75)[mixed_stm_threshold_25_75 == 1],
+  names(stm_threshold_25_75)[stm_threshold_25_75 == -1]
+)
+
+switch_low_mixed_high_stm = intersect(
+  names(mixed_stm_threshold_25_75)[mixed_stm_threshold_25_75 == -1],
+  names(stm_threshold_25_75)[stm_threshold_25_75 == 1]
+)
+
+switch_high_mixed_low_stm
+switch_low_mixed_high_stm
+```
+
+```{r include = FALSE}
+length(comparison_25_75$high$overlap)
+length(comparison_25_75$high$mixed_only)
+length(comparison_25_75$high$stm_only)
+
+length(comparison_25_75$low$overlap)
+length(comparison_25_75$low$mixed_only)
+length(comparison_25_75$low$stm_only)
+```
+
+

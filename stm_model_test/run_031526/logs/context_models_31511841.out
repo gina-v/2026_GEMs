@@ -1,0 +1,68 @@
+############### Job 31511841 prolog ###############
+SLURM_NODELIST: bm9
+############### Job 31511841 prolog ###############
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2789960
+Academic license 2789960 - for non-commercial use only - registered to gm___@ucdavis.edu
+MILP generating model for /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_15_85.csv
+Read LP format model from file /tmp/tmpreb8j8av.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmpya7344ge.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Warning: environment still referenced so free is deferred (Continue to use WLS)
+
+############### Job 31511841 summary from bm9 ###############
+Name                : context_models_031726
+User                : gmvaz
+Account             : ctbrowngrp
+Partition           : bmh
+Nodes               : bm9
+Cores               : 16
+GPUs                : 0
+State               : COMPLETED
+ExitCode            : 0:0
+Submit              : 2026-03-24T16:00:24
+Start               : 2026-03-24T16:00:25
+End                 : 2026-03-24T19:47:21
+Reserved walltime   : 1-00:00:00
+Used walltime       :   03:46:56
+Used CPU time       : 1-12:42:17
+% User (Computation): 41.73%
+% System (I/O)      : 58.27%
+Mem reserved        : 128G
+Max Mem used        : 1.25G (bm9)
+Max Disk Write      : 2.10M (bm9)
+Max Disk Read       : 87.86M (bm9)
+
+############### Job 31511841 info ###############
+JobId=31511841 JobName=context_models_031726
+   UserId=gmvaz(2205129) GroupId=gmvaz(2205129) MCS_label=N/A
+   Priority=3356 Nice=0 Account=ctbrowngrp QOS=ctbrowngrp-bmh-qos
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=03:29:21 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2026-03-24T16:00:24 EligibleTime=2026-03-24T16:00:24
+   AccrueTime=2026-03-24T16:00:24
+   StartTime=2026-03-24T16:00:25 EndTime=2026-03-24T19:29:46 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-03-24T16:00:25 Scheduler=Main
+   Partition=bmh AllocNode:Sid=farm:561569
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=bm9
+   BatchHost=bm9
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=16,mem=128G,node=1,billing=16
+   AllocTRES=cpu=16,mem=128G,node=1,billing=16
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryNode=128G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/gmvaz/2026_GEMs/stm_model_test/MILP_bounds.sbatch
+   SubmitLine=sbatch MILP_bounds.sbatch
+   WorkDir=/home/gmvaz/2026_GEMs/stm_model_test
+   StdErr=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31511841.err
+   StdIn=/dev/null
+   StdOut=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31511841.out
+   TresPerTask=cpu=16

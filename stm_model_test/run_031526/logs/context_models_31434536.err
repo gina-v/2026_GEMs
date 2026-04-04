@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/home/gmvaz/2026_GEMs/stm_model_test/generate_models3.py", line 74, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/gmvaz/2026_GEMs/stm_model_test/generate_models3.py", line 34, in main
+    threshold_csv = pd.read_csv(args.threshold_csv)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gmvaz/2026_GEMs/imat_prep_test/mixed_stm_threshold_15_65.csv'

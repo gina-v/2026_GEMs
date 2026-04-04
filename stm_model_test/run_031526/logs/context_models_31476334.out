@@ -1,0 +1,69 @@
+############### Job 31476334 prolog ###############
+SLURM_NODELIST: bm18
+############### Job 31476334 prolog ###############
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2789960
+Academic license 2789960 - for non-commercial use only - registered to gm___@ucdavis.edu
+FVA generating model for /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_15_85.csv
+Read LP format model from file /tmp/tmp4g2bfpul.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmpceyv9_de.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+FAILED SUBSET for /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_15_85.csv: reaction 'AMPTASEPG' is not part of a model
+Warning: environment still referenced so free is deferred (Continue to use WLS)
+
+############### Job 31476334 summary from bm18 ###############
+Name                : context_models_031726
+User                : gmvaz
+Account             : ctbrowngrp
+Partition           : bmh
+Nodes               : bm18
+Cores               : 16
+GPUs                : 0
+State               : FAILED
+ExitCode            : 1:0
+Submit              : 2026-03-23T11:31:00
+Start               : 2026-03-23T11:31:00
+End                 : 2026-03-23T11:47:05
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:16:05
+Used CPU time       :   04:07:12
+% User (Computation): 75.51%
+% System (I/O)      : 24.49%
+Mem reserved        : 128G
+Max Mem used        : 23.01G (bm18)
+Max Disk Write      : 2.27M (bm18)
+Max Disk Read       : 108.19M (bm18)
+
+############### Job 31476334 info ###############
+JobId=31476334 JobName=context_models_031726
+   UserId=gmvaz(2205129) GroupId=gmvaz(2205129) MCS_label=N/A
+   Priority=3356 Nice=0 Account=ctbrowngrp QOS=ctbrowngrp-bmh-qos
+   JobState=COMPLETING Reason=NonZeroExitCode Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=1:0
+   RunTime=00:16:05 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2026-03-23T11:31:00 EligibleTime=2026-03-23T11:31:00
+   AccrueTime=2026-03-23T11:31:00
+   StartTime=2026-03-23T11:31:00 EndTime=2026-03-23T11:47:05 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-03-23T11:31:00 Scheduler=Backfill
+   Partition=bmh AllocNode:Sid=farm:1422077
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=bm18
+   BatchHost=bm18
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=16,mem=128G,node=1,billing=16
+   AllocTRES=cpu=16,mem=128G,node=1,billing=16
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryNode=128G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/gmvaz/2026_GEMs/stm_model_test/FVA_bounds.sbatch
+   SubmitLine=sbatch FVA_bounds.sbatch
+   WorkDir=/home/gmvaz/2026_GEMs/stm_model_test
+   StdErr=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31476334.err
+   StdIn=/dev/null
+   StdOut=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31476334.out
+   TresPerTask=cpu=16

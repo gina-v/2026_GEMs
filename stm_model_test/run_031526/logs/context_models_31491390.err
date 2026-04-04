@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/gmvaz/2026_GEMs/stm_model_test/generate_models3.py", line 72, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/gmvaz/2026_GEMs/stm_model_test/generate_models3.py", line 30, in main
+    base_model = load_model("STM_v1_0")
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/cobra/io/web/load.py", line 94, in load_model
+    return get_model_from_gzip_sbml(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/cobra/io/web/load.py", line 198, in get_model_from_gzip_sbml
+    return _sbml_to_model(
+           ^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/cobra/io/sbml.py", line 592, in _sbml_to_model
+    cobra_model = Model(model_id)
+                  ^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/cobra/core/model.py", line 98, in __init__
+    self._solver = interface.Model()
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/optlang/interface.py", line 1181, in __init__
+    self._initialize_problem()
+  File "/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/optlang/gurobi_interface.py", line 526, in _initialize_problem
+    self.problem = gurobipy.Model()
+                   ^^^^^^^^^^^^^^^^
+  File "src/gurobipy/_model.pyx", line 152, in gurobipy._model.Model.__init__
+  File "src/gurobipy/gurobi.pxi", line 40, in gurobipy._core.gurobi._getdefaultenv
+  File "src/gurobipy/env.pxi", line 112, in gurobipy._core.Env.__init__
+gurobipy._exception.GurobiError: Could not resolve host: token.gurobi.com (code 6, command POST https://token.gurobi.com/api/v1/tokens)

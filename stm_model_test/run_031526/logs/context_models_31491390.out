@@ -1,0 +1,59 @@
+############### Job 31491390 prolog ###############
+SLURM_NODELIST: bm9
+############### Job 31491390 prolog ###############
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2789960
+
+############### Job 31491390 summary from bm9 ###############
+Name                : context_models_031726
+User                : gmvaz
+Account             : ctbrowngrp
+Partition           : bmh
+Nodes               : bm9
+Cores               : 16
+GPUs                : 0
+State               : FAILED
+ExitCode            : 1:0
+Submit              : 2026-03-24T10:29:51
+Start               : 2026-03-24T10:29:51
+End                 : 2026-03-24T10:30:02
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:00:11
+Used CPU time       :   00:00:08
+% User (Computation): 72.88%
+% System (I/O)      : 27.12%
+Mem reserved        : 128G
+Max Mem used        : 216.37M (bm9)
+Max Disk Write      : 0.00  (bm9)
+Max Disk Read       : 0.00  (bm9)
+
+############### Job 31491390 info ###############
+JobId=31491390 JobName=context_models_031726
+   UserId=gmvaz(2205129) GroupId=gmvaz(2205129) MCS_label=N/A
+   Priority=3356 Nice=0 Account=ctbrowngrp QOS=ctbrowngrp-bmh-qos
+   JobState=COMPLETING Reason=NonZeroExitCode Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=1:0
+   RunTime=00:00:11 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2026-03-24T10:29:51 EligibleTime=2026-03-24T10:29:51
+   AccrueTime=2026-03-24T10:29:51
+   StartTime=2026-03-24T10:29:51 EndTime=2026-03-24T10:30:02 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-03-24T10:29:51 Scheduler=Main
+   Partition=bmh AllocNode:Sid=farm:4129535
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=bm9
+   BatchHost=bm9
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=16,mem=128G,node=1,billing=16
+   AllocTRES=cpu=16,mem=128G,node=1,billing=16
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryNode=128G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/gmvaz/2026_GEMs/stm_model_test/MILP_bounds.sbatch
+   SubmitLine=sbatch MILP_bounds.sbatch
+   WorkDir=/home/gmvaz/2026_GEMs/stm_model_test
+   StdErr=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31491390.err
+   StdIn=/dev/null
+   StdOut=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31491390.out
+   TresPerTask=cpu=16

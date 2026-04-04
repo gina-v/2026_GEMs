@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/gmvaz/2026_GEMs/stm_model_test/generate_models3.py", line 74, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/gmvaz/2026_GEMs/stm_model_test/generate_models3.py", line 69, in main
+    model,
+    ^^^^^
+UnboundLocalError: cannot access local variable 'model' where it is not associated with a value

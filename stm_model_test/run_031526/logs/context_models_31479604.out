@@ -1,0 +1,56 @@
+############### Job 31479604 prolog ###############
+SLURM_NODELIST: bm26
+############### Job 31479604 prolog ###############
+
+############### Job 31479604 summary from bm26 ###############
+Name                : context_models_031726
+User                : gmvaz
+Account             : ctbrowngrp
+Partition           : bmh
+Nodes               : bm26
+Cores               : 16
+GPUs                : 0
+State               : FAILED
+ExitCode            : 1:0
+Submit              : 2026-03-23T14:47:18
+Start               : 2026-03-23T14:47:48
+End                 : 2026-03-23T14:47:50
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:00:02
+Used CPU time       :   00:00:00
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 128G
+Max Mem used        : 1.23M (bm26)
+Max Disk Write      : 0.00  (bm26)
+Max Disk Read       : 0.00  (bm26)
+
+############### Job 31479604 info ###############
+JobId=31479604 JobName=context_models_031726
+   UserId=gmvaz(2205129) GroupId=gmvaz(2205129) MCS_label=N/A
+   Priority=3356 Nice=0 Account=ctbrowngrp QOS=ctbrowngrp-bmh-qos
+   JobState=COMPLETING Reason=NonZeroExitCode Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=1:0
+   RunTime=00:00:02 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2026-03-23T14:47:18 EligibleTime=2026-03-23T14:47:18
+   AccrueTime=2026-03-23T14:47:18
+   StartTime=2026-03-23T14:47:48 EndTime=2026-03-23T14:47:50 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-03-23T14:47:48 Scheduler=Main
+   Partition=bmh AllocNode:Sid=farm:1422077
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=bm26
+   BatchHost=bm26
+   NumNodes=1 NumCPUs=16 NumTasks=1 CPUs/Task=16 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=16,mem=128G,node=1,billing=16
+   AllocTRES=cpu=16,mem=128G,node=1,billing=16
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=16 MinMemoryNode=128G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/gmvaz/2026_GEMs/stm_model_test/FVA_bounds.sbatch
+   SubmitLine=sbatch FVA_bounds.sbatch
+   WorkDir=/home/gmvaz/2026_GEMs/stm_model_test
+   StdErr=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31479604.err
+   StdIn=/dev/null
+   StdOut=/home/gmvaz/2026_GEMs/stm_model_test/run_031526/logs/context_models_31479604.out
+   TresPerTask=cpu=16
