@@ -16,12 +16,15 @@ export GRB_LICENSE_FILE=$HOME/.gurobi.lic
 cd /home/gmvaz/2026_GEMs/stm_model_test
 
 #03/17/26 - eliminate_below_threshold
-python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_10_90.csv eliminate_below_threshold --output run_031526/context_models/stm1090_eliminate.json
+#for method in eliminate_below_threshold MILP
+#do
+#python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_10_90.csv $method --output run_031526/context_models/stm1090_$method.json
 #python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_15_85.csv eliminate_below_threshold --output run_031526/context_models/stm1585_eliminate.json
 #python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_25_75.csv eliminate_below_threshold --output run_031526/context_models/stm2575_eliminate.json
 #python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/mixed_stm_threshold_10_90.csv eliminate_below_threshold --output run_031526/context_models/mixed1090_eliminate.json
 #python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/mixed_stm_threshold_15_85.csv eliminate_below_threshold --output run_031526/context_models/mixed1585_eliminate.json
 #python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/mixed_stm_threshold_25_75.csv eliminate_below_threshold --output run_031526/context_models/mixed2575_eliminate.json
+done
 
 #03/23/26 - imat_restrictions
 #python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_10_90.csv imat_restrictions --output run_031526/context_models/stm1090_imat_restrictions.json

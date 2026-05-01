@@ -1,0 +1,8 @@
+knockout_group,genes_knocked_out,missing_genes,status,objective_value,fraction_of_WT
+sdhABCD_succinate_dehydrogenase,STM0734;STM0735;STM0732;STM0733,,optimal,0.45701585038956954,0.9564329345529795
+frdABCD_fumarate_reductase,STM4343;STM4342;STM4341;STM4340,,optimal,0.47783366076072326,1.0000000000000042
+cyoABCDE_cytochrome_bo_oxidase,STM0443;STM0442;STM0441;STM0440;STM0439,,optimal,0.41815581596421164,0.8751074909592991
+cydAB_cytochrome_bd_oxidase,STM0740;STM0741,,optimal,0.47783366076072326,1.0000000000000042
+ldhA_lactate_fermentation,STM1647,,optimal,0.47783366076072326,1.0000000000000042
+pflB_anaerobic_pyruvate_metabolism,STM0973,,optimal,0.47783366076072326,1.0000000000000042
+pta_ackA_acetate_production,,STM1919;STM1920,optimal,0.47783366076072326,1.0000000000000042

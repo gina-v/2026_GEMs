@@ -1,0 +1,37 @@
+reaction_id,reaction_name,reaction_equation,gpr,lower_bound,upper_bound,flux,abs_flux
+NADH16pp,NADH dehydrogenase (ubiquinone-8 & 3 protons) (periplasm),4.0 h_c + nadh_c + q8_c --> 3.0 h_p + nad_c + q8h2_c,STM2316_S and STM2317 and STM2318 and STM2319 and STM2320 and STM2321 and STM2322 and STM2323_S and STM2324 and STM2325 and STM2326 and STM2327 and STM2328,0.0,1000.0,19.706532010115627,19.706532010115627
+GAPD,Glyceraldehyde-3-phosphate dehydrogenase,g3p_c + nad_c + pi_c <=> 13dpg_c + h_c + nadh_c,STM1290,-1000.0,1000.0,8.36963596970479,8.36963596970479
+PDH,Pyruvate dehydrogenase,coa_c + nad_c + pyr_c --> accoa_c + co2_c + nadh_c,STM0152 and STM0153 and STM0154,0.0,1000.0,4.403788366591842,4.403788366591842
+MDH,Malate dehydrogenase,mal__L_c + nad_c <=> h_c + nadh_c + oaa_c,STM3359,-1000.0,1000.0,3.3923884382139216,3.3923884382139216
+AKGDH,2-Oxogluterate dehydrogenase,akg_c + coa_c + nad_c --> co2_c + nadh_c + succoa_c,STM0154 and STM0736 and STM0737,0.0,1000.0,2.9712153372788763,2.9712153372788763
+ASPTA,Aspartate transaminase,akg_c + asp__L_c <=> glu__L_c + oaa_c,STM0998,-1000.0,1000.0,-1.3201550152804438,1.3201550152804438
+PGCD,Phosphoglycerate dehydrogenase,3pg_c + nad_c --> 3php_c + h_c + nadh_c,STM3062,0.0,1000.0,1.2190638092594095,1.2190638092594095
+BIOMASS_iRR1083_metals,Biomass equation from http://www.biomedcentral.com/1752-0509/3/38 including metals from iAF1260 biomass function,0.000188 12dgr2_ST_p + 0.05 5mthf_c + 5e-05 accoa_c + 0.748399 ala__L_c + 0.001 amp_c + 0.130805 arg__L_c + 0.272689 asn__L_c + 0.374015 asp__L_c + 59.964348 atp_c + 0.004737 ca2_c + 0.004737 cl_c + 1.4e-05 clpn2_ST_p + 6e-06 coa_c + 0.003158 cobalt2_c + 0.000937 colipaOA_e + 0.166895 ctp_c + 0.003158 cu2_c + 0.017197 cys__L_c + 0.026137 datp_c + 0.028567 dctp_c + 0.028567 dgtp_c + 0.026137 dttp_c + 1e-05 fad_c + 0.007106 fe2_c + 0.200228 gln__L_c + 0.256058 glu__L_c + 1.498961 gly_c + 0.027476 glycogen_c + 0.186332 gtp_c + 53.303945 h2o_c + 0.067143 his__L_c + 0.087361 ile__L_c + 0.1776 k_c + 0.206491 leu__L_c + 0.311404 lys__L_c + 0.104726 met__L_c + 0.007895 mg2_c + 0.003158 mn2_c + 0.003158 mobd_c + 0.00215 nad_c + 5e-05 nadh_c + 0.00013 nadp_c + 0.0004 nadph_c + 4e-06 pa2_ST_p + 0.001531 pe2_ST_p + 0.049404 peptido_ST_p + 0.00042 pg2_ST_p + 0.13874 phe__L_c + 0.256971 pro__L_c + 4e-06 ps2_ST_p + 0.035 ptrc_c + 0.317225 ser__L_c + 0.000223 sheme_c + 0.007 spmd_c + 3e-06 succoa_c + 0.349831 thr__L_c + 0.087887 trp__L_c + 0.040246 tyr__L_c + 0.003 udpg_c + 0.154549 utp_c + 0.284577 val__L_c + 0.003158 zn2_c --> 59.81 adp_c + 58.266936 h_c + 59.81 pi_c + 0.771532 ppi_c,,0.0,1000.0,0.47783366076072126,0.47783366076072126
+FRD2,Fumarate reductase,fum_c + mql8_c --> mqn8_c + succ_c,STM4340 and STM4341 and STM4342 and STM4343,0.0,1000.0,0.20506135984814194,0.20506135984814194
+SDPTA,Succinyldiaminopimelate transaminase,akg_c + sl26da_c <=> glu__L_c + sl2a6o_c,STM3468,-1000.0,1000.0,-0.17240620747175434,0.17240620747175434
+ACKr,Acetate kinase,ac_c + atp_c <=> actp_c + adp_c,STM3242 or STM2337 or STM1883,-1000.0,1000.0,0.14175461163493625,0.14175461163493625
+PTAr,Phosphotransacetylase,accoa_c + pi_c <=> actp_c + coa_c,STM2338 or STM2466,-1000.0,1000.0,-0.14175461163493625,0.14175461163493625
+IMPD,IMP dehydrogenase,h2o_c + imp_c + nad_c --> h_c + nadh_c + xmp_c,STM2511,0.0,1000.0,0.12658243723846194,0.12658243723846194
+EAR60x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C6:0),h_c + nadh_c + thex2eACP_c --> hexACP_c + nad_c,STM1700,0.0,1000.0,0.10557591384409908,0.10557591384409908
+EAR40x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C4:0),but2eACP_c + h_c + nadh_c --> butACP_c + nad_c,STM1700,0.0,1000.0,0.10557591384409908,0.10557591384409908
+EAR80x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C8:0),h_c + nadh_c + toct2eACP_c --> nad_c + ocACP_c,STM1700,0.0,1000.0,0.10557591384409908,0.10557591384409908
+IPMD,3-isopropylmalate dehydrogenase,3c2hmp_c + nad_c --> 3c4mop_c + h_c + nadh_c,STM0112,0.0,1000.0,0.0986683504441421,0.0986683504441421
+EAR120x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:0),h_c + nadh_c + tddec2eACP_c --> ddcaACP_c + nad_c,STM1700,0.0,1000.0,0.09830089635901709,0.09830089635901709
+EAR100x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C10:0),h_c + nadh_c + tdec2eACP_c --> dcaACP_c + nad_c,STM1700,0.0,1000.0,0.09830089635901709,0.09830089635901709
+EAR140x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:0),h_c + nadh_c + tmrs2eACP_c --> myrsACP_c + nad_c,STM1700,0.0,1000.0,0.09606224565835311,0.09606224565835311
+EAR160x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:0),h_c + nadh_c + tpalm2eACP_c --> nad_c + palmACP_c,STM1700,0.0,1000.0,0.08106448054805636,0.08106448054805636
+MTHFR2,"5,10-methylenetetrahydrofolate reductase (NADH)",2.0 h_c + mlthf_c + nadh_c --> 5mthf_c + nad_c,STM4105,0.0,1000.0,0.07414640480756263,0.07414640480756263
+SO3R,Sulfite reductase ,5.0 h_c + 3.0 nadh_c + so3_c --> 3.0 h2o_c + h2s_c + 3.0 nad_c,STM2548 and STM2549 and STM2550,0.0,1000.0,0.058287105606914205,0.058287105606914205
+GF6PTA,Glutamine-fructose-6-phosphate transaminase,f6p_c + gln__L_c --> gam6p_c + glu__L_c,STM3861,0.0,1000.0,0.04810924863271094,0.04810924863271094
+HISTD,Histidinol dehydrogenase,h2o_c + histd_c + 2.0 nad_c --> 3.0 h_c + his__L_c + 2.0 nadh_c,STM2072,0.0,1000.0,0.03208318548445711,0.03208318548445711
+GCALDD,Glycolaldehyde dehydrogenase,gcald_c + h2o_c + nad_c --> glyclt_c + 2.0 h_c + nadh_c,,0.0,1000.0,0.023891683038036085,0.023891683038036085
+PPND,Prephenate dehydrogenase,nad_c + pphn_c --> 34hpp_c + co2_c + nadh_c,STM2669,0.0,1000.0,0.019230893510975986,0.019230893510975986
+CDP4D6DGLCRx,CDP 4 dehydro 6 deoxyglucose reductase ,cdp4dh6doglc_c + h_c + nadh_c --> cdp4dh36ddglc_c + h2o_c + nad_c,STM2090 and STM2093,0.0,1000.0,0.011193253503319896,0.011193253503319896
+CDPABEQS,CDP abequose synthase ,cdp4dh36ddglc_c + h_c + nadh_c --> cdpabeq_c + nad_c,STM2089,0.0,1000.0,0.011193253503319896,0.011193253503319896
+EAR121x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:1),h_c + nadh_c + t3c5ddeceACP_c --> cddec5eACP_c + nad_c,STM1700,0.0,1000.0,0.007275017485081983,0.007275017485081983
+EAR161x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:1),h_c + nadh_c + t3c9palmeACP_c --> hdeACP_c + nad_c,STM1700,0.0,1000.0,0.007275017485081983,0.007275017485081983
+EAR141x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:1),h_c + nadh_c + t3c7mrseACP_c --> nad_c + tdeACP_c,STM1700,0.0,1000.0,0.007275017485081983,0.007275017485081983
+DKMPPD3,"2,3-diketo-5-methylthio-1-phosphopentane degradation reaction",dkmpp_c + 3.0 h2o_c + 2.0 nad_c --> 2kmb_c + for_c + 4.0 h_c + 2.0 nadh_c + pi_c,,0.0,1000.0,0.0033448356253250487,0.0033448356253250487
+EAR181x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:1),h_c + nadh_c + t3c11vaceACP_c --> nad_c + octeACP_c,STM1700,0.0,1000.0,0.003117864636463706,0.003117864636463706
+EAR180x,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:0),h_c + nadh_c + toctd2eACP_c --> nad_c + ocdcaACP_c,STM1700,0.0,1000.0,0.0020785764243091373,0.0020785764243091373
+SHCHD2,Sirohydrochlorin dehydrogenase (NAD),dscl_c + nad_c --> h_c + nadh_c + scl_c,STM3477,0.0,1000.0,0.00010655690634964083,0.00010655690634964083
