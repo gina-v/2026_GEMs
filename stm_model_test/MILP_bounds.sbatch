@@ -14,7 +14,7 @@ conda activate gems
 export GRB_LICENSE_FILE=$HOME/.gurobi.lic
 
 cd /home/gmvaz/2026_GEMs/stm_model_test
-
+# testing git clone 06/14/26
 #03/23/26 - MILP
 #python generate_models3.py /home/gmvaz/2026_GEMs/imat_prep_test/stm_threshold_10_90.csv MILP --output run_031526/context_models/stm1090_MILP.json
 
