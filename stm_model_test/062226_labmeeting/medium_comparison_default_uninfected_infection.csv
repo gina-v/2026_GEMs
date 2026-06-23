@@ -1,0 +1,40 @@
+Exchange reaction,Metabolite ID,Metabolite,Default uptake,Uninfected uptake,Infection uptake
+EX_12ppd__R_e,12ppd__R_e,"(R)-Propane-1,2-diol",0.0,0.1,0.1
+EX_12ppd__S_e,12ppd__S_e,"(S)-Propane-1,2-diol",0.0,0.1,0.1
+EX_ac_e,ac_e,Acetate,0.0,50.0,50.0
+EX_arab__L_e,arab__L_e,L-Arabinose,0.0,13.3,13.3
+EX_asp__L_e,asp__L_e,L-Aspartate,0.0,5.0,5.0
+EX_but_e,but_e,Butyrate (n-C4:0),0.0,10.0,10.0
+EX_etha_e,etha_e,Ethanolamine,0.0,1.0,1.0
+EX_for_e,for_e,Formate,0.0,4.0,4.0
+EX_galct__D_e,galct__D_e,D-Galactarate,0.0,10.0,10.0
+EX_glc__D_e,glc__D_e,D-Glucose,5.0,0.0,0.0
+EX_glcr_e,glcr_e,D-Glucarate,0.0,10.0,10.0
+EX_lac__L_e,lac__L_e,L-Lactate,0.0,10.0,10.0
+EX_mal__L_e,mal__L_e,L-Malate,0.0,0.2,0.2
+EX_no3_e,no3_e,Nitrate,0.0,0.05,0.5
+EX_o2_e,o2_e,O2 O2,18.5,9.0,9.0
+EX_ppa_e,ppa_e,Propionate (n-C3:0),0.0,5.0,5.0
+EX_pyr_e,pyr_e,Pyruvate,0.0,10.0,10.0
+EX_succ_e,succ_e,Succinate,0.0,3.0,3.0
+EX_tet_e,tet_e,Tetrathionate,0.0,0.05,4.0
+EX_ca2_e,ca2_e,Calcium,1000.0,1000.0,1000.0
+EX_cbl1_e,cbl1_e,Cob(I)alamin,0.01,0.01,0.01
+EX_cl_e,cl_e,Chloride,1000.0,1000.0,1000.0
+EX_co2_e,co2_e,CO2 CO2,1000.0,1000.0,1000.0
+EX_cobalt2_e,cobalt2_e,Co2+,1000.0,1000.0,1000.0
+EX_cu2_e,cu2_e,Copper,1000.0,1000.0,1000.0
+EX_fe2_e,fe2_e,Fe2+ mitochondria,1000.0,1000.0,1000.0
+EX_fe3_e,fe3_e,Iron (Fe3+),1000.0,1000.0,1000.0
+EX_h2o_e,h2o_e,H2O H2O,100.0,100.0,100.0
+EX_h_e,h_e,H+,100.0,100.0,100.0
+EX_k_e,k_e,Potassium,1000.0,1000.0,1000.0
+EX_mg2_e,mg2_e,Magnesium,1000.0,1000.0,1000.0
+EX_mn2_e,mn2_e,Manganese,1000.0,1000.0,1000.0
+EX_mobd_e,mobd_e,Molybdate,1000.0,1000.0,1000.0
+EX_na1_e,na1_e,Sodium,1000.0,1000.0,1000.0
+EX_nh4_e,nh4_e,Ammonium,1000.0,1000.0,1000.0
+EX_pi_e,pi_e,Phosphate,1000.0,1000.0,1000.0
+EX_so4_e,so4_e,Sulfate,1000.0,1000.0,1000.0
+EX_tungs_e,tungs_e,Tungstate,1000.0,1000.0,1000.0
+EX_zn2_e,zn2_e,Zinc,1000.0,1000.0,1000.0

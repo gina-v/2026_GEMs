@@ -1,0 +1,15 @@
+name: localgems
+channels:
+  - conda-forge
+  - bioconda
+dependencies: 
+  - python=3.11.6
+  - pandas
+  - numpy
+  - matplotlib 
+  - notebook
+  - ipykernel
+  - cobra
+  - pip
+  - pip:
+    - imatpy

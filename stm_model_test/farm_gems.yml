@@ -1,0 +1,13 @@
+name: gems
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11.6
+  - pandas
+  - numpy
+  - gurobi
+  - notebook
+  - matplotlib
+prefix: /home/gmvaz/Installs/miniforge3/envs/gems

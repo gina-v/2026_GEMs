@@ -1,0 +1,118 @@
+Medium,Exchange reaction,Metabolite ID,Metabolite,Uptake
+Default,EX_12ppd__R_e,12ppd__R_e,"(R)-Propane-1,2-diol",0.0
+Default,EX_12ppd__S_e,12ppd__S_e,"(S)-Propane-1,2-diol",0.0
+Default,EX_ac_e,ac_e,Acetate,0.0
+Default,EX_arab__L_e,arab__L_e,L-Arabinose,0.0
+Default,EX_asp__L_e,asp__L_e,L-Aspartate,0.0
+Default,EX_but_e,but_e,Butyrate (n-C4:0),0.0
+Default,EX_ca2_e,ca2_e,Calcium,1000.0
+Default,EX_cbl1_e,cbl1_e,Cob(I)alamin,0.01
+Default,EX_cl_e,cl_e,Chloride,1000.0
+Default,EX_co2_e,co2_e,CO2 CO2,1000.0
+Default,EX_cobalt2_e,cobalt2_e,Co2+,1000.0
+Default,EX_cu2_e,cu2_e,Copper,1000.0
+Default,EX_etha_e,etha_e,Ethanolamine,0.0
+Default,EX_fe2_e,fe2_e,Fe2+ mitochondria,1000.0
+Default,EX_fe3_e,fe3_e,Iron (Fe3+),1000.0
+Default,EX_for_e,for_e,Formate,0.0
+Default,EX_galct__D_e,galct__D_e,D-Galactarate,0.0
+Default,EX_glc__D_e,glc__D_e,D-Glucose,5.0
+Default,EX_glcr_e,glcr_e,D-Glucarate,0.0
+Default,EX_h2o_e,h2o_e,H2O H2O,100.0
+Default,EX_h_e,h_e,H+,100.0
+Default,EX_k_e,k_e,Potassium,1000.0
+Default,EX_lac__L_e,lac__L_e,L-Lactate,0.0
+Default,EX_mal__L_e,mal__L_e,L-Malate,0.0
+Default,EX_mg2_e,mg2_e,Magnesium,1000.0
+Default,EX_mn2_e,mn2_e,Manganese,1000.0
+Default,EX_mobd_e,mobd_e,Molybdate,1000.0
+Default,EX_na1_e,na1_e,Sodium,1000.0
+Default,EX_nh4_e,nh4_e,Ammonium,1000.0
+Default,EX_no3_e,no3_e,Nitrate,0.0
+Default,EX_o2_e,o2_e,O2 O2,18.5
+Default,EX_pi_e,pi_e,Phosphate,1000.0
+Default,EX_ppa_e,ppa_e,Propionate (n-C3:0),0.0
+Default,EX_pyr_e,pyr_e,Pyruvate,0.0
+Default,EX_so4_e,so4_e,Sulfate,1000.0
+Default,EX_succ_e,succ_e,Succinate,0.0
+Default,EX_tet_e,tet_e,Tetrathionate,0.0
+Default,EX_tungs_e,tungs_e,Tungstate,1000.0
+Default,EX_zn2_e,zn2_e,Zinc,1000.0
+Uninfected,EX_12ppd__R_e,12ppd__R_e,"(R)-Propane-1,2-diol",0.1
+Uninfected,EX_12ppd__S_e,12ppd__S_e,"(S)-Propane-1,2-diol",0.1
+Uninfected,EX_ac_e,ac_e,Acetate,50.0
+Uninfected,EX_arab__L_e,arab__L_e,L-Arabinose,13.3
+Uninfected,EX_asp__L_e,asp__L_e,L-Aspartate,5.0
+Uninfected,EX_but_e,but_e,Butyrate (n-C4:0),10.0
+Uninfected,EX_ca2_e,ca2_e,Calcium,1000.0
+Uninfected,EX_cbl1_e,cbl1_e,Cob(I)alamin,0.01
+Uninfected,EX_cl_e,cl_e,Chloride,1000.0
+Uninfected,EX_co2_e,co2_e,CO2 CO2,1000.0
+Uninfected,EX_cobalt2_e,cobalt2_e,Co2+,1000.0
+Uninfected,EX_cu2_e,cu2_e,Copper,1000.0
+Uninfected,EX_etha_e,etha_e,Ethanolamine,1.0
+Uninfected,EX_fe2_e,fe2_e,Fe2+ mitochondria,1000.0
+Uninfected,EX_fe3_e,fe3_e,Iron (Fe3+),1000.0
+Uninfected,EX_for_e,for_e,Formate,4.0
+Uninfected,EX_galct__D_e,galct__D_e,D-Galactarate,10.0
+Uninfected,EX_glc__D_e,glc__D_e,D-Glucose,5.0
+Uninfected,EX_glcr_e,glcr_e,D-Glucarate,10.0
+Uninfected,EX_h2o_e,h2o_e,H2O H2O,100.0
+Uninfected,EX_h_e,h_e,H+,100.0
+Uninfected,EX_k_e,k_e,Potassium,1000.0
+Uninfected,EX_lac__L_e,lac__L_e,L-Lactate,10.0
+Uninfected,EX_mal__L_e,mal__L_e,L-Malate,0.2
+Uninfected,EX_mg2_e,mg2_e,Magnesium,1000.0
+Uninfected,EX_mn2_e,mn2_e,Manganese,1000.0
+Uninfected,EX_mobd_e,mobd_e,Molybdate,1000.0
+Uninfected,EX_na1_e,na1_e,Sodium,1000.0
+Uninfected,EX_nh4_e,nh4_e,Ammonium,1000.0
+Uninfected,EX_no3_e,no3_e,Nitrate,0.5
+Uninfected,EX_o2_e,o2_e,O2 O2,1.0
+Uninfected,EX_pi_e,pi_e,Phosphate,1000.0
+Uninfected,EX_ppa_e,ppa_e,Propionate (n-C3:0),5.0
+Uninfected,EX_pyr_e,pyr_e,Pyruvate,10.0
+Uninfected,EX_so4_e,so4_e,Sulfate,1000.0
+Uninfected,EX_succ_e,succ_e,Succinate,3.0
+Uninfected,EX_tet_e,tet_e,Tetrathionate,4.0
+Uninfected,EX_tungs_e,tungs_e,Tungstate,1000.0
+Uninfected,EX_zn2_e,zn2_e,Zinc,1000.0
+Infected,EX_12ppd__R_e,12ppd__R_e,"(R)-Propane-1,2-diol",0.1
+Infected,EX_12ppd__S_e,12ppd__S_e,"(S)-Propane-1,2-diol",0.1
+Infected,EX_ac_e,ac_e,Acetate,50.0
+Infected,EX_arab__L_e,arab__L_e,L-Arabinose,13.3
+Infected,EX_asp__L_e,asp__L_e,L-Aspartate,5.0
+Infected,EX_but_e,but_e,Butyrate (n-C4:0),10.0
+Infected,EX_ca2_e,ca2_e,Calcium,1000.0
+Infected,EX_cbl1_e,cbl1_e,Cob(I)alamin,0.01
+Infected,EX_cl_e,cl_e,Chloride,1000.0
+Infected,EX_co2_e,co2_e,CO2 CO2,1000.0
+Infected,EX_cobalt2_e,cobalt2_e,Co2+,1000.0
+Infected,EX_cu2_e,cu2_e,Copper,1000.0
+Infected,EX_etha_e,etha_e,Ethanolamine,1.0
+Infected,EX_fe2_e,fe2_e,Fe2+ mitochondria,1000.0
+Infected,EX_fe3_e,fe3_e,Iron (Fe3+),1000.0
+Infected,EX_for_e,for_e,Formate,4.0
+Infected,EX_galct__D_e,galct__D_e,D-Galactarate,10.0
+Infected,EX_glc__D_e,glc__D_e,D-Glucose,0.0
+Infected,EX_glcr_e,glcr_e,D-Glucarate,10.0
+Infected,EX_h2o_e,h2o_e,H2O H2O,100.0
+Infected,EX_h_e,h_e,H+,100.0
+Infected,EX_k_e,k_e,Potassium,1000.0
+Infected,EX_lac__L_e,lac__L_e,L-Lactate,10.0
+Infected,EX_mal__L_e,mal__L_e,L-Malate,0.2
+Infected,EX_mg2_e,mg2_e,Magnesium,1000.0
+Infected,EX_mn2_e,mn2_e,Manganese,1000.0
+Infected,EX_mobd_e,mobd_e,Molybdate,1000.0
+Infected,EX_na1_e,na1_e,Sodium,1000.0
+Infected,EX_nh4_e,nh4_e,Ammonium,1000.0
+Infected,EX_no3_e,no3_e,Nitrate,0.5
+Infected,EX_o2_e,o2_e,O2 O2,9.0
+Infected,EX_pi_e,pi_e,Phosphate,1000.0
+Infected,EX_ppa_e,ppa_e,Propionate (n-C3:0),5.0
+Infected,EX_pyr_e,pyr_e,Pyruvate,10.0
+Infected,EX_so4_e,so4_e,Sulfate,1000.0
+Infected,EX_succ_e,succ_e,Succinate,3.0
+Infected,EX_tet_e,tet_e,Tetrathionate,4.0
+Infected,EX_tungs_e,tungs_e,Tungstate,1000.0
+Infected,EX_zn2_e,zn2_e,Zinc,1000.0
