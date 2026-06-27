@@ -1,0 +1,226 @@
+Job started on: bm5
+Job ID: 35263841
+Start time: Fri Jun 26 16:16:11 PDT 2026
+Project directory: /home/gmvaz/2026_GEMs/stm_model_test
+Input directory:   /home/gmvaz/2026_GEMs/imat_prep_test
+Output directory:  /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626
+COBRA solver: <module 'optlang.gurobi_interface' from '/home/gmvaz/Installs/miniforge3/envs/gems/lib/python3.11/site-packages/optlang/gurobi_interface.py'>
+STM gene counts: 10/90=4671 15/85=4671 25/75=4671
+Mixed STM gene counts: 10/90=4671 15/85=4671 25/75=4671
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2789960
+Academic license 2789960 - for non-commercial use only - registered to gm___@ucdavis.edu
+STM_V1_0 control model genes: 1271
+All aligned gene-weight vectors have 1271 genes
+All reaction-weight vectors have 2545 reactions
+Read LP format model from file /tmp/tmpzi7axgv9.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmpmb5t38lb.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmp4awbr48k.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmpglgzi2ko.lp
+Reading time = 0.02 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmpto7hrbeg.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmpmtlcyudj.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Default control-model medium:
+EX_ca2_e | ca2_e | Calcium | 1000.0
+EX_cbl1_e | cbl1_e | Cob(I)alamin | 0.01
+EX_cl_e | cl_e | Chloride | 1000.0
+EX_co2_e | co2_e | CO2 CO2 | 1000.0
+EX_cobalt2_e | cobalt2_e | Co2+ | 1000.0
+EX_cu2_e | cu2_e | Copper | 1000.0
+EX_mg2_e | mg2_e | Magnesium | 1000.0
+EX_fe2_e | fe2_e | Fe2+ mitochondria | 1000.0
+EX_fe3_e | fe3_e | Iron (Fe3+) | 1000.0
+EX_mn2_e | mn2_e | Manganese | 1000.0
+EX_mobd_e | mobd_e | Molybdate | 1000.0
+EX_na1_e | na1_e | Sodium | 1000.0
+EX_nh4_e | nh4_e | Ammonium | 1000.0
+EX_o2_e | o2_e | O2 O2 | 18.5
+EX_pi_e | pi_e | Phosphate | 1000.0
+EX_zn2_e | zn2_e | Zinc | 1000.0
+EX_so4_e | so4_e | Sulfate | 1000.0
+EX_glc__D_e | glc__D_e | D-Glucose | 5.0
+EX_tungs_e | tungs_e | Tungstate | 1000.0
+EX_h2o_e | h2o_e | H2O H2O | 100.0
+EX_h_e | h_e | H+ | 100.0
+EX_k_e | k_e | Potassium | 1000.0
+Read LP format model from file /tmp/tmphydj_6nl.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Read LP format model from file /tmp/tmprbmpdx1k.lp
+Reading time = 0.02 seconds
+: 2947 rows, 6220 columns, 24174 nonzeros
+Read LP format model from file /tmp/tmpaz6c9h1v.lp
+Reading time = 0.02 seconds
+: 3201 rows, 6460 columns, 25176 nonzeros
+Read LP format model from file /tmp/tmpg_marycz.lp
+Reading time = 0.02 seconds
+: 3949 rows, 7128 columns, 28088 nonzeros
+Read LP format model from file /tmp/tmp1oj5zed3.lp
+Reading time = 0.02 seconds
+: 2901 rows, 6178 columns, 23994 nonzeros
+Read LP format model from file /tmp/tmpkzlqqi2f.lp
+Reading time = 0.02 seconds
+: 3179 rows, 6432 columns, 25082 nonzeros
+Read LP format model from file /tmp/tmp0oittru0.lp
+Reading time = 0.02 seconds
+: 3901 rows, 7068 columns, 27884 nonzeros
+Running control in default medium
+Read LP format model from file /tmp/tmp4pe_ella.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Running control in infected medium
+Read LP format model from file /tmp/tmphnowtdpz.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Running control in uninfected medium
+Read LP format model from file /tmp/tmp0ug089ac.lp
+Reading time = 0.01 seconds
+: 1802 rows, 5090 columns, 19612 nonzeros
+Running stm1090 in default medium
+Read LP format model from file /tmp/tmpl2jok2i1.lp
+Reading time = 0.02 seconds
+: 2947 rows, 6220 columns, 24174 nonzeros
+Running stm1090 in infected medium
+Read LP format model from file /tmp/tmphsbqkxo2.lp
+Reading time = 0.02 seconds
+: 2947 rows, 6220 columns, 24174 nonzeros
+Running stm1090 in uninfected medium
+Read LP format model from file /tmp/tmplg_zmk5h.lp
+Reading time = 0.02 seconds
+: 2947 rows, 6220 columns, 24174 nonzeros
+Running stm1585 in default medium
+Read LP format model from file /tmp/tmpko2w1q6f.lp
+Reading time = 0.02 seconds
+: 3201 rows, 6460 columns, 25176 nonzeros
+Running stm1585 in infected medium
+Read LP format model from file /tmp/tmpxwtl1kl9.lp
+Reading time = 0.02 seconds
+: 3201 rows, 6460 columns, 25176 nonzeros
+Running stm1585 in uninfected medium
+Read LP format model from file /tmp/tmpypxra_fe.lp
+Reading time = 0.02 seconds
+: 3201 rows, 6460 columns, 25176 nonzeros
+Running stm2575 in default medium
+Read LP format model from file /tmp/tmpb3ak6ay1.lp
+Reading time = 0.02 seconds
+: 3949 rows, 7128 columns, 28088 nonzeros
+Running stm2575 in infected medium
+Read LP format model from file /tmp/tmp0zva1k9l.lp
+Reading time = 0.02 seconds
+: 3949 rows, 7128 columns, 28088 nonzeros
+Running stm2575 in uninfected medium
+Read LP format model from file /tmp/tmpeuqhfcuz.lp
+Reading time = 0.02 seconds
+: 3949 rows, 7128 columns, 28088 nonzeros
+Running mixed_stm1090 in default medium
+Read LP format model from file /tmp/tmp80l9995f.lp
+Reading time = 0.02 seconds
+: 2901 rows, 6178 columns, 23994 nonzeros
+Running mixed_stm1090 in infected medium
+Read LP format model from file /tmp/tmps5_u2c0a.lp
+Reading time = 0.02 seconds
+: 2901 rows, 6178 columns, 23994 nonzeros
+Running mixed_stm1090 in uninfected medium
+Read LP format model from file /tmp/tmploriv1w7.lp
+Reading time = 0.02 seconds
+: 2901 rows, 6178 columns, 23994 nonzeros
+Running mixed_stm1585 in default medium
+Read LP format model from file /tmp/tmp9zhbedw0.lp
+Reading time = 0.02 seconds
+: 3179 rows, 6432 columns, 25082 nonzeros
+Running mixed_stm1585 in infected medium
+Read LP format model from file /tmp/tmpybughk7r.lp
+Reading time = 0.02 seconds
+: 3179 rows, 6432 columns, 25082 nonzeros
+Running mixed_stm1585 in uninfected medium
+Read LP format model from file /tmp/tmpchb_jba4.lp
+Reading time = 0.02 seconds
+: 3179 rows, 6432 columns, 25082 nonzeros
+Running mixed_stm2575 in default medium
+Read LP format model from file /tmp/tmpa638158p.lp
+Reading time = 0.02 seconds
+: 3901 rows, 7068 columns, 27884 nonzeros
+Running mixed_stm2575 in infected medium
+Read LP format model from file /tmp/tmpge554bhl.lp
+Reading time = 0.02 seconds
+: 3901 rows, 7068 columns, 27884 nonzeros
+Running mixed_stm2575 in uninfected medium
+Read LP format model from file /tmp/tmpgz_g3q5a.lp
+Reading time = 0.02 seconds
+: 3901 rows, 7068 columns, 27884 nonzeros
+Saved CSV results to: /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626
+Saved plot: /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/plot_01_control_three_media.png
+Saved plot: /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/plot_02_stm1090_three_media.png
+Saved plot: /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/plot_03_mixed_stm1090_three_media.png
+Saved plot: /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/plot_04_three_models_default_medium.png
+Saved plot: /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/plot_05_three_models_infected_medium.png
+Saved plot: /home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/plot_06_three_models_uninfected_medium.png
+Oxygen sweep script completed.
+Warning: environment still referenced so free is deferred (Continue to use WLS)
+End time: Fri Jun 26 19:35:21 PDT 2026
+Job finished.
+
+############### Job 35263841 summary from  ###############
+Name                : oxygen_sweep
+User                : gmvaz
+Account             : ctbrowngrp
+Partition           : bmh
+Nodes               : bm5
+Cores               : 8
+GPUs                : 0
+State               : COMPLETED
+ExitCode            : 0:0
+Submit              : 2026-06-26T16:16:07
+Start               : 2026-06-26T16:16:08
+End                 : 2026-06-26T19:35:21
+Reserved walltime   : 1-00:00:00
+Used walltime       :   03:19:13
+Used CPU time       :   23:26:44
+% User (Computation): 72.84%
+% System (I/O)      : 27.16%
+Mem reserved        : 64G
+Max Mem used        : 2.72G (bm5)
+Max Disk Write      : 41.95M (bm5)
+Max Disk Read       : 134.54M (bm5)
+
+############### Job 35263841 info ###############
+JobId=35263841 JobName=oxygen_sweep
+   UserId=gmvaz(2205129) GroupId=gmvaz(2205129) MCS_label=N/A
+   Priority=3583 Nice=0 Account=ctbrowngrp QOS=ctbrowngrp-bmh-qos
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=03:19:13 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2026-06-26T16:16:07 EligibleTime=2026-06-26T16:16:07
+   AccrueTime=2026-06-26T16:16:07
+   StartTime=2026-06-26T16:16:08 EndTime=2026-06-26T19:35:21 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-06-26T16:16:08 Scheduler=Main
+   Partition=bmh AllocNode:Sid=farm:441882
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=bm5
+   BatchHost=bm5
+   NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=8,mem=64G,node=1,billing=8
+   AllocTRES=cpu=8,mem=64G,node=1,billing=8
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=8 MinMemoryNode=64G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/gmvaz/2026_GEMs/stm_model_test/run_oxygen_sweep_062626.sbatch
+   SubmitLine=sbatch run_oxygen_sweep_062626.sbatch
+   WorkDir=/home/gmvaz/2026_GEMs/stm_model_test
+   StdErr=/home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/logs/oxygen_sweep_35263841.err
+   StdIn=/dev/null
+   StdOut=/home/gmvaz/2026_GEMs/stm_model_test/oxygen_sweep_results/062626/logs/oxygen_sweep_35263841.out
+   TresPerTask=cpu=8
