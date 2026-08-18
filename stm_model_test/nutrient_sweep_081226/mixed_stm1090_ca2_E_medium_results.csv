@@ -1,0 +1,17 @@
+,model,medium_condition,nutrient_rxn,nutrient,status,objective_value,error,nutrient_rxn_value
+0,mixed_stm1090,E_infection_medium,EX_ca2_e,0.0,failed,,"Could not resolve host: token.gurobi.com (code 6, command POST https://token.gurobi.com/api/v1/tokens)",
+1,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.929120009829784,,1.4142135623730951
+2,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098292047,,1.9510972841051464
+3,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200126433428,,2.6918003852647123
+4,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098294694,,3.7136996566701033
+5,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098292446,,5.12354675905709
+6,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098292538,,7.06861992598028
+7,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200299836532,,9.752109233635803
+8,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200104102935,,13.454342644059432
+9,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098291305,,18.562070178562607
+10,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098084582,,25.608865362590898
+11,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098297147,,35.330864437562006
+12,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098295291,,48.74366607935861
+13,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098294303,,67.24842487380603
+14,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.929120010089257,,92.77822149538744
+15,mixed_stm1090,E_infection_medium,EX_ca2_e,,optimal,0.9291200098287259,,128.0
