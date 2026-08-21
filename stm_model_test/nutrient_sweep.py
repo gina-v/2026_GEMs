@@ -168,12 +168,6 @@ mixedstm1585_model = generate_model(model = control_model, rxn_weights = rxn_wei
 mixedstm2575_model = generate_model(model = control_model, rxn_weights = rxn_weights_mixedstm2575, method = "imat_restrictions")
 
 
-# In[4]:
-
-
-stm1090_model
-
-
 # # Make the `original_models` dicitonary of models
 
 # In[5]:
@@ -197,11 +191,6 @@ fba_models = {
     for model_name, model in original_models.items()
 }
 
-
-# In[6]:
-
-
-fba_models
 
 
 # # Define the Infection Medium Conditions
@@ -472,11 +461,6 @@ def run_medium_sweep(*, model_name, medium_name, nutrient_rxn, nutrient_step_cou
 
 # In[12]:
 
-
-stm1090_ca2_E_medium_results = run_medium_sweep(model_name = "stm_1090", medium_name = "E_infection_medium", nutrient_rxn = "EX_ca2_e", nutrient_step_count = nutrient_step_count_list)
-stm1090_ca2_E_medium_results.to_csv("nutrient_sweep_081226/stm1090_ca2_E_medium_results.csv")
-
-
 # # Define `run_medium_sweep_fast()` with `model.slim_optimize()` instead of `model.optimize`
 
 # In[13]:
@@ -527,18 +511,19 @@ def run_medium_sweep_fast(*, model_name, medium_name, nutrient_rxn, nutrient_ste
 
     return results_df
 
+# Run function 
+# stm1090_cbl1_A_medium_results = run_medium_sweep_fast(model_name = "stm_1090", medium_name = "A_infection_medium", nutrient_rxn = "EX_cbl1_e", nutrient_step_count = nutrient_step_count_list)
 
-# In[14]:
+# stm1090_cbl1_A_medium_results.to_csv("nutrient_sweep_081226/stm1090_cbl1_A_medium_results.csv")
 
 
-#stm1090_cbl1_A_medium_results = run_medium_sweep_fast(model_name = "stm_1090", medium_name = "A_infection_medium", nutrient_rxn = "EX_cbl1_e", nutrient_step_count = nutrient_step_count_list)
-#stm1090_cbl1_A_medium_results.to_csv("nutrient_sweep_081226/stm1090_cbl1_A_medium_results.csv")
-
-# stm_1090 A_infection_medium EX_cbl1_e nutrient_sweep_081226/stm1090_cbl1_test_medium_results.csv
 
 medium_results = run_medium_sweep_fast(model_name = model_name, medium_name = medium_name, nutrient_rxn = nutrient_rxn, nutrient_step_count = nutrient_step_count_list)
 
 medium_results.to_csv(output_file)
+
+# Run on command line with sys. arguments
+# stm_1090 A_infection_medium EX_cbl1_e nutrient_sweep_081226/stm1090_cbl1_test_medium_results.csv
 
 # stm_1090 B_infection_medium EX_cbl1_e nutrient_sweep_081226/stm1090_cbl1_B_medium_results.csv
 
