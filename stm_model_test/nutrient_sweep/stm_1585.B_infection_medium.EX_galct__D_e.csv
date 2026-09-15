@@ -1,0 +1,17 @@
+,model,medium_condition,nutrient_rxn,nutrient_rxn_value,status,objective_value
+0,stm_1585,B_infection_medium,EX_galct__D_e,0.0,optimal,0.6668041217917736
+1,stm_1585,B_infection_medium,EX_galct__D_e,1.4142135623730951,optimal,0.6955971188093095
+2,stm_1585,B_infection_medium,EX_galct__D_e,1.9510972841051464,optimal,0.7062268459690108
+3,stm_1585,B_infection_medium,EX_galct__D_e,2.6918003852647123,optimal,0.7208926535133935
+4,stm_1585,B_infection_medium,EX_galct__D_e,3.7136996566701033,optimal,0.7411339558907635
+5,stm_1585,B_infection_medium,EX_galct__D_e,5.12354675905709,optimal,0.7690616355652694
+6,stm_1585,B_infection_medium,EX_galct__D_e,7.06861992598028,optimal,0.8075916221291427
+7,stm_1585,B_infection_medium,EX_galct__D_e,9.752109233635803,optimal,0.8607489003383243
+8,stm_1585,B_infection_medium,EX_galct__D_e,13.454342644059432,optimal,0.9340834043226895
+9,stm_1585,B_infection_medium,EX_galct__D_e,18.562070178562607,optimal,1.0353129082184436
+10,stm_1585,B_infection_medium,EX_galct__D_e,25.608865362590898,optimal,1.1751874592991518
+11,stm_1585,B_infection_medium,EX_galct__D_e,35.330864437562006,optimal,1.368430596494695
+12,stm_1585,B_infection_medium,EX_galct__D_e,48.74366607935861,optimal,1.6338589907520595
+13,stm_1585,B_infection_medium,EX_galct__D_e,67.24842487380603,optimal,2.000224133754299
+14,stm_1585,B_infection_medium,EX_galct__D_e,92.77822149538744,optimal,2.5072676377195413
+15,stm_1585,B_infection_medium,EX_galct__D_e,128.0,optimal,3.2006869882463795

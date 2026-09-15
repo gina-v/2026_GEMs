@@ -159,29 +159,28 @@ else:
 
 from imatpy.model_creation import generate_model
 
-stm1090_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm1090, method = "imat_restrictions")
-stm1585_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm1585, method = "imat_restrictions")
-stm2575_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm2575, method = "imat_restrictions")
+rxn_weights = None
+if model_name=="stm_1090":
+    rxn_weights = rxn_weights_stm1090
+elif model_name == "stm_1585":
+    rxn_weights = rxn_weights_stm1585
+elif model_name == "stm_2575":
+    rxn_weights = rxn_weights_stm2575
+elif model_name == "mixed_stm1090":
+    rxn_weights = rxn_weights_mixedstm1090
+elif model_name == "mixed_stm1585":
+    rxn_weights = rxn_weights_mixedstm1585
+elif model_name == "mixed_stm2575":
+    rxn_weights = rxn_weights_mixedstm2575
 
-mixedstm1090_model = generate_model(model = control_model, rxn_weights = rxn_weights_mixedstm1090, method = "imat_restrictions")
-mixedstm1585_model = generate_model(model = control_model, rxn_weights = rxn_weights_mixedstm1585, method = "imat_restrictions")
-mixedstm2575_model = generate_model(model = control_model, rxn_weights = rxn_weights_mixedstm2575, method = "imat_restrictions")
+assert rxn_weights is not None
 
-
-# # Make the `original_models` dicitonary of models
-
-# In[5]:
-
+model = generate_model(model = control_model, rxn_weights = rxn_weights, method = "imat_restrictions")
 
 # Make a dictionary of the models 
 
 original_models = {
-    "stm_1090": stm1090_model,
-    "stm_1585": stm1585_model,
-    "stm_2575": stm2575_model,
-    "mixed_stm1090": mixedstm1090_model,
-    "mixed_stm1585": mixedstm1585_model,
-    "mixed_stm2575": mixedstm2575_model
+    model_name: model
 }
 
 # Make a dictionary with copies of each original model
@@ -200,7 +199,7 @@ fba_models = {
 
 # Make a copy of the default medium from any of the models (stm1090 used)
 
-model_copy = fba_models.get("stm_1090")
+model_copy = fba_models.get(model_name)
 default_medium = model_copy.medium
 
 # Make 7 identical infection mediums with oxygen ranging from 0 - 3 at 0.5 increments
@@ -532,6 +531,8 @@ medium_results.to_csv(output_file)
 # stm_1090 D_infection_medium EX_cbl1_e nutrient_sweep_081226/stm1090_cbl1_D_medium_results.csv
 
 # stm_1090 E_infection_medium EX_cbl1_e nutrient_sweep_081226/stm1090_cbl1_E_medium_results.csv
+
+#
 
 
 

@@ -1,0 +1,17 @@
+,model,medium_condition,nutrient_rxn,nutrient_rxn_value,status,objective_value
+0,mixed_stm1090,A_infection_medium,EX_asp__L_e,0.0,optimal,0.7572686263033429
+1,mixed_stm1090,A_infection_medium,EX_asp__L_e,1.4142135623730951,optimal,0.782415324163351
+2,mixed_stm1090,A_infection_medium,EX_asp__L_e,1.9510972841051464,optimal,0.7917451051571923
+3,mixed_stm1090,A_infection_medium,EX_asp__L_e,2.6918003852647123,optimal,0.8046167893102578
+4,mixed_stm1090,A_infection_medium,EX_asp__L_e,3.7136996566701033,optimal,0.8223750039787281
+5,mixed_stm1090,A_infection_medium,EX_asp__L_e,5.12354675905709,optimal,0.8468748428507397
+6,mixed_stm1090,A_infection_medium,EX_asp__L_e,7.06861992598028,optimal,0.8795833466559648
+7,mixed_stm1090,A_infection_medium,EX_asp__L_e,9.752109233635803,optimal,0.9262657529363036
+8,mixed_stm1090,A_infection_medium,EX_asp__L_e,13.454342644059432,optimal,0.9851994636683301
+9,mixed_stm1090,A_infection_medium,EX_asp__L_e,18.562070178562607,optimal,1.0537198930556984
+10,mixed_stm1090,A_infection_medium,EX_asp__L_e,25.608865362590898,optimal,1.1465970350687011
+11,mixed_stm1090,A_infection_medium,EX_asp__L_e,35.330864437562006,optimal,1.2666934845722146
+12,mixed_stm1090,A_infection_medium,EX_asp__L_e,48.74366607935861,optimal,1.428173822502982
+13,mixed_stm1090,A_infection_medium,EX_asp__L_e,67.24842487380603,optimal,1.6509575245456156
+14,mixed_stm1090,A_infection_medium,EX_asp__L_e,92.77822149538744,optimal,1.925834094738078
+15,mixed_stm1090,A_infection_medium,EX_asp__L_e,128.0,optimal,2.237220405157041

@@ -1,0 +1,5 @@
+,model,medium_condition,nutrient_rxn,nutrient_rxn_value,status,objective_value
+0,stm_1090,B_infection_medium,EX_alltn_e,0.0,optimal,0.8682831015436522
+1,stm_1090,B_infection_medium,EX_alltn_e,1.4142135623730951,optimal,0.8865631901180135
+2,stm_1090,B_infection_medium,EX_alltn_e,13.454342644059432,optimal,1.0355444034308952
+3,stm_1090,B_infection_medium,EX_alltn_e,128.0,optimal,1.2081917391356756

@@ -1,0 +1,1541 @@
+Assuming unrestricted shared filesystem usage.
+host: bm27
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count
+---------  -------
+all              1
+make_csv2      120
+total          121
+
+Select jobs to execute...
+Execute 16 jobs...
+
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.B_infection_medium.EX_anhgm_e.csv
+    jobid: 724
+    reason: Missing output files: metabolite_sweep/stm_1090.B_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1090, medium=B_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alaala_e.csv
+    jobid: 780
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1090, medium=B_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.A_infection_medium.EX_alaala_e.csv
+    jobid: 755
+    reason: Missing output files: metabolite_sweep/stm_2575.A_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_2575, medium=A_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_all__D_e.csv
+    jobid: 811
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1585, medium=F_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.B_infection_medium.EX_alaala_e.csv
+    jobid: 720
+    reason: Missing output files: metabolite_sweep/stm_1090.B_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1090, medium=B_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_all__D_e.csv
+    jobid: 776
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1090, medium=A_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alltn_e.csv
+    jobid: 832
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm2575, medium=F_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.D_infection_medium.EX_amp_e.csv
+    jobid: 748
+    reason: Missing output files: metabolite_sweep/stm_1585.D_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1585, medium=D_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_anhgm_e.csv
+    jobid: 804
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1585, medium=B_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.B_infection_medium.EX_all__D_e.csv
+    jobid: 721
+    reason: Missing output files: metabolite_sweep/stm_1090.B_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1090, medium=B_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alltn_e.csv
+    jobid: 777
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1090, medium=A_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_amp_e.csv
+    jobid: 833
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm2575, medium=F_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.D_infection_medium.EX_anhgm_e.csv
+    jobid: 749
+    reason: Missing output files: metabolite_sweep/stm_1585.D_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1585, medium=D_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alaala_e.csv
+    jobid: 805
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1585, medium=D_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.B_infection_medium.EX_alltn_e.csv
+    jobid: 722
+    reason: Missing output files: metabolite_sweep/stm_1090.B_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1090, medium=B_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 13:15:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_amp_e.csv
+    jobid: 778
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1090, medium=A_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:20:18 2026]
+Finished jobid: 776 (Rule: make_csv2)
+1 of 121 steps (1%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:20:18 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.F_infection_medium.EX_amp_e.csv
+    jobid: 753
+    reason: Missing output files: metabolite_sweep/stm_1585.F_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1585, medium=F_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:20:56 2026]
+Finished jobid: 804 (Rule: make_csv2)
+2 of 121 steps (2%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:20:56 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_anhgm_e.csv
+    jobid: 809
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1585, medium=D_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:21:03 2026]
+Finished jobid: 778 (Rule: make_csv2)
+3 of 121 steps (2%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:21:03 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_all__D_e.csv
+    jobid: 781
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1090, medium=B_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:22:03 2026]
+Finished jobid: 720 (Rule: make_csv2)
+4 of 121 steps (3%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:22:03 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.D_infection_medium.EX_alaala_e.csv
+    jobid: 725
+    reason: Missing output files: metabolite_sweep/stm_1090.D_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1090, medium=D_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:22:14 2026]
+Finished jobid: 749 (Rule: make_csv2)
+5 of 121 steps (4%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:22:14 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.F_infection_medium.EX_anhgm_e.csv
+    jobid: 754
+    reason: Missing output files: metabolite_sweep/stm_1585.F_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1585, medium=F_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:22:15 2026]
+Finished jobid: 722 (Rule: make_csv2)
+6 of 121 steps (5%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:22:15 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alaala_e.csv
+    jobid: 810
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1585, medium=F_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:22:33 2026]
+Finished jobid: 724 (Rule: make_csv2)
+7 of 121 steps (6%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:22:34 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.D_infection_medium.EX_all__D_e.csv
+    jobid: 726
+    reason: Missing output files: metabolite_sweep/stm_1090.D_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1090, medium=D_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:22:37 2026]
+Finished jobid: 777 (Rule: make_csv2)
+8 of 121 steps (7%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:22:38 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alltn_e.csv
+    jobid: 782
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1090, medium=B_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:22:44 2026]
+Finished jobid: 780 (Rule: make_csv2)
+9 of 121 steps (7%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:22:45 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_amp_e.csv
+    jobid: 783
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1090, medium=B_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:23:07 2026]
+Finished jobid: 721 (Rule: make_csv2)
+10 of 121 steps (8%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:23:07 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.D_infection_medium.EX_alltn_e.csv
+    jobid: 727
+    reason: Missing output files: metabolite_sweep/stm_1090.D_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1090, medium=D_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:23:29 2026]
+Finished jobid: 748 (Rule: make_csv2)
+11 of 121 steps (9%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:23:29 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_amp_e.csv
+    jobid: 808
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1585, medium=D_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:23:32 2026]
+Finished jobid: 811 (Rule: make_csv2)
+12 of 121 steps (10%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:23:32 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alltn_e.csv
+    jobid: 812
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1585, medium=F_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:23:38 2026]
+Finished jobid: 833 (Rule: make_csv2)
+13 of 121 steps (11%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:23:38 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.A_infection_medium.EX_all__D_e.csv
+    jobid: 756
+    reason: Missing output files: metabolite_sweep/stm_2575.A_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_2575, medium=A_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:23:57 2026]
+Finished jobid: 805 (Rule: make_csv2)
+14 of 121 steps (12%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:23:57 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_anhgm_e.csv
+    jobid: 784
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.B_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1090, medium=B_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:24:39 2026]
+Finished jobid: 832 (Rule: make_csv2)
+15 of 121 steps (12%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:24:40 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.D_infection_medium.EX_amp_e.csv
+    jobid: 728
+    reason: Missing output files: metabolite_sweep/stm_1090.D_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1090, medium=D_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:24:48 2026]
+Finished jobid: 755 (Rule: make_csv2)
+16 of 121 steps (13%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:24:48 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.A_infection_medium.EX_alltn_e.csv
+    jobid: 757
+    reason: Missing output files: metabolite_sweep/stm_2575.A_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_2575, medium=A_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:27:07 2026]
+Finished jobid: 753 (Rule: make_csv2)
+17 of 121 steps (14%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:27:07 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_amp_e.csv
+    jobid: 813
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1585, medium=F_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:29:46 2026]
+Finished jobid: 754 (Rule: make_csv2)
+18 of 121 steps (15%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:29:46 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.D_infection_medium.EX_anhgm_e.csv
+    jobid: 729
+    reason: Missing output files: metabolite_sweep/stm_1090.D_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1090, medium=D_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:29:47 2026]
+Finished jobid: 781 (Rule: make_csv2)
+19 of 121 steps (16%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:29:47 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alaala_e.csv
+    jobid: 785
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1090, medium=D_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:29:52 2026]
+Finished jobid: 725 (Rule: make_csv2)
+20 of 121 steps (17%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:29:52 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_anhgm_e.csv
+    jobid: 814
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.F_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1585, medium=F_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:29:54 2026]
+Finished jobid: 809 (Rule: make_csv2)
+21 of 121 steps (17%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:29:54 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.A_infection_medium.EX_amp_e.csv
+    jobid: 758
+    reason: Missing output files: metabolite_sweep/stm_2575.A_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_2575, medium=A_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:30:11 2026]
+Finished jobid: 810 (Rule: make_csv2)
+22 of 121 steps (18%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:30:11 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_all__D_e.csv
+    jobid: 786
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1090, medium=D_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:30:18 2026]
+Finished jobid: 726 (Rule: make_csv2)
+23 of 121 steps (19%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:30:18 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.F_infection_medium.EX_alaala_e.csv
+    jobid: 730
+    reason: Missing output files: metabolite_sweep/stm_1090.F_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1090, medium=F_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:30:23 2026]
+Finished jobid: 782 (Rule: make_csv2)
+24 of 121 steps (20%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:30:23 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.A_infection_medium.EX_anhgm_e.csv
+    jobid: 759
+    reason: Missing output files: metabolite_sweep/stm_2575.A_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_2575, medium=A_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:30:30 2026]
+Finished jobid: 728 (Rule: make_csv2)
+25 of 121 steps (21%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:30:30 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alaala_e.csv
+    jobid: 815
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm2575, medium=A_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:31:05 2026]
+Finished jobid: 812 (Rule: make_csv2)
+26 of 121 steps (21%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:31:05 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.F_infection_medium.EX_all__D_e.csv
+    jobid: 731
+    reason: Missing output files: metabolite_sweep/stm_1090.F_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1090, medium=F_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:31:33 2026]
+Finished jobid: 784 (Rule: make_csv2)
+27 of 121 steps (22%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:31:33 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alltn_e.csv
+    jobid: 787
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1090, medium=D_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:31:34 2026]
+Finished jobid: 783 (Rule: make_csv2)
+28 of 121 steps (23%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:31:34 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.B_infection_medium.EX_alaala_e.csv
+    jobid: 760
+    reason: Missing output files: metabolite_sweep/stm_2575.B_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_2575, medium=B_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:31:35 2026]
+Finished jobid: 727 (Rule: make_csv2)
+29 of 121 steps (24%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:31:35 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.A_infection_medium.EX_amp_e.csv
+    jobid: 738
+    reason: Missing output files: metabolite_sweep/stm_1585.A_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1585, medium=A_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:34:27 2026]
+Finished jobid: 808 (Rule: make_csv2)
+30 of 121 steps (25%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:34:27 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_anhgm_e.csv
+    jobid: 794
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1090, medium=F_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:34:38 2026]
+Finished jobid: 756 (Rule: make_csv2)
+31 of 121 steps (26%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:34:38 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.A_infection_medium.EX_amp_e.csv
+    jobid: 718
+    reason: Missing output files: metabolite_sweep/stm_1090.A_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1090, medium=A_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:35:18 2026]
+Finished jobid: 813 (Rule: make_csv2)
+32 of 121 steps (26%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:35:18 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.F_infection_medium.EX_anhgm_e.csv
+    jobid: 774
+    reason: Missing output files: metabolite_sweep/stm_2575.F_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_2575, medium=F_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:36:41 2026]
+Finished jobid: 729 (Rule: make_csv2)
+33 of 121 steps (27%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:36:41 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alaala_e.csv
+    jobid: 830
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm2575, medium=F_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:36:48 2026]
+Finished jobid: 786 (Rule: make_csv2)
+34 of 121 steps (28%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:36:48 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.D_infection_medium.EX_alltn_e.csv
+    jobid: 767
+    reason: Missing output files: metabolite_sweep/stm_2575.D_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_2575, medium=D_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:37:02 2026]
+Finished jobid: 757 (Rule: make_csv2)
+35 of 121 steps (29%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:37:02 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_amp_e.csv
+    jobid: 823
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm2575, medium=B_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:37:08 2026]
+Finished jobid: 731 (Rule: make_csv2)
+36 of 121 steps (30%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:37:08 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_all__D_e.csv
+    jobid: 816
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm2575, medium=A_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:38:16 2026]
+Finished jobid: 814 (Rule: make_csv2)
+37 of 121 steps (31%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:38:16 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.D_infection_medium.EX_all__D_e.csv
+    jobid: 746
+    reason: Missing output files: metabolite_sweep/stm_1585.D_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1585, medium=D_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:38:30 2026]
+Finished jobid: 785 (Rule: make_csv2)
+38 of 121 steps (31%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:38:31 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alltn_e.csv
+    jobid: 802
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1585, medium=B_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:39:16 2026]
+Finished jobid: 787 (Rule: make_csv2)
+39 of 121 steps (32%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:39:16 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.A_infection_medium.EX_anhgm_e.csv
+    jobid: 739
+    reason: Missing output files: metabolite_sweep/stm_1585.A_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1585, medium=A_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:39:24 2026]
+Finished jobid: 758 (Rule: make_csv2)
+40 of 121 steps (33%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:39:24 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alaala_e.csv
+    jobid: 795
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1585, medium=A_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:39:25 2026]
+Finished jobid: 730 (Rule: make_csv2)
+41 of 121 steps (34%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:39:26 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.F_infection_medium.EX_alltn_e.csv
+    jobid: 732
+    reason: Missing output files: metabolite_sweep/stm_1090.F_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1090, medium=F_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:40:25 2026]
+Finished jobid: 815 (Rule: make_csv2)
+42 of 121 steps (35%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:40:26 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_amp_e.csv
+    jobid: 788
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1090, medium=D_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:40:37 2026]
+Finished jobid: 759 (Rule: make_csv2)
+43 of 121 steps (36%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:40:37 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.A_infection_medium.EX_anhgm_e.csv
+    jobid: 719
+    reason: Missing output files: metabolite_sweep/stm_1090.A_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1090, medium=A_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:40:41 2026]
+Finished jobid: 738 (Rule: make_csv2)
+44 of 121 steps (36%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:40:42 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alaala_e.csv
+    jobid: 775
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1090, medium=A_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:42:36 2026]
+Finished jobid: 718 (Rule: make_csv2)
+45 of 121 steps (37%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:42:36 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_all__D_e.csv
+    jobid: 831
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm2575, medium=F_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:43:05 2026]
+Finished jobid: 760 (Rule: make_csv2)
+46 of 121 steps (38%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:43:06 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.D_infection_medium.EX_amp_e.csv
+    jobid: 768
+    reason: Missing output files: metabolite_sweep/stm_2575.D_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_2575, medium=D_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:43:31 2026]
+Finished jobid: 794 (Rule: make_csv2)
+47 of 121 steps (39%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:43:32 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_anhgm_e.csv
+    jobid: 824
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm2575, medium=B_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:46:01 2026]
+Finished jobid: 739 (Rule: make_csv2)
+48 of 121 steps (40%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:46:01 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.B_infection_medium.EX_all__D_e.csv
+    jobid: 761
+    reason: Missing output files: metabolite_sweep/stm_2575.B_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_2575, medium=B_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:46:05 2026]
+Finished jobid: 830 (Rule: make_csv2)
+49 of 121 steps (40%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:46:06 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alltn_e.csv
+    jobid: 817
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm2575, medium=A_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:46:14 2026]
+Finished jobid: 732 (Rule: make_csv2)
+50 of 121 steps (41%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:46:14 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.D_infection_medium.EX_alltn_e.csv
+    jobid: 747
+    reason: Missing output files: metabolite_sweep/stm_1585.D_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1585, medium=D_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:47:07 2026]
+Finished jobid: 746 (Rule: make_csv2)
+51 of 121 steps (42%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:47:07 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_amp_e.csv
+    jobid: 803
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1585, medium=B_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:47:10 2026]
+Finished jobid: 795 (Rule: make_csv2)
+52 of 121 steps (43%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:47:10 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.B_infection_medium.EX_alaala_e.csv
+    jobid: 740
+    reason: Missing output files: metabolite_sweep/stm_1585.B_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1585, medium=B_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:47:11 2026]
+Finished jobid: 767 (Rule: make_csv2)
+53 of 121 steps (44%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:47:11 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_all__D_e.csv
+    jobid: 796
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1585, medium=A_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:47:20 2026]
+Finished jobid: 774 (Rule: make_csv2)
+54 of 121 steps (45%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:47:20 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_anhgm_e.csv
+    jobid: 789
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.D_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1090, medium=D_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:47:49 2026]
+Finished jobid: 823 (Rule: make_csv2)
+55 of 121 steps (45%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:47:49 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.F_infection_medium.EX_amp_e.csv
+    jobid: 733
+    reason: Missing output files: metabolite_sweep/stm_1090.F_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1090, medium=F_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:48:03 2026]
+Finished jobid: 775 (Rule: make_csv2)
+56 of 121 steps (46%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:48:03 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.D_infection_medium.EX_anhgm_e.csv
+    jobid: 769
+    reason: Missing output files: metabolite_sweep/stm_2575.D_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_2575, medium=D_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:48:21 2026]
+Finished jobid: 802 (Rule: make_csv2)
+57 of 121 steps (47%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:48:21 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alaala_e.csv
+    jobid: 825
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm2575, medium=D_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:48:24 2026]
+Finished jobid: 816 (Rule: make_csv2)
+58 of 121 steps (48%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:48:24 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_anhgm_e.csv
+    jobid: 829
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm2575, medium=D_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:48:30 2026]
+Finished jobid: 719 (Rule: make_csv2)
+59 of 121 steps (49%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:48:30 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.B_infection_medium.EX_alltn_e.csv
+    jobid: 762
+    reason: Missing output files: metabolite_sweep/stm_2575.B_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_2575, medium=B_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:48:54 2026]
+Finished jobid: 788 (Rule: make_csv2)
+60 of 121 steps (50%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:48:54 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_amp_e.csv
+    jobid: 818
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm2575, medium=A_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:53:14 2026]
+Finished jobid: 831 (Rule: make_csv2)
+61 of 121 steps (50%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:53:14 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.D_infection_medium.EX_all__D_e.csv
+    jobid: 766
+    reason: Missing output files: metabolite_sweep/stm_2575.D_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_2575, medium=D_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:55:00 2026]
+Finished jobid: 747 (Rule: make_csv2)
+62 of 121 steps (51%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:55:00 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alltn_e.csv
+    jobid: 797
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1585, medium=A_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:55:01 2026]
+Finished jobid: 768 (Rule: make_csv2)
+63 of 121 steps (52%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:55:02 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.B_infection_medium.EX_all__D_e.csv
+    jobid: 741
+    reason: Missing output files: metabolite_sweep/stm_1585.B_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1585, medium=B_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:55:06 2026]
+Finished jobid: 803 (Rule: make_csv2)
+64 of 121 steps (53%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:55:06 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alaala_e.csv
+    jobid: 790
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1090, medium=F_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:55:16 2026]
+Finished jobid: 817 (Rule: make_csv2)
+65 of 121 steps (54%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:55:17 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.F_infection_medium.EX_anhgm_e.csv
+    jobid: 734
+    reason: Missing output files: metabolite_sweep/stm_1090.F_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1090, medium=F_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:55:19 2026]
+Finished jobid: 824 (Rule: make_csv2)
+66 of 121 steps (55%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:55:19 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.F_infection_medium.EX_alaala_e.csv
+    jobid: 770
+    reason: Missing output files: metabolite_sweep/stm_2575.F_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_2575, medium=F_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:56:21 2026]
+Finished jobid: 789 (Rule: make_csv2)
+67 of 121 steps (55%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:56:22 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_all__D_e.csv
+    jobid: 826
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm2575, medium=D_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:56:28 2026]
+Finished jobid: 740 (Rule: make_csv2)
+68 of 121 steps (56%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:56:28 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.B_infection_medium.EX_amp_e.csv
+    jobid: 763
+    reason: Missing output files: metabolite_sweep/stm_2575.B_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_2575, medium=B_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:57:14 2026]
+Finished jobid: 733 (Rule: make_csv2)
+69 of 121 steps (57%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:57:14 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_anhgm_e.csv
+    jobid: 819
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.A_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm2575, medium=A_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:57:15 2026]
+Finished jobid: 796 (Rule: make_csv2)
+70 of 121 steps (58%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:57:15 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_all__D_e.csv
+    jobid: 801
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1585, medium=B_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:57:26 2026]
+Finished jobid: 825 (Rule: make_csv2)
+71 of 121 steps (59%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:57:26 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.B_infection_medium.EX_alltn_e.csv
+    jobid: 742
+    reason: Missing output files: metabolite_sweep/stm_1585.B_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1585, medium=B_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:58:17 2026]
+Finished jobid: 769 (Rule: make_csv2)
+72 of 121 steps (60%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:58:17 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_amp_e.csv
+    jobid: 798
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1585, medium=A_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:58:28 2026]
+Finished jobid: 818 (Rule: make_csv2)
+73 of 121 steps (60%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:58:28 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.A_infection_medium.EX_alaala_e.csv
+    jobid: 735
+    reason: Missing output files: metabolite_sweep/stm_1585.A_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1585, medium=A_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 13:59:31 2026]
+Finished jobid: 829 (Rule: make_csv2)
+74 of 121 steps (61%) done
+Execute 1 jobs...
+
+[Tue Sep  8 13:59:31 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_all__D_e.csv
+    jobid: 791
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1090, medium=F_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:00:22 2026]
+Finished jobid: 762 (Rule: make_csv2)
+75 of 121 steps (62%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:00:22 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.A_infection_medium.EX_alltn_e.csv
+    jobid: 717
+    reason: Missing output files: metabolite_sweep/stm_1090.A_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1090, medium=A_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:01:17 2026]
+Finished jobid: 761 (Rule: make_csv2)
+76 of 121 steps (63%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:01:17 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_anhgm_e.csv
+    jobid: 834
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm2575, medium=F_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:01:36 2026]
+Finished jobid: 734 (Rule: make_csv2)
+77 of 121 steps (64%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:01:36 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.A_infection_medium.EX_alaala_e.csv
+    jobid: 715
+    reason: Missing output files: metabolite_sweep/stm_1090.A_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1090, medium=A_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:02:54 2026]
+Finished jobid: 797 (Rule: make_csv2)
+78 of 121 steps (64%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:02:55 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.F_infection_medium.EX_all__D_e.csv
+    jobid: 771
+    reason: Missing output files: metabolite_sweep/stm_2575.F_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_2575, medium=F_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:03:06 2026]
+Finished jobid: 766 (Rule: make_csv2)
+79 of 121 steps (65%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:03:06 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alltn_e.csv
+    jobid: 827
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm2575, medium=D_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:03:06 2026]
+Finished jobid: 790 (Rule: make_csv2)
+80 of 121 steps (66%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:03:07 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alaala_e.csv
+    jobid: 820
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm2575, medium=B_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:05:49 2026]
+Finished jobid: 741 (Rule: make_csv2)
+81 of 121 steps (67%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:05:49 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.B_infection_medium.EX_anhgm_e.csv
+    jobid: 764
+    reason: Missing output files: metabolite_sweep/stm_2575.B_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_2575, medium=B_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:07:30 2026]
+Finished jobid: 798 (Rule: make_csv2)
+82 of 121 steps (68%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:07:30 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.F_infection_medium.EX_alaala_e.csv
+    jobid: 750
+    reason: Missing output files: metabolite_sweep/stm_1585.F_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1585, medium=F_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:07:34 2026]
+Finished jobid: 801 (Rule: make_csv2)
+83 of 121 steps (69%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:07:34 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_all__D_e.csv
+    jobid: 806
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm1585, medium=D_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:08:10 2026]
+Finished jobid: 791 (Rule: make_csv2)
+84 of 121 steps (69%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:08:10 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_anhgm_e.csv
+    jobid: 799
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.A_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1585, medium=A_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:08:22 2026]
+Finished jobid: 742 (Rule: make_csv2)
+85 of 121 steps (70%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:08:22 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.B_infection_medium.EX_amp_e.csv
+    jobid: 743
+    reason: Missing output files: metabolite_sweep/stm_1585.B_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1585, medium=B_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:08:27 2026]
+Finished jobid: 715 (Rule: make_csv2)
+86 of 121 steps (71%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:08:27 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.A_infection_medium.EX_all__D_e.csv
+    jobid: 736
+    reason: Missing output files: metabolite_sweep/stm_1585.A_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1585, medium=A_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:09:01 2026]
+Finished jobid: 770 (Rule: make_csv2)
+87 of 121 steps (72%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:09:01 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.F_infection_medium.EX_alltn_e.csv
+    jobid: 752
+    reason: Missing output files: metabolite_sweep/stm_1585.F_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1585, medium=F_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:09:15 2026]
+Finished jobid: 717 (Rule: make_csv2)
+88 of 121 steps (73%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:09:15 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.B_infection_medium.EX_amp_e.csv
+    jobid: 723
+    reason: Missing output files: metabolite_sweep/stm_1090.B_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_1090, medium=B_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:09:34 2026]
+Finished jobid: 819 (Rule: make_csv2)
+89 of 121 steps (74%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:09:34 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_anhgm_e.csv
+    jobid: 779
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.A_infection_medium.EX_anhgm_e.csv
+    wildcards: model=mixed_stm1090, medium=A_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:09:34 2026]
+Finished jobid: 735 (Rule: make_csv2)
+90 of 121 steps (74%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:09:35 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1090.A_infection_medium.EX_all__D_e.csv
+    jobid: 716
+    reason: Missing output files: metabolite_sweep/stm_1090.A_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1090, medium=A_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:10:11 2026]
+Finished jobid: 826 (Rule: make_csv2)
+91 of 121 steps (75%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:10:12 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.F_infection_medium.EX_alltn_e.csv
+    jobid: 772
+    reason: Missing output files: metabolite_sweep/stm_2575.F_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_2575, medium=F_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:10:39 2026]
+Finished jobid: 763 (Rule: make_csv2)
+92 of 121 steps (76%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:10:39 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_amp_e.csv
+    jobid: 828
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.D_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm2575, medium=D_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:15:42 2026]
+Finished jobid: 820 (Rule: make_csv2)
+93 of 121 steps (77%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:15:42 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_all__D_e.csv
+    jobid: 821
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_all__D_e.csv
+    wildcards: model=mixed_stm2575, medium=B_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:16:16 2026]
+Finished jobid: 827 (Rule: make_csv2)
+94 of 121 steps (78%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:16:16 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.D_infection_medium.EX_alaala_e.csv
+    jobid: 765
+    reason: Missing output files: metabolite_sweep/stm_2575.D_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_2575, medium=D_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:16:47 2026]
+Finished jobid: 834 (Rule: make_csv2)
+95 of 121 steps (79%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:16:47 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.F_infection_medium.EX_all__D_e.csv
+    jobid: 751
+    reason: Missing output files: metabolite_sweep/stm_1585.F_infection_medium.EX_all__D_e.csv
+    wildcards: model=stm_1585, medium=F_infection_medium, rxn=EX_all__D_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:16:53 2026]
+Finished jobid: 723 (Rule: make_csv2)
+96 of 121 steps (79%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:16:53 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alltn_e.csv
+    jobid: 807
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1585, medium=D_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:17:05 2026]
+Finished jobid: 806 (Rule: make_csv2)
+97 of 121 steps (80%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:17:05 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.B_infection_medium.EX_anhgm_e.csv
+    jobid: 744
+    reason: Missing output files: metabolite_sweep/stm_1585.B_infection_medium.EX_anhgm_e.csv
+    wildcards: model=stm_1585, medium=B_infection_medium, rxn=EX_anhgm_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:17:44 2026]
+Finished jobid: 716 (Rule: make_csv2)
+98 of 121 steps (81%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:17:44 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alaala_e.csv
+    jobid: 800
+    reason: Missing output files: metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alaala_e.csv
+    wildcards: model=mixed_stm1585, medium=B_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:18:33 2026]
+Finished jobid: 771 (Rule: make_csv2)
+99 of 121 steps (82%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:18:33 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_amp_e.csv
+    jobid: 793
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_amp_e.csv
+    wildcards: model=mixed_stm1090, medium=F_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:19:00 2026]
+Finished jobid: 779 (Rule: make_csv2)
+100 of 121 steps (83%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:19:00 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.A_infection_medium.EX_alltn_e.csv
+    jobid: 737
+    reason: Missing output files: metabolite_sweep/stm_1585.A_infection_medium.EX_alltn_e.csv
+    wildcards: model=stm_1585, medium=A_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:19:04 2026]
+Finished jobid: 743 (Rule: make_csv2)
+101 of 121 steps (83%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:19:04 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alltn_e.csv
+    jobid: 822
+    reason: Missing output files: metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm2575, medium=B_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:19:06 2026]
+Finished jobid: 799 (Rule: make_csv2)
+102 of 121 steps (84%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:19:06 2026]
+localrule make_csv2:
+    output: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alltn_e.csv
+    jobid: 792
+    reason: Missing output files: metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alltn_e.csv
+    wildcards: model=mixed_stm1090, medium=F_infection_medium, rxn=EX_alltn_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:19:36 2026]
+Finished jobid: 750 (Rule: make_csv2)
+103 of 121 steps (85%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:19:37 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_1585.D_infection_medium.EX_alaala_e.csv
+    jobid: 745
+    reason: Missing output files: metabolite_sweep/stm_1585.D_infection_medium.EX_alaala_e.csv
+    wildcards: model=stm_1585, medium=D_infection_medium, rxn=EX_alaala_e
+    resources: tmpdir=/tmp
+Select jobs to execute...
+[Tue Sep  8 14:19:44 2026]
+Finished jobid: 764 (Rule: make_csv2)
+104 of 121 steps (86%) done
+Execute 1 jobs...
+
+[Tue Sep  8 14:19:44 2026]
+localrule make_csv2:
+    output: metabolite_sweep/stm_2575.F_infection_medium.EX_amp_e.csv
+    jobid: 773
+    reason: Missing output files: metabolite_sweep/stm_2575.F_infection_medium.EX_amp_e.csv
+    wildcards: model=stm_2575, medium=F_infection_medium, rxn=EX_amp_e
+    resources: tmpdir=/tmp
+[Tue Sep  8 14:20:28 2026]
+Finished jobid: 736 (Rule: make_csv2)
+105 of 121 steps (87%) done
+[Tue Sep  8 14:21:20 2026]
+Finished jobid: 752 (Rule: make_csv2)
+106 of 121 steps (88%) done
+[Tue Sep  8 14:23:29 2026]
+Finished jobid: 828 (Rule: make_csv2)
+107 of 121 steps (88%) done
+[Tue Sep  8 14:24:00 2026]
+Finished jobid: 792 (Rule: make_csv2)
+108 of 121 steps (89%) done
+[Tue Sep  8 14:24:06 2026]
+Finished jobid: 800 (Rule: make_csv2)
+109 of 121 steps (90%) done
+[Tue Sep  8 14:24:08 2026]
+Finished jobid: 807 (Rule: make_csv2)
+110 of 121 steps (91%) done
+[Tue Sep  8 14:24:45 2026]
+Finished jobid: 772 (Rule: make_csv2)
+111 of 121 steps (92%) done
+[Tue Sep  8 14:25:16 2026]
+Finished jobid: 751 (Rule: make_csv2)
+112 of 121 steps (93%) done
+[Tue Sep  8 14:26:06 2026]
+Finished jobid: 793 (Rule: make_csv2)
+113 of 121 steps (93%) done
+[Tue Sep  8 14:26:10 2026]
+Finished jobid: 744 (Rule: make_csv2)
+114 of 121 steps (94%) done
+[Tue Sep  8 14:27:03 2026]
+Finished jobid: 737 (Rule: make_csv2)
+115 of 121 steps (95%) done
+[Tue Sep  8 14:27:05 2026]
+Finished jobid: 765 (Rule: make_csv2)
+116 of 121 steps (96%) done
+[Tue Sep  8 14:27:07 2026]
+Finished jobid: 745 (Rule: make_csv2)
+117 of 121 steps (97%) done
+[Tue Sep  8 14:27:08 2026]
+Finished jobid: 821 (Rule: make_csv2)
+118 of 121 steps (98%) done
+[Tue Sep  8 14:27:51 2026]
+Finished jobid: 822 (Rule: make_csv2)
+119 of 121 steps (98%) done
+[Tue Sep  8 14:27:57 2026]
+Finished jobid: 773 (Rule: make_csv2)
+120 of 121 steps (99%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Sep  8 14:27:58 2026]
+localrule all:
+    input: nutrient_sweep/stm_1090.A_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1090.A_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1090.B_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1090.C_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1090.D_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1090.E_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1090.F_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1090.G_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1585.A_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1585.B_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1585.C_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1585.D_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1585.E_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1585.F_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_for_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_but_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_1585.G_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_for_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_but_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_2575.A_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_for_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_but_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_2575.B_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_for_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_but_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_2575.C_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_for_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_but_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_2575.D_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_for_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_but_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_2575.E_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_for_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_but_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_2575.F_infection_medium.EX_ppa_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_tet_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_no3_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_etha_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_lac__L_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_for_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_succ_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_asp__L_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_mal__L_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_galct__D_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_glcr_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_pyr_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_arab__L_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_but_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_ac_e.csv, nutrient_sweep/stm_2575.G_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1090.A_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1090.B_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1090.C_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1090.D_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1090.E_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1090.F_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1090.G_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1585.A_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1585.B_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1585.C_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1585.D_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1585.E_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1585.F_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm1585.G_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm2575.A_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm2575.B_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm2575.C_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm2575.D_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm2575.E_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm2575.F_infection_medium.EX_ppa_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_tet_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_no3_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_etha_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_12ppd__R_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_12ppd__S_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_lac__L_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_for_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_succ_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_asp__L_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_mal__L_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_galct__D_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_glcr_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_pyr_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_arab__L_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_but_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_ac_e.csv, nutrient_sweep/mixed_stm2575.G_infection_medium.EX_ppa_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_anhgm_e.csv
+    jobid: 0
+    reason: Input files updated by another job: metabolite_sweep/mixed_stm2575.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_2575.D_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1090.A_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.B_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm2575.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/stm_2575.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.B_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.F_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1585.D_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/mixed_stm1585.D_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1585.A_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.D_infection_medium.EX_anhgm_e.csv, metabolite_sweep/stm_1090.F_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.A_infection_medium.EX_alaala_e.csv, metabolite_sweep/mixed_stm1090.B_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm1585.F_infection_medium.EX_amp_e.csv, metabolite_sweep/mixed_stm2575.F_infection_medium.EX_all__D_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.B_infection_medium.EX_anhgm_e.csv, metabolite_sweep/mixed_stm1090.D_infection_medium.EX_amp_e.csv, metabolite_sweep/stm_1090.B_infection_medium.EX_alltn_e.csv, metabolite_sweep/stm_2575.A_infection_medium.EX_alaala_e.csv
+    resources: tmpdir=/tmp
+[Tue Sep  8 14:27:58 2026]
+Finished jobid: 0 (Rule: all)
+121 of 121 steps (100%) done
+Complete log(s): /home/gmvaz/2026_GEMs/stm_model_test/.snakemake/log/2026-09-08T131503.616954.snakemake.log

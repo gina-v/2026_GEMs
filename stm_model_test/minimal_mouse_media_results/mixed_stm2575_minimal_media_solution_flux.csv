@@ -1,0 +1,2546 @@
+Reaction,Flux,Reaction Name
+3HAD180,0.01999999999998181,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)
+3HAD181,0.02,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1)
+3HAD40,0.1974825180042954,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0)
+3HAD60,0.19748251800479016,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0)
+3HAD80,0.19748251800497754,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0)
+3KGK,0.0,3-keto-L-gulonate kinase
+3NTD2pp,0.0,3'-nucleotidase (UMP) (periplasm)
+3NTD4pp,0.0,3'-nucleotidase (CMP) (periplasm)
+3NTD7pp,0.0,3'-nucleotidase (AMP) (periplasm)
+3NTD9pp,0.0,3'-nucleotidase (GMP) (periplasm)
+3OAR100,0.19748251800433536,3-oxoacyl-[acyl-carrier-protein] reductase (n-C10:0)
+3OAR120,0.07813110820552538,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:0)
+3OAR121,0.11935140979786053,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1)
+3OAR140,0.07563110820706243,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:0)
+3OAR141,0.11935140979942509,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1)
+3OAR160,0.09152261228041425,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:0)
+3OAR161,0.05798257994667157,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1)
+23CAMPtex,0.0,23cAMP transport via diffusion (extracellular to periplasm)
+23CCMPtex,0.0,23cCMP transport via diffusion (extracellular to periplasm)
+23CGMPtex,0.0,23cGMP transport via diffusion (extracellular to periplasm)
+12DGR120tipp,0.0,"1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C12:0)"
+12DGR140tipp,0.0,"1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C14:0)"
+12DGR141tipp,0.0,"1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C14:1)"
+12DGR160tipp,0.0,"1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C16:0)"
+23CUMPtex,0.0,23cUMP transport via diffusion (extracellular to periplasm)
+3OAR180,0.01999999999929969,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0)
+23DAPPAt2pp,0.0,"2,3-diaminopropionate transport in via proton symport"
+23DAPPAtex,0.0,"2,3-diaminopropionate transport via diffusion"
+12DGR161tipp,0.0,"1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C16:1)"
+12DGR180tipp,0.0,"1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C18:0)"
+12DGR181tipp,0.0,"1,2 diacylglycerol transport via flipping (periplasm to cytoplasm, n-C18:1)"
+12PPDRtex,-0.009999999999990905,"(R)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)"
+12PPDRtpp,-0.009999999999990905,"(R)-Propane-1,2-diol facilitated transport (periplasm)"
+12PPDStex,0.0,"(S)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)"
+12PPDStpp,0.0,"(S)-Propane-1,2-diol facilitated transport (periplasm)"
+23PDE2pp,0.0,"2',3'-cyclic-nucleotide phosphodiesterase (UMP) (periplasm)"
+23PDE4pp,0.0,"2',3'-cyclic-nucleotide phosphodiesterase (CMP) (periplasm)"
+23PDE7pp,0.0,"2',3'-cyclic-nucleotide phosphodiesterase (AMP) (periplasm)"
+23PDE9pp,0.0,"2',3'-cyclic-nucleotide phosphodiesterase (GMP) (periplasm)"
+26DAHtex,0.0,"Meso-2,6-Diaminoheptanedioate transport via diffusion (extracellular to periplasm)"
+2AGPA120tipp,0.0,2-Acyl-sn-glycero-3-phosphatidate (n-C12:0) transporter via facilitated diffusion (periplasm)
+2AGPA140tipp,0.0,2-Acyl-sn-glycero-3-phosphatidate (n-C14:0) transporter via facilitated diffusion (periplasm)
+2AGPA141tipp,0.0,2-Acyl-sn-glycero-3-phosphatidate (n-C14:1) transporter via facilitated diffusion (periplasm)
+2AGPA160tipp,0.0,2-Acyl-sn-glycero-3-phosphatidate (n-C16:0) transporter via facilitated diffusion (periplasm)
+2AGPA161tipp,0.0,2-Acyl-sn-glycero-3-phosphatidate (n-C16:1) transporter via facilitated diffusion (periplasm)
+2AGPA180tipp,0.0,2-Acyl-sn-glycero-3-phosphatidate (n-C18:0) transporter via facilitated diffusion (periplasm)
+2AGPA181tipp,0.0,2-Acyl-sn-glycero-3-phosphatidate (n-C18:1) transporter via facilitated diffusion (periplasm)
+14GLUCANabcpp,0.0,"1,4-alpha-D-glucan transport via ABC system (periplasm)"
+14GLUCANtexi,0.0,"1,4-alpha-D-glucan transport via diffusion (extracellular to periplasm) irreversible"
+2AGPE120tipp,0.010000000001949344,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C12:0) transporter via facilitated diffusion (periplasm)
+3OAR181,0.019999999999969376,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1)
+2AGPE140tipp,0.0018919091773021979,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:0) transporter via facilitated diffusion (periplasm)
+2AGPE141tipp,0.0,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C14:1) transporter via facilitated diffusion (periplasm)
+3OAR40,0.19748251800456273,3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0)
+2AGPE160tipp,0.0,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:0) transporter via facilitated diffusion (periplasm)
+3OAR60,0.19748251800433536,3-oxoacyl-[acyl-carrier-protein] reductase (n-C6:0)
+2AGPE161tipp,0.0,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C16:1) transporter via facilitated diffusion (periplasm)
+2AGPE180tipp,0.0,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:0) transporter via facilitated diffusion (periplasm)
+2AGPE181tipp,0.0,2-Acyl-sn-glycero-3-phosphoethanolamine (n-C18:1) transporter via facilitated diffusion (periplasm)
+2AGPEAT120,0.0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C12:0)
+ABUTtex,0.0,4-aminobutyrate transport via diffusion (extracellular to periplasm)
+ACACtex,0.0,Acetoacetate transport via diffusion (extracellular to periplasm)
+ACALD,0.05667956502554716,Acetaldehyde dehydrogenase (acetylating)
+ACALDtex,-0.009999999769888746,Acetaldehyde transport via diffusion (extracellular to periplasm)
+ACALDtpp,-0.009999999769888746,Acetaldehyde reversible transport (periplasm)
+2AGPEAT140,0.0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C14:0)
+3OAR80,0.1974825180042954,3-oxoacyl-[acyl-carrier-protein] reductase (n-C8:0)
+2AGPEAT141,0.0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C14:1)
+2AGPEAT160,0.0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:0)
+ACBIPGT,0.0,Adenosyl cobinamide phosphate guanyltransferase
+ACCOAC,1.3819003002553387,Acetyl-CoA carboxylase
+2AGPEAT161,0.0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C16:1)
+ACCOAL,0.01999999999998181,Acetate-CoA ligase (ADP-forming)
+3OAS100,0.19748251800479016,3-oxoacyl-[acyl-carrier-protein] synthase (n-C10:0)
+ACGAL1PPpp,0.0,N-acetyl-D-galactosamine 1-phosphatase (periplasm)
+2AGPEAT180,0.0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C18:0)
+2AGPEAT181,0.0,2-acyl-glycerophospho-ethanolamine acyltransferase (n-C18:1)
+2AGPG120tipp,0.0,2-Acyl-sn-glycero-3-phosphoglycerol (n-C12:0) transporter via facilitated diffusion (periplasm)
+ACGAL1Ptex,0.0,N-acetyl-D-galactosamine 1-phosphate transport via diffusion (extracellular to periplasm)
+3OAS120,0.0781311082062075,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:0)
+ACGALtex,0.0,N-acetyl-D-galactosamine transport via diffusion (extracellular to periplasm)
+ACGAM1PPpp,0.0,N-acetyl-D-glucosamine 1-phosphatase (periplasm)
+2AGPG140tipp,0.0,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:0) transporter via facilitated diffusion (periplasm)
+2AGPG141tipp,0.0,2-Acyl-sn-glycero-3-phosphoglycerol (n-C14:1) transporter via facilitated diffusion (periplasm)
+2AGPG160tipp,0.0,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:0) transporter via facilitated diffusion (periplasm)
+ACGAM1Ptex,0.0,N-acetyl-D-glucosamine 1-phosphate transport via diffusion (extracellular to periplasm)
+ACGAMK,0.03999999999834448,N-acetylglucosamine kinase
+ACGAMT,0.0,UDP-N-acetylglucosamine:undecaprenylphosphate N-acetylglucosamine -1-phosphate transferase
+2AGPG161tipp,0.0,2-Acyl-sn-glycero-3-phosphoglycerol (n-C16:1) transporter via facilitated diffusion (periplasm)
+2AGPG180tipp,0.0,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:0) transporter via facilitated diffusion (periplasm)
+2AGPG181tipp,0.0,2-Acyl-sn-glycero-3-phosphoglycerol (n-C18:1) transporter via facilitated diffusion (periplasm)
+ACGAptspp,0.0,N-Acetyl-D-glucosamine transport via PEP:Pyr PTS  (periplasm)
+ACGAtex,0.0,N-Acetyl-D-glucosamine transport via diffusion (extracellular to periplasm)
+2AGPGAT120,0.0,2-acyl-glycerophospho-glycerol acyltransferase (n-C12:0)
+ACGK,0.18039726703216274,Acetylglutamate kinase
+2AGPGAT140,0.0,2-acyl-glycerophospho-glycerol acyltransferase (n-C14:0)
+3OAS121,0.11935140979768631,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1)
+2AGPGAT141,0.0,2-acyl-glycerophospho-glycerol acyltransferase (n-C14:1)
+2AGPGAT160,0.0,2-acyl-glycerophospho-glycerol acyltransferase (n-C16:0)
+ACGS,0.18039726703286751,N-acetylglutamate synthase
+ACHBS,0.07592190993007358,2-aceto-2-hydroxybutanoate synthase
+3OAS140,0.07563110820820769,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:0)
+ACKr,-65.18895645985765,Acetate kinase
+ACLS,0.3906004951625164,Acetolactate synthase
+2AGPGAT161,0.0,2-acyl-glycerophospho-glycerol acyltransferase (n-C16:1)
+2AGPGAT180,0.0,2-acyl-glycerophospho-glycerol acyltransferase (n-C18:0)
+2AGPGAT181,0.0,2-acyl-glycerophospho-glycerol acyltransferase (n-C18:1)
+ACM6PH,0.03999999999834448,N-acetylmuramate 6-phosphate hydrolase
+3OAS141,0.11935140979971111,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1)
+ACMAMUT,0.0,UDP-N-acetyl-D-mannosaminuronic acid transferase
+3OAS160,0.09152261228105661,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:0)
+ACMANAptspp,0.0,N-acetyl-D-mannosamine transport via PTS  (periplasm)
+3OAS161,0.057982579946538326,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1)
+ACMANAtex,0.0,N-acetyl-D-mannosamine transport via diffusion (extracellular to periplasm)
+ACMUMtex,0.0,N-acetylmuramate transport via diffusion (extracellular to periplasm)
+2DGLCNRx,0.0,2-dehydro-D-gluconate reductase (NADH)
+2DGLCNRy,0.0,2-dehydro-D-gluconate reductase (NADPH)
+2DGULRx,0.0,2-dehydro-L-gulonate reductase (NADH)
+2DGULRy,0.0,2-dehydro-L-gulonate reductase (NADPH)
+ACNAMt2pp,0.0,N-acetylneuraminate proton symport (periplasm)
+ACNAMtex,0.0,N-acetylneuraminate transport via diffusion (extracellular to periplasm)
+ACNML,0.0,N-Acetylneuraminate lyase
+ACOAD1f,0.009999999994533937,Acyl-CoA dehydrogenase (butanoyl-CoA)
+ACOAD2f,0.009999999996011866,Acyl-CoA dehydrogenase (hexanoyl-CoA)
+2MAHMP,0.0,2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphatase
+3OAS180,0.01999999999998181,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0)
+34dhpactex,0.0,Dihydroxyphenylacetaldehyde transport via diffusion (extracellular to periplasm)
+3AMPtex,0.0,3AMP transport via diffusion (extracellular to periplasm)
+ACOAD3f,0.009999999998626663,Acyl-CoA dehydrogenase (octanoyl-CoA)
+ACOAD4f,0.009999999994306563,Acyl-CoA dehydrogenase (decanoyl-CoA)
+ACOAD5f,0.009999999989076969,Acyl-CoA dehydrogenase (dodecanoyl-CoA)
+3CMPtex,0.0,3CMP transport via diffusion (extracellular to periplasm)
+3OAS181,0.019999999999938733,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1)
+3GMPtex,0.0,3GMP transport via diffusion (extracellular to periplasm)
+3HAD100,0.19748251800479016,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0)
+3HAD120,0.07813110820626061,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0)
+ACOAD6f,-0.05136882985151088,Acyl-CoA dehydrogenase (tetradecanoyl-CoA)
+ACOAD7f,-0.021417629722236597,Acyl-CoA dehydrogenase (hexadecanoyl-CoA)
+ACOAD8f,0.01671752488878665,Acyl-CoA dehydrogenase (octadecanoyl-CoA)
+ACOATA,0.18748251800434446,Acetyl-CoA ACP transacylase
+3HAD121,0.11935140979803475,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1)
+ACODA,0.18039726703284487,Acetylornithine deacetylase
+3OAS60,0.19748251800479016,3-oxoacyl-[acyl-carrier-protein] synthase (n-C6:0)
+3HAD140,0.05563110820822588,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0)
+3OAS80,0.19748251800452282,3-oxoacyl-[acyl-carrier-protein] synthase (n-C8:0)
+3HAD141,0.11935140979913907,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1)
+3PEPTabcpp,0.0,Tripeptide (LalaDgluMdap) transport via ABC system (periplasm)
+3HAD160,0.09152261228105661,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0)
+3HAD161,0.057982579946801255,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1)
+ACOLIPAtex,0.0,Arabinose modified core oligosaccharide lipid A transport via vector (periplasm to extracellular)
+ACONIs,0.0,Aconitate isomerase (spontaneous)
+ACONTa,0.8436247397610259,"Aconitase (half-reaction A, Citrate hydro-lyase)"
+ACONTb,0.8436247397623902,"Aconitase (half-reaction B, Isocitrate hydro-lyase)"
+ADK1,2.776767670593472,Adenylate kinase
+ADK3,-0.5616696432319475,Adentylate kinase (GTP)
+ACOTA,-0.18039726703284487,Acetylornithine transaminase
+3PEPTtex,0.0,LalaDgluMdap (tripeptide) transport via diffusion (extracellular to periplasm)
+ACPS1,0.0,Acyl-carrier protein synthase
+ACS,0.0,Acetyl-CoA synthetase
+ACSERtex,-0.00999999993223355,O-Acetyl-L-serine transport via diffusion (extracellular to periplasm)
+ADK4,-0.01,Adentylate kinase (ITP)
+ADMDC,0.005282143857164518,Adenosylmethionine decarboxylase
+ADNCYC,0.009999999999997122,Adenylate cyclase
+3UMPtex,0.0,3UMP transport via diffusion (extracellular to periplasm)
+ADNK1,0.010000000101740625,Adenosine kinase
+ADNUC,0.0,Adenosine hydrolase
+ADNt2pp_copy1,0.0009999999999763531,Adenosine transport in via proton symport (periplasm)
+ACSERtpp,0.00999999993223355,O-Acetyl-L-serine export via facilitated transport
+ACt2rpp,-65.58340036574441,Acetate reversible transport via proton symport (periplasm)
+ACt4pp,0.01200000000198088,Na+/Acetate symport (periplasm)
+ADNt2pp_copy2,-0.0009999999999763531,Adenosine transport in via proton symport (periplasm)
+4HOXPACDtex,0.0,4-hydroxyphenylacetaldehyde transport via diffusion (extracellular to periplasm)
+ADNtex,0.0,Adenosine transport via diffusion (extracellular to periplasm)
+ADOCBLabcpp,0.0,Adenosylcobalamin transport via ABC system (periplasm)
+ACtex,-65.57140036574243,Acetate transport via diffusion (extracellular to periplasm)
+ADA,0.0,Adenosine deaminase
+ADCL,0.037729598977148227,4-aminobenzoate synthase
+ADOCBLtonex,0.0,Adenosylcobalimin transport via ton system (extermal)
+ADPRDP,0.0,ADPribose diphosphatase
+ADCS,0.037729598977148227,4-amino-4-deoxychorismate synthase
+ADEt2rpp,0.0,Adenine transport via proton symport (reversible) (periplasm)
+ADEtex,0.0,Adenine transport via diffusion (extracellular to periplasm)
+ADPT,0.0,Adenine phosphoribosyltransferase
+ADSK,0.11204663885478539,Adenylyl-sulfate kinase
+ADSL1r,0.19972479762029513,Adenylsuccinate lyase
+4PCP,0.019999999998552138,"Tetrapeptide L,D-carboxypeptidase"
+ADSL2r,0.33895743509310705,Adenylosuccinate lyase
+ADSS,0.19972479762029513,Adenylosuccinate synthase
+AGDC,0.07999999999705766,N-acetylglucosamine-6-phosphate deacetylase
+ALDD3y,0.009999999999989129,"Aldehyde dehydrogenase (propanal, NADP)"
+ALLTAMH,0.0,Allantoate amidohydrolase
+AGM3PA,0.01000000000001422,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide amidase
+4PCPpp,0.0,"Tetrapeptide L,D-carboxypeptidase (periplasm)"
+AGM3PApp,0.0,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide amidase (periplasm)
+AGM3PH,0.0,"N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide beta -1,4-N-acetylglucosaminidase"
+ALLTN,0.0,Allantoinase
+ALLTNt2rpp,0.0,Allantoin transport in via proton symport (periplasm)
+AGM3Pt2pp,0.010000000000074628,GlcNAc-anhMurNAc tripeptide transport in via proton symport (periplasm)
+ALLTNtex,0.0,Allantoin transport via diffusion (extracellular to periplasm)
+AGM4PA,0.0,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide amidase
+4PEPTabcpp,0.0,Tetrapeptide (LalaDgluMdapDala) transport via ABC system (periplasm)
+AGM4PApp,0.0,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide amidase (periplasm)
+ALLtex,0.0,Allose transport via diffusion (extracellular to periplasm)
+4PEPTtex,0.0,LalaDgluMdapDala (pentapeptide) transport via diffusion (extracellular to periplasm)
+ALR2,0.009999999999997122,Aldose reductase (methylglyoxal)
+ALR4x,0.00999999999999357,Aldose reductase (acetol)
+AGM4PCP,0.0,"N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide L,D-carboxypeptidase"
+AGM4PCPpp,0.0,"N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide L,D-carboxypeptidase (periplasmic)"
+AM3PA,0.0,Anhydrous-N-Acetylmuramyl-tripeptide amidase
+AM4PA,0.029999999998344476,Anhydrous-N-Acetylmuramyl-tetrapeptide amidase
+5DGLCNR,0.0,5-dehydro-D-gluconate reductase
+AM4PCP,0.0,"Anhydrous-N-Acetylmuramyl-tetrapeptide L,D-carboxypeptidase"
+AMALT1,0.0,Amylomaltase (maltotriose)
+AMALT2,0.0,Amylomaltase (maltotetraose)
+AMALT3,0.0,Amylomaltase (maltopentaose)
+AMALT4,0.0,Amylomaltase (maltohexaose)
+AGM4PH,0.029999999998344476,"N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide beta -1,4-N-acetylglucosaminidase"
+AGM4Pt2pp,0.029999999998344476,GlcNAc-anhMurNAc tetrapeptide transport in via proton symport (periplasm)
+AGMH,0.01,"N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl beta -1,4-N-acetylglucosaminidase"
+AGMHE,0.009999999999979834,ADP-D-glycero-D-manno-heptose epimerase
+AGMT,0.009999999999990905,Agmatinase
+AGMt2pp,0.0,GlcNAc-anhMurNAc transport in via proton symport (periplasm)
+AMANAPEr,0.0,N-acetylmannosamine 6-phosphate epimerase
+AMANK,0.0,N-acetyl-D-mannosamine kinase
+AMAOTr,0.0,Adenosylmethionine-8-amino-7-oxononanoate transaminase
+AGMtex,-0.009999999999308784,Agmatine transport via diffusion (extracellular to periplasm)
+5DGLCNt2rpp,0.0,"5-Dehydro-D-gluconate transport via proton symport, reversible (periplasm)"
+AGPAT120,0.010000000000992711,1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C12:0)
+AGPAT140,0.0133805720698539,1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:0)
+AMMQLT8,0.0,S-adenosylmethione:2-demthylmenaquinole methyltransferase (menaquinone 8)
+AMPMS2,0.0,4-amino-2-methyl-5-phosphomethylpyrimidine synthetase
+5DGLCNtex,0.0,5-Dehydro-D-gluconate transport via diffusion (extracellular to periplasm)
+AMPN,0.009999999999994458,AMP nucleosidase
+AMPTASECG,0.009999999999692477,Alanyl aminopeptidase (cys-gly)
+AMPTASEPG,0.0,Aminopeptidase (pro-gly)
+AGPAT141,0.03068441492574821,1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:1)
+AGPAT160,0.0623670271128276,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0)
+AGPAT161,0.01899128997326916,1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1)
+AMPtex,0.0,AMP transport via diffusion (extracellular to periplasm)
+5DOAN,0.004381308119936119,5'-deoxyadenosine nuclosidase
+ANHGMtex,0.0,GlcNAc-anhMurNAc transport via diffusion (extracellular to periplasm)
+ANHMK,0.03999999999834448,"1,6-anhydrous-N-Acetylmuramate kinase"
+AGPAT180,0.014999999999972147,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0)
+AGPAT181,0.014999999999813378,1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1)
+AGPR,-0.18039726703216274,N-acetyl-g-glutamyl-phosphate reductase
+AHCYSNS,0.00033654802289933975,S-adenosylhomocysteine nucleosidase
+ANPRT,0.07631882530972689,Anthranilate phosphoribosyltransferase
+ANS,0.07631882531065072,Anthranilate synthase
+AOBUTDs,0.0,L-2-amino-3-oxobutanoate decarboxylation (spontaneous)
+AOXSr,0.0,8-amino-7-oxononanoate synthase
+AP4AH,0.0,Ap4A hydrolase
+AICART,0.38962300437765407,Phosphoribosylaminoimidazolecarboxamide formyltransferase
+AIRC2,0.3389574350931639,Phosphoribosylaminoimidazole carboxylase
+AP5AH,0.0,Ap5A hydrolase
+A5PISO,0.012499999999990906,Arabinose-5-phosphate isomerase
+APRAUR,7.545919795949323e-06,5-amino-6-(5-phosphoribosylamino)uracil reductase
+AIRC3,-0.3389574350931639,Phosphoribosylaminoimidazole carboxylase (mutase rxn)
+AKGDH,0.01,2-Oxogluterate dehydrogenase
+ARAI,13.3,L-arabinose isomerase
+AACPS1,0.07515264821643863,Acyl-[acyl-carrier-protein] synthetase (n-C14:0)
+ARBTNR1,0.0,Aerobactin reductase
+ARBTNR2,0.0,Aerobactin reductase
+AKGt2rpp,-0.009999999999990905,2-oxoglutarate reversible transport via symport (periplasm)
+AKGtex,-0.009999999999990905,Alpha-ketoglutarate transport via diffusion (extracellular to periplasm)
+ARBTNR3,0.0,Aerobactin reductase
+ALAALAabcpp,0.0,D-alanyl-D-alanine (DalaDala) transport via ABC system (periplasm)
+AACPS2,0.01,Acyl-[acyl-carrier-protein] synthetase  (n-C14:1)
+ALAALAr,0.07727986215822825,D-alanine-D-alanine ligase (reversible)
+ALAALAtex,-0.009999999999990905,D-alanyl-D-alanine (DalaDala) transport via diffusion (extracellular to periplasm)
+ARBTNabcpp,0.0,Aerobactin transport via ABC system (periplasm)
+ARBTNexs,0.0,Aerobactin Fe-loading reaction (spontaneous)
+ARBTNtex,0.0,Aerobactin secretion (to extracellular)
+ALAGLUE,0.009999999999308784,L-alanyl-gamma-glutamate epimerase
+ALAR,0.11455972406901688,Alanine racemase
+ALATA_D2,0.009999999999986131,D-alanine transaminase
+AACPS3,0.06321144194527396,Acyl-[acyl-carrier-protein] synthetase  (n-C16:0)
+ALATA_L,-1000.0,L-alanine transaminase
+ALATA_L2,0.009999999999997122,Alanine transaminase
+ALATRS,0.0,Alanyl-tRNA synthetase
+ALAabcpp,0.0,L-alanine transport via ABC system (periplasm)
+ARBTNtonex,0.0,Aerobactin transport via ton system (extracellular)
+ARBTNtpp,0.0,Aerobactin secretion (to periplasm)
+ARBt2rpp,13.3,L-arabinose transport via proton symport (periplasm)
+ARBt3ipp,0.0,L-arabinose transport via proton antiport (periplasm)
+ARBtex,13.3,L-arabinose transport via diffusion (extracellular to periplasm)
+ARGAGMt7pp,0.0,Arginine/agmatine antiport (periplasm)
+ALAt2pp,0.0,L-alanine transport in via proton symport (periplasm)
+ALAt4pp,0.0,L-alanine transport in via sodium symport (periplasm)
+ARGDC,0.01,Arginine decarboxylase
+AACPS4,0.009999999999990905,Acyl-[acyl-carrier-protein] synthetase  (n-C16:1)
+ARGDCpp,0.009999999999299689,Arginine decarboxylase
+ARGORNt7pp,0.029999999966788815,Arginine/ornithine antiporter (periplasm)
+ALAtex,0.0,L-alanine transport via diffusion (extracellular to periplasm)
+ALDD2y,0.009999999973796747,"Aldehyde dehydrogenase (acetaldehyde, NADP)"
+ARGSL,0.13870440391610828,Argininosuccinate lyase
+AACPS5,0.00999999999932566,Acyl-[acyl-carrier-protein] synthetase  (n-C18:1)
+ARGSS,0.13870440391610828,Argininosuccinate synthase
+ARGTRS,0.0,Arginyl-tRNA synthetase
+ASNNpp,0.009999999857134725,L-asparaginase
+AACPS6,0.010000000000024222,Acyl-[acyl-carrier-protein] synthetase  (n-C18:0)
+ASNS1,0.0,Asparagine synthase (glutamine-hydrolysing)
+ARGabcpp,0.0,L-arginine transport via ABC system (periplasm)
+ARGt3pp,0.05,L-arginine transport out via proton antiport (cytoplasm to periplasm)
+ASNS2,0.22576893212264398,Asparagine synthetase
+AACPS7,0.030000000003922004,Acyl-[acyl-carrier-protein] synthetase  (n-C12:0)
+ARGtex,-0.009999999999990905,L-arginine transport via diffusion (extracellular to periplasm)
+ASAD,-0.7611897993688217,Aspartate-semialdehyde dehydrogenase
+AACPS8,0.009999999999078746,Acyl-[acyl-carrier-protein] synthetase  (n-C10:0)
+ASCBPL,0.0,L-ascorbate 6-phosphate lactonase
+ASCBptspp,0.0,L-ascorbate transport via PEP:Pyr PTS (periplasm)
+ASCBtex,0.0,L-ascorbate transport via diffusion (extracellular to periplasm)
+AACPS9,0.009999999999770637,Acyl-[acyl-carrier-protein] synthetase  (n-C8:0)
+ASNN,0.0,L-asparaginase
+AACTOOR,0.0,Aminoacetone:oxygen oxidoreductase(deaminating)(flavin-containing)
+AAMYL,0.0,Alpha-amylase
+ASNTRS_1,0.0,Asparaginyl tRNA synthetase
+AAMYLpp,0.0,Alpha-amylase (periplasm)
+ASNabcpp,0.0,L-asparagine transport via ABC system (periplasm)
+ABTA,0.00999999999999912,4-aminobutyrate transaminase
+ASNt2rpp,-0.01999999974475486,L-asparagine reversible transport via proton symport (periplasm)
+ABUTD,0.01,Aminobutyraldehyde dehydrogenase
+ASNtex,-0.00999999988766831,L-asparagine transport via diffusion (extracellular to periplasm)
+ASO3tex,0.0,Arsenite transport via diffusion (extracellular to periplasm)
+ABUTt2pp,0.0,4-aminobutyrate transport in via proton symport (periplasm)
+ASP1DC,4.452092686447243e-05,Aspartate 1-decarboxylase
+CRNDCAL2,0.0,D-Carnitine-CoA Ligase
+ASPCT,0.3161020398796382,Aspartate carbamoyltransferase
+ASPK,0.7611897993688217,Aspartate kinase
+ASPO3,0.002060036104294165,L-aspartate oxidase
+ASPO4,0.0,L-aspartate oxidase
+ASPO5,0.0,L-aspartate oxidase
+ASPO6,0.0,L-aspartate oxidase
+CDPMEK,0.00999999999999801,4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase
+CFAS160E,0.0,"Cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C16:0)"
+CFAS160G,0.0,"Cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C16:0)"
+CFAS180E,0.0,"Cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C18:0)"
+CRNDabcpp,0.0,D-carnitine transport via ABC system (periplasm)
+CFAS180G,0.0,"Cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C18:0)"
+CGLYabcpp,0.01,L-Cysteinylglycine (Cys-Gly) transport via ABC system (periplasm)
+ASPT,0.01,L-aspartase
+ASPTA,2.735219315503656,Aspartate transaminase
+CGLYtex,0.0,L-Cysteinylglycine transport via diffusion (extracellular to periplasm)
+CHLabcpp,0.0,Choline transport via ABC system (periplasm)
+CHLtex,0.0,Choline transport via diffusion (extracellular to periplasm)
+ASPTRS,0.0,Aspartyl-tRNA synthetase
+ASPabcpp,0.0,L-aspartate transport via ABC system (periplasm)
+ASPt2_2pp,0.01,Aspartate transport via proton symport (2 H) (periplasm)
+ASPt2pp,4.989999999857817,L-aspartate transport in via proton symport (periplasm)
+CHORS,0.27552343252341416,Chorismate synthase
+CHRPL,0.0,Chorismate pyruvate lyase
+ASPtex,5.0,L-aspartate transport via diffusion (extracellular to periplasm)
+AST,0.0,Arginine succinyltransferase
+CITL,0.0,Citrate lyase
+CRNDt2rpp,1000.0,D-carnitine outward transport (H+ antiport)
+CITt7pp,0.0,Citrate transport via succinate antiport (periplasm)
+CITtex,0.0,Citrate transport via diffusion (extracellular to periplasm)
+ATHRDHr,-0.01999999993063284,L-allo-threonine dehydrogenase
+ATPHs,0.0,ATP amine hydrolysis (spontaneous)
+ATPM,8.39,ATP maintenance requirement
+CRNabcpp,0.0,L-carnitine transport via ABC system (periplasm)
+ATPPRT,0.05066556928522914,ATP phosphoribosyltransferase
+CRNt2rpp,-1000.0,L-carnitine outward transport (H+ antiport)
+ATPS4rpp,-12.224242124240261,ATP synthase (four protons for one ATP) (periplasm)
+ICITtex,0.0,Citrate transport via diffusion extracellular to periplasm
+CRNt7pp,0.0,Carnitine/butyrobetaine antiporter (periplasm)
+ACONCtex,0.0,Cisaconitat transport via diffusion extracellular to periplasm
+BALAt2pp,0.0,Beta-alanine transport in via proton symport (periplasm)
+BALAtex,0.0,Beta-alanine transport via diffusion (extracellular to periplasm)
+CRNt8pp,1000.0,L-carnitine/D-carnitine antiporter (periplasm)
+BPNT,0.11204663885425248,"3',5'-bisphosphate nucleotidase"
+BSORx,0.0,Biotin sulfoxide reductase
+BSORy,0.0,Biotin sulfoxide reductase
+BTS4,0.0,Biotin synthase
+BUTSO3tex,0.0,Butanesulfonate transport via diffusion (extracellular to periplasm)
+CLIPAtex,0.0,Cold lipid A transport via vector (periplasm to extracellular)
+CLPNH120pp,0.0,"Cardiolipin hydrolase (periplasm, n-C12:0)"
+CLPNH140pp,0.0,"Cardiolipin hydrolase (periplasm, n-C14:0)"
+CLPNH141pp,0.0,"Cardiolipin hydrolase (periplasm, n-C14:1)"
+CLPNH160pp,0.0,"Cardiolipin hydrolase (periplasm, n-C16:0)"
+CLPNH161pp,0.0,"Cardiolipin hydrolase (periplasm, n-C16:1)"
+CLPNH180pp,0.0,"Cardiolipin hydrolase (periplasm, n-C18:0)"
+BUTtex,0.0,Butyrate transport via diffusion (extracellular to periplasm)
+CLPNH181pp,0.0,"Cardiolipin hydrolase (periplasm, n-C18:1)"
+CRNtex,0.0,L-carnitine transport via diffusion (extracellular to periplasm)
+CLPNS120pp,0.0,"Cardiolipin synthase (periplasmic, n-C12:0)"
+CA2t3pp,999.9964254977929,Calcium (Ca+2) transport out via proton antiport (periplasm)
+CS,0.8436247397624347,Citrate synthase
+CA2tex,0.0035745022082809344,Calcium (Ca+2) transport via diffusion (extracellular to periplasm)
+CADVtpp,0.01,Lysine/Cadaverine antiporter (periplasm)
+CLPNS140pp,7.395001352961117e-05,"Cardiolipin synthase (periplasmic, n-C14:0)"
+CLPNS141pp,0.0,"Cardiolipin synthase (periplasmic, n-C14:1)"
+CAt6pp,-1000.0,Calcium / sodium antiporter (1:1)
+CLPNS160pp,0.00040144293843619383,"Cardiolipin synthase (periplasmic, n-C16:0)"
+CSNtex,0.0,Cytosine transport via diffusion (extracellular to periplasm)
+CLPNS161pp,2.112857544034341e-05,"Cardiolipin synthase (periplasmic, n-C16:1)"
+CLPNS180pp,1.0564287663328287e-05,"Cardiolipin synthase (periplasmic, n-C18:0)"
+CBIAT,0.0,Cobinamide adenyltransferase
+CBItonex,0.0,Cobinamide transport via ton system (extermal)
+CBIuabcpp,0.0,"Cobinamide transport via ABC system (uptake, periplasm)"
+CBL1abcpp,0.0,Cob(1)alamin transport via ABC system (periplasm)
+CLPNS181pp,1.584643157565962e-05,"Cardiolipin synthase (periplasmic, n-C18:1)"
+CTBTCAL2,0.0,Crotonobetaine-CoA Ligase
+CLt3_2pp,0.0017872511041404672,Chloride transport out via proton antiport (2:1) (periplasm)
+CLtex,0.0035745022082809344,Chloride (Cl-1) transport via diffusion (extracellular to periplasm)
+CMPN,0.0,CMP nucleosidase
+CMPtex,0.0,CMP transport via diffusion (extracellular to periplasm)
+CBL1tonex,0.0,Cob(1)alamin transport via ton system (extermal)
+CBPS,0.0,Carbamoyl-phosphate synthase (glutamine-hydrolysing)
+CD2abcpp,0.0,Cadmium (Cd+2) ABC transporter (periplasm)
+CD2t3pp,0.01,Cadmium (Cd+2) transport out via proton antiport (periplasm)
+CD2tex,0.0,Cadmium (Cd+2) transport via diffusion (extracellular to periplasm)
+CD2tpp,0.01,Cadmium (+2) transport in via permease (no H+)
+CDAPPA120,0.0,CDP-Diacylglycerol pyrophostatase (n-C12:0)
+CO2tex,-9.230228288409837,CO2 transport via diffusion (extracellular to periplasm)
+CO2tpp,-9.220228288410567,CO2 transporter via diffusion (periplasm)
+CDAPPA140,0.0,CDP-Diacylglycerol pyrophostatase (n-C14:0)
+CTBTabcpp,0.0,Crotonobetaine transport via ABC system (periplasm)
+CDAPPA141,0.0,CDP-Diacylglycerol pyrophostatase (n-C14:1)
+CDAPPA160,0.0,CDP-Diacylglycerol pyrophostatase (n-C16:0)
+COBALT2abcpp,0.0,Cobalt (Co+2) ABC transporter (periplasm)
+COBALT2t3pp,0.0,Cobalt (Co+2) transport out via proton antiport (periplasm)
+COBALT2tex,0.0023830014721397674,Cobalt (Co+2) transport via diffusion (extracellular to periplasm)
+CTBTt2rpp,0.0,Cronobetaine outward transport (H+ antiport)
+COBALT2tpp_copy1,1000.0,Cobalt transport in via permease (no H+)
+COLIPAabcpp,0.0024999999999946168,Core oligosaccharide lipid A transport via ABC system (periplasm)
+COLIPAtex,0.0017929473149289916,Core oligosaccharide lipid A transport via vector (periplasm to extracellular)
+CDAPPA161,0.0,CDP-Diacylglycerol pyrophostatase (n-C16:1)
+CDAPPA180,0.0,CDP-Diacylglycerol pyrophostatase (n-C18:0)
+CDAPPA181,0.0,CDP-Diacylglycerol pyrophostatase (n-C18:1)
+CPGNR1,0.0,Coprogen(Fe(III)) reductase
+CTPS2,0.17749405751556646,CTP synthase (glutamine)
+CPGNR2,0.0,Coprogen(Fe(III)) reductase
+CPGNR3,0.0,Coprogen(Fe(III)) reductase
+CU1Opp,0.0,Cuprous Oxidase (Cu+1)
+CPGNUtex,0.0,Coprogen unloaded secretion (extracellular)
+CPGNUtpp,0.0,Coprogen unloaded secretion
+CPGNabcpp,0.0,Coprogen transport via ABC system (periplasm)
+CPGNexs,0.0,Coprogen Fe-loading reaction (spontaneaous)
+DAMPtex,0.0,DAMP transport via diffusion (extracellular to periplasm)
+DAPDC,0.2549829608159687,Diaminopimelate decarboxylase
+DAPE,0.292262822972134,Diaminopimelate epimerase
+DAPabcpp,0.0,M-diaminopimelic acid ABC transport (periplasm)
+DAPtex,-0.009999999999990905,"1,5-Diaminopentane transport via diffusion (extracellular to periplasm)"
+CPGNtonex,0.0,Coprogen transport via ton system (extracellular)
+CU1abcpp,0.0,Copper (Cu +1) ABC transporter (periplasm)
+CPPPGO,0.00014107192858235556,Coproporphyrinogen oxidase (O2 required)
+CPPPGO2,0.002190654059968003,Oxygen Independent coproporphyrinogen-III oxidase
+DASYN120,0.010000000002002189,CDP-diacylglycerol synthetase (n-C12:0)
+DASYN140,0.012366400449454812,CDP-diacylglycerol synthetase (n-C14:0)
+CRNBTCT,0.0,Gamma-butyrobetainyl-CoA: carnitine CoA transferase
+AU1abcpp,0.0,Gold Au 1 ABC transporter periplasm
+CRNCAL2,0.0,Carnitine-CoA Ligase
+CRNCAR,0.0,Carnitine-CoA racemase
+CRNCBCT,0.0,Crotonobetainyl-CoA: carnitine CoA transferase
+DASYN141,0.030684414925744363,CDP-diacylglycerol synthetase (n-C14:1)
+DASYN160,0.05686152403344172,CDP-diacylglycerol synthetase (n-C16:0)
+DASYN161,0.010676114413152414,CDP-diacylglycerol synthetase (n-C16:1)
+DASYN180,0.014855118339810252,CDP-diacylglycerol synthetase (n-C18:0)
+CRNCDH,0.0,Carnityl-CoA dehydratse
+CU2abcpp,0.007616998527121494,Copper (Cu+2) ABC transporter (periplasm)
+DASYN181,0.014782677509823948,CDP-diacylglycerol synthetase (n-C18:1)
+DATPHs,0.0,DATP amine hydrolysis (spontaneous)
+CU2tex,0.002383001470207091,Copper (Cu+2) transport via diffusion (extracellular to periplasm)
+DB4PS,1.5091839591898646e-05,"3,4-Dihydroxy-2-butanone-4-phosphate synthase"
+DBTS,0.0,Dethiobiotin synthase
+DMQMT,0.0,3-Dimethylubiquinonol 3-methyltransferase
+CU2tpp,0.009999999999308784,Copper transport in via permease (no H+)
+DMSOtex,0.0,Dimethyl sulfoxide transport via diffusion (extracellular to periplasm)
+DMStex,0.0,Dimethyl sulfide transport via diffusion (extracellular to periplasm)
+DM_4hba_c,0.0,Sink needed to allow 4-hydroxy-benzoate to leave system
+DCAtex,0.0,Decanoate transport via diffusion (extracellular to periplasm)
+DCMPtex,0.0,DCMP transport via diffusion (extracellular to periplasm)
+DCTPD,0.0,DCTP deaminase
+DCYTD,0.009999999999988685,Deoxycytidine deaminase
+DCYTt2pp,0.0,Deoxycytidine transport in via proton symport (periplasm)
+CUtex,0.0,Copper (Cu+1) transport via diffusion (extracellular to periplasm)
+DCYTtex,0.0,Deoxycytidine transport via diffusion (extracellular to periplasm)
+DDCAtexi,0.0,Fatty acid (dodecanoate) transport via facilitated irreversible diffusion (extracellular to periplasm)
+DDGALK,0.0,2-dehydro-3-deoxygalactonokinase
+DM_5drib_c,0.004381308119936006,Sink needed to allow 5'-deoxyribose to leave system
+DM_hmfurn_c,0.00033654802289933975,Sink needed to allow 4-hydroxy-5-methyl-3(2H)-furanone to leave system
+DM_oxam_c,0.0,Sink needed to allow oxamate to leave system
+DNMPPA,0.03772959897912642,Dihydroneopterin monophosphate dephosphorylase
+DNTPPA,0.03772959897943906,Dihydroneopterin triphosphate pyrophosphatase
+DDGLCNtex,0.0,2-dehydro-3-deoxy-D-gluconate transport via diffusion (extracellular to periplasm)
+CYANST,0.0,Cyanide sulfurtransferase
+DDGLK,0.0,2-dehydro-3-deoxygluconokinase
+DDPA,0.27552343252705214,3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase
+DGK1,-0.009999999999081412,Deoxyguanylate kinase (dGMP:ATP)
+DOGULNR,0.0,"2,3 dioxo-L-gulonate reductase"
+DOPAtex,0.0,Dopamine transport via diffusion (extracellular to periplasm)
+DPCOAK,4.452092686454185e-05,Dephospho-CoA kinase
+DRPA,0.029999999990650394,Deoxyribose-phosphate aldolase
+DGMPtex,0.0,DGMP transport via diffusion (extracellular to periplasm)
+DGSNt2pp,0.0,Deoxyguanosine transport in via proton symport (periplasm)
+CYANSTpp,0.0,Cyanide sulfurtransferase (periplasmic)
+DGSNtex,0.0,Deoxyguanosine transport via diffusion (extracellular to periplasm)
+DSBAO1,0.0,DsbA protein reoxidation reaction (aerobic)
+DSBAO2,0.0,DsbA protein reoxidation reaction (anaerobic)
+DSBCGT,0.0,DsbC:glutathione thiotransferase
+DSBDR,0.0,DsbD reductase
+DSBGGT,0.0,DsbG:glutathione thiotransferase
+DHAD1,0.3906004951625164,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)"
+DHAD2,0.07592190992943415,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)"
+DHAtex,-0.009999999994988682,Dihydroxyacetone transport via diffusion (extracellular to periplasm)
+DHAtpp,-0.009999999993851812,Dihydroxyacetone transport via facilitated diffusion (periplasm)
+DHBD,0.006413608178016783,"2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase"
+DSERDHr,-0.009999999999990905,D-serine dehydrogenase
+DSERt2pp,0.0,D-serine transport in via proton symport (periplasm)
+DSERtex,0.0,D-serine transport via diffusion (extracellular to periplasm)
+DHBS,0.03641360817801109,"2,3-dihydroxybenzoate adenylate synthase"
+CYANtex,0.0,Cyanide transport via diffusion (extracellular to periplasm)
+DHDPRy,0.29226282297179296,Dihydrodipicolinate reductase (NADPH)
+DHDPS,0.29226282297207845,Dihydrodipicolinate synthase
+DTMPK,0.019722770574276183,DTMP kinase
+DTMPtex,0.0,DTMP transport via diffusion (extracellular to periplasm)
+CYNTtex,0.0,Cyanate transport via diffusion (extracellular to periplasm)
+DUMPtex,0.0,DUMP transport via diffusion (extracellular to periplasm)
+DURIK1,0.0,Deoxyuridine kinase (ATP:Deoxyuridine)
+DURIPP,0.009999999999988685,Deoxyuridine phosphorylase
+DHFR,0.07745236955858925,Dihydrofolate reductase
+DHFS,0.03772959897787587,Dihydrofolate synthase
+DHNAOT4,0.0,"1,4-dihydroxy-2-naphthoate octaprenyltransferase"
+DURIt2pp,0.0,Deoxyuridine transport in via proton symport (periplasm)
+DURItex,0.0,Deoxyuridine transport via diffusion (extracellular to periplasm)
+DHNPA2r,0.03772959897881378,Dihydroneopterin aldolase reversible
+DUTPDP,0.0,DUTP diphosphatase
+DHORD2,0.0,Dihydoorotic acid dehydrogenase (quinone8)
+CYSDS_copy1,0.0,Cysteine Desulfhydrase
+DHORD5,0.3161020398794789,Dihydroorotic acid (menaquinone-8)
+DHORTS,-0.31610203987941077,Dihydroorotase
+DXPRIi,0.009999999999998899,1-deoxy-D-xylulose reductoisomerase
+DXPS,0.009999999999999343,1-deoxy-D-xylulose 5-phosphate synthase
+DXYLK,0.0,1-Deoxy-D-xylulose kinase
+DHPPDA2,7.545919795949323e-06,Diaminohydroxyphosphoribosylaminopryrimidine deaminase (25drapp)
+DHPS2,0.037729598978188505,Dihydropteroate synthase
+CYSDtex,0.0,D-cysteine transport via diffusion (extracellular to periplasm)
+DHPTDCs,0.00033654802289933975,"4,5-dihydroxy-2,3-pentanedione cyclization (spontaneous)"
+D_LACt2pp,-0.010000011509077922,D-lactate transport via proton symport (periplasm)
+D_LACtex,-0.010000011509077922,D-lactate transport via diffusion (extracellular to periplasm)
+DHQS,0.27552343252773426,3-dehydroquinate synthase
+DHQTi,0.27552343252705214,"3-dehydroquinate dehydratase, irreversible"
+E4PD,0.0,Erythrose 4-phosphate dehydrogenase
+CYSS,0.1020466388549399,Cysteine synthase
+EAR100x,0.06813110820643754,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C10:0)
+EAR100y,0.009999999999999995,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C10:0)
+DIMPtex,0.0,DIMP transport via diffusion (extracellular to periplasm)
+DINSt2pp,0.0,Deoxyinosine transport in via proton symport (periplasm)
+EAR120x,0.06813110820626062,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:0)
+DINStex,0.0,Deoxyinosine transport via diffusion (extracellular to periplasm)
+EAR120y,0.009999999999999995,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:0)
+CYSSADS,0.0,L-cysteine sulfinic acid desulfurase
+EAR121x,0.10935140979971111,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:1)
+EAR121y,0.009999999999999995,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C12:1)
+DKGLCNR1,0.0,"2,5-diketo-D-gluconate reductase"
+DKGLCNR2x,0.0,"2,5-diketo-D-gluconate reductase (NADH)"
+EAR140x,0.04563110820823675,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:0)
+DKGLCNR2y,0.0,"2,5-diketo-D-gluconate reductase (NADPH)"
+CYSTL,0.07902539965505886,Cystathionine b-lyase
+DKMPPD,0.0,"2,3-diketo-5-methylthio-1-phosphopentane degradation reaction"
+EAR140y,0.010000000001137955,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:0)
+EAR141x,0.10935140979803476,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:1)
+DKMPPD3,0.005282143857164517,"2,3-diketo-5-methylthio-1-phosphopentane degradation reaction"
+DMATT,0.0009090909090883059,Dimethylallyltranstransferase
+DMPPS,0.0,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp)
+EAR141y,0.010000000000772962,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1)
+EAR160x,0.08152261228105662,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:0)
+EAR160y,0.009999999999999995,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:0)
+EAR161x,0.047982579946931184,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:1)
+CYSTRS,0.0,Cysteinyl-tRNA synthetase
+EAR161y,0.009999999999989129,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C16:1)
+EAR180x,0.01,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:0)
+EAR180y,0.009999999999960226,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:0)
+EAR181x,0.01,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:1)
+EX_alaala_e,0.009999999999990905,D-Alanyl-D-alanine exchange
+EAR181y,0.010000000000028875,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C18:1)
+ECAP3pp,0.0,Enterobacterial common antigen polymerase (periplasm)
+CYSabc2pp,0.0,L-cysteine export via ABC system (cytoplasm to periplasm)
+ECAtpp,0.0,"Enterobacterial common antigen transferase (flippase, cytoplasm to periplasm)"
+ECOAH1,-0.009999999997376108,3-hydroxyacyl-CoA dehydratase (3-hydroxybutanoyl-CoA)
+EAR40x,0.18748251238883004,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C4:0)
+EAR40y,0.010000005615465352,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C4:0)
+EAR60x,0.18748251800479016,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C6:0)
+EAR60y,0.010000000000000009,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C6:0)
+ECOAH2,-0.009999999998967724,3-hydroxyacyl-CoA dehydratase (3-hydroxyhexanoyl-CoA)
+CYSabcpp,0.0,L-cysteine uptake via ABC system (periplasm)
+ECOAH3,-0.010000000000445654,3-hydroxyacyl-CoA dehydratase (3-hydroxyoctanoyl-CoA)
+ECOAH4,-0.009999999997035047,3-hydroxyacyl-CoA dehydratase (3-hydroxydecanoyl-CoA)
+EAR80x,0.18748251800555554,Enoyl-[acyl-carrier-protein] reductase (NADH) (n-C8:0)
+EAR80y,0.009999999999989129,Enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C8:0)
+ECA4COLIPAtex,0.0,Enterobacterial common antigen (x4) core oligosaccharide lipid A transport (periplasm to extracellular)
+ECOAH5,-0.009999999992146513,3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanoyl-CoA)
+CYSIabcpp,0.0,L cystine uptake via ABC system periplasm
+ECOAH6,-0.009999999999990905,3-hydroxyacyl-CoA dehydratase (3-hydroxytetradecanoyl-CoA)
+ECA4OALpp,0.0,Enterobacterial common antigen (x4) O-antigen ligase (periplasm)
+ECAP1pp,0.0,Enterobacterial common antigen polymerase (periplasm)
+ECAP2pp,0.0,Enterobacterial common antigen polymerase (periplasm)
+ECOAH7,-0.00999999999998181,3-hydroxyacyl-CoA dehydratase (3-hydroxyhexadecanoyl-CoA)
+ECOAH8,-0.03179381222196298,3-hydroxyacyl-CoA dehydratase (3-hydroxyoctadecanoyl-CoA)
+EDA,0.0,2-dehydro-3-deoxy-phosphogluconate aldolase
+CYStex,-0.00999999999623924,L-cysteine transport via diffusion (extracellular to periplasm)
+EDD,0.0,6-phosphogluconate dehydratase
+EDTXS1,0.0024999999999923746,Endotoxin Synthesis (lauroyl transferase)
+CYSItex,0.0,L cystine transport via diffusion extracellular to periplasm
+EDTXS2,0.0024999999999937277,Endotoxin Synthesis (myristoyl transferase)
+EDTXS3,0.0,Endotoxin Synthesis (palmitoleoyl ACP)
+CYStpp,0.009999999996224753,L-cysteine export via facilitated transport
+EDTXS4,0.0,Endotoxin Synthesis (myristoyl transferase)
+ENLIPAtex,0.0,Phosphoethanolamine lipid A transport via vector (periplasm to extracellular)
+CYTBO3_4pp,0.9447178561428549,Cytochrome oxidase bo3 (ubiquinol-8: 4 protons) (periplasm)
+EX_all__D_e,0.0,D-Allose exchange
+ENO,37.5432553999959,Enolase
+CYTD,0.01,Cytidine deaminase
+CYTDH,0.009999999999980256,Cytidine hydrolase
+CYTDK2,0.0,Cytidine kinase (GTP)
+ENTCS,0.012137869392669587,Enterochelin synthase
+ETHAAL,0.026679564847817548,Ethanolamine ammonia-lyase
+EX_alltn_e,-0.0,Allantoin exchange
+EX_amp_e,0.0,AMP exchange
+CYTDt2pp_copy1,1000.0,Cytidine transport in via proton symport (periplasm)
+EX_anhgm_e,0.0,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid exchange
+EX_arab__L_e,-13.3,L-Arabinose exchange
+ETHAt2pp,0.014787655668565096,Ethanolamine transport in via proton symport
+ETHAtex,-0.009999999999990905,Ethanolamine transport via diffusion (extracellular)
+ETHSO3tex,0.0,Ethanesulfonate transport via diffusion (extracellular to periplasm)
+ETOHt2rpp,-0.009999999999990905,Ethanol reversible transport via proton symport (periplasm)
+CYTDt2pp_copy2,-1000.0,Cytidine transport in via proton symport (periplasm)
+ETOHtex,-0.009999999999990905,Ethanol transport via diffusion (extracellular to periplasm)
+EX_arbtn_e,0.0,Aerobactin minus Fe3 exchange
+CYTDtex,0.0,Cytidine transport via diffusion (extracellular to periplasm)
+EX_arbtn_fe3_e,0.0,Aerobactin exchange
+EX_chitob_e,0.0,Chitobiose exchange
+CYTK1,0.1527707705973853,Cytidylate kinase (CMP)
+EX_pydxn_e,0.0,Pyridoxine exchange
+EX_pydx_e,0.0,Pyridoxal exchange
+EX_arg__L_e,0.009999999999990905,L-Arginine exchange
+EX_ascb__L_e,0.0,L-Ascorbate exchange
+EX_asn__L_e,0.00999999988766831,L-Asparagine exchange
+EX_12ppd__R_e,0.009999999999990905,"(R)-Propane-1,2-diol exchange"
+CYTK2,-0.009999999999990905,Cytidylate kinase (dCMP)
+EX_aso3_e,0.0,Arsenite exchange
+EX_asp__L_e,-5.0,L-Aspartate exchange
+EX_12ppd__S_e,-0.0,"(S)-Propane-1,2-diol exchange"
+EX_but_e,0.0,Butyrate (n-C4:0) exchange
+DAAD,0.0,D-Amino acid dehydrogenase
+EX_14glucan_e,0.0,"1,4-alpha-D-glucan exchange"
+EX_15dap_e,0.009999999999990905,"1,5-Diaminopentane exchange"
+EX_butso3_e,0.0,Butanesulfonate exchange
+DADA,0.009999999999990905,Deoxyadenosine deaminase
+EX_ca2_e,-0.0035745022082809344,Calcium exchange
+EX_cbi_e,0.0,Cobinamide exchange
+EX_cbl1_e,0.0,Cob(I)alamin exchange
+EX_23camp_e,0.0,"2',3'-Cyclic AMP exchange"
+EX_23ccmp_e,0.0,"2',3'-Cyclic CMP exchange"
+EX_23cgmp_e,0.0,"2',3'-Cyclic GMP exchange"
+EX_cd2_e,0.0,Cadmium exchange
+EX_23cump_e,0.0,"2',3'-Cyclic UMP exchange"
+DADK,0.009999999997944542,Deoxyadenylate kinase
+EX_23dappa_e,0.0,"2,3-diaminopropionate exchange"
+EX_26dap__M_e,0.0,"Meso-2,6-Diaminoheptanedioate exchange"
+EX_cgly_e,0.0,Cys-Gly exchange
+EX_chol_e,0.0,Choline exchange
+EX_cit_e,0.0,Citrate exchange
+EX_2ddglcn_e,-0.0,2-Dehydro-3-deoxy-D-gluconate exchange
+DADNt2pp,0.0,Deoxyadenosine transport in via proton symport (periplasm)
+EX_34dhpac_e,0.0,"3,4-Dihydroxyphenylacetaldehyde exchange"
+EX_3amp_e,-0.0,3'-AMP exchange
+EX_3cmp_e,0.0,3'-cmp exchange
+EX_3gmp_e,-0.0,3'-GMP exchange
+EX_icit_e,0.0,Isocitrate exchange
+EX_acon_C_e,0.0,Cisaconitate exchange
+EX_cl_e,-0.0035745022082664946,Chloride exchange
+EX_cmp_e,0.0,CMP exchange
+EX_co2_e,9.230228288409876,CO2 exchange
+DADNtex,0.0,Deoxyadenosine transport via diffusion (extracellular to periplasm)
+EX_cobalt2_e,-0.0023830014721397674,Co2+ exchange
+EX_colipa_e,0.0017929473149289916,Core oligosaccharide lipid A exchange
+EX_3hcinnm_e,0.0,3-hydroxycinnamic acid exchange
+DAGK120,0.0,Diacylglycerol kinase (n-C12:0)
+EX_3hpppn_e,0.0,3-(3-hydroxy-phenyl)propionate exchange
+EX_cpgn_e,0.0,Coprogen exchange
+EX_cpgn_un_e,0.0,Coprogen unloaded (no Fe(III)) exchange
+DAGK140,0.0,Diacylglycerol kinase (n-C14:0)
+EX_crn_e,0.0,L-Carnitine exchange
+EX_3ump_e,0.0,3'-UMP exchange
+EX_csn_e,0.0,Cytosine exchange
+DAGK141,0.0,Diacylglycerol kinase (n-C14:1)
+EX_cu2_e,-0.0023830014721397674,Cu2+ exchange
+EX_cu_e,0.0,Cu+ exchange
+EX_4abut_e,0.0,4-Aminobutanoate exchange
+EX_4hoxpacd_e,0.0,4-Hydroxyphenylacetaldehyde exchange
+EX_5dglcn_e,0.0,5-Dehydro-D-gluconate exchange
+EX_cyan_e,0.0,Hydrogen cyanide exchange
+EX_LalaDgluMdapDala_e,0.0,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate-D-alanine exchange"
+DAGK160,0.0,Diacylglycerol kinase (n-C16:0)
+EX_LalaDgluMdap_e,0.0,"L-alanine-D-glutamate-meso-2,6-diaminoheptanedioate exchange"
+EX_ac_e,65.57140036574243,Acetate exchange
+EX_cynt_e,0.0,Cyanate exchange
+EX_cys__D_e,0.0,D-Cysteine exchange
+EX_cys__L_e,0.009999999996224753,L-Cysteine exchange
+EX_acac_e,0.0,Acetoacetate exchange
+EX_acald_e,0.009999999769888746,Acetaldehyde exchange
+DAGK161,0.0,Diacylglycerol kinase (n-C16:1)
+EX_acgal1p_e,0.0,N-Acetyl-D-galactosamine 1-phosphate exchange
+EX_acgal_e,0.0,N-Acetyl-D-galactosamine exchange
+EX_cysi__L_e,0.0,L Cystine exchange
+EX_cytd_e,-0.0,Cytidine exchange
+EX_dad_2_e,-0.0,Deoxyadenosine exchange
+EX_damp_e,0.0,DAMP exchange
+EX_dca_e,0.0,Decanoate (n-C10:0) exchange
+EX_dcmp_e,0.0,DCMP exchange
+EX_acgam1p_e,0.0,N-Acetyl-D-glucosamine 1-phosphate exchange
+EX_acgam_e,0.0,N-Acetyl-D-glucosamine exchange
+EX_acmana_e,0.0,N-Acetyl-D-mannosamine exchange
+DAGK180,0.0,Diacylglycerol kinase (n-C18:0)
+EX_acmum_e,0.0,N-Acetylmuramate exchange
+EX_acnam_e,0.0,N-Acetylneuraminate exchange
+EX_acolipa_e,0.0,4-Amino-4-deoxy-L-arabinose modified core oligosaccharide lipid A exchange
+EX_dcyt_e,0.0,Deoxycytidine exchange
+EX_ddca_e,0.0,Dodecanoate (n-C12:0) exchange
+DAGK181,0.0,Diacylglycerol kinase (n-C18:1)
+EX_dgmp_e,0.0,DGMP exchange
+EX_dgsn_e,0.0,Deoxyguanosine exchange
+EX_acser_e,0.00999999993223355,O-Acetyl-L-serine exchange
+EX_ade_e,0.0,Adenine exchange
+EX_adn_e,0.0,Adenosine exchange
+EX_adocbl_e,0.0,Adenosylcobalamin exchange
+EX_dha_e,0.009999999995216946,Dihydroxyacetone exchange
+EX_dimp_e,0.0,DIMP exchange
+DALAt2pp,0.02000000024889692,D-alanine transport in via proton symport (periplasm)
+EX_din_e,-0.0,Deoxyinosine exchange
+EX_ag_e,0.0,Silver exchange
+EX_agm_e,0.009999999999990905,Agmatine exchange
+EX_dms_e,0.0,Dimethyl sulfide exchange
+DALAtex,-0.009999999749652488,D-Alanine transport via diffusion (extracellular to periplasm)
+EX_dmso_e,0.0,Dimethyl sulfoxide exchange
+EX_akg_e,0.01000000000021828,2-Oxoglutarate exchange
+EX_ala_B_e,0.0,Beta-Alanine exchange
+EX_ala__D_e,0.009999999749652488,D-Alanine exchange
+EX_dopa_e,0.0,Dopamine exchange
+EX_g1p_e,-0.0,D-Glucose 1-phosphate exchange
+EX_dtmp_e,0.0,DTMP exchange
+EX_dump_e,0.0,DUMP exchange
+EX_duri_e,0.0,Deoxyuridine exchange
+EX_eca4colipa_e,0.0,(enterobacterial common antigen)x4 core oligosaccharide lipid A exchange
+EX_enlipa_e,0.0,Phosphoethanolamine KDO(2)-lipid (A) exchange
+EX_enter_e,0.0,Enterochelin exchange
+EX_etha_e,0.010000000000673028,Ethanolamine exchange
+EX_ala__L_e,0.0,L-Alanine exchange
+EX_melib_e,-0.0,Melibiose exchange
+EX_met__D_e,0.0,D-Methionine exchange
+EX_met__L_e,0.0,L-Methionine exchange
+EX_metsox_R__L_e,0.0,L-methionine-R-sulfoxide exchange
+EX_metsox_S__L_e,0.0,L-Methionine S-oxide exchange
+EX_mg2_e,-0.005957503680519949,Mg exchange
+EX_ethso3_e,0.0,Ethanesulfonate exchange
+EX_etoh_e,0.009999999999990905,Ethanol exchange
+EX_minohp_e,0.0,Myo-Inositol hexakisphosphate exchange
+EX_f6p_e,0.0,D-fructose 6-phosphate exchange
+EX_g3pc_e,0.0,Sn-Glycero-3-phosphocholine exchange
+EX_fald_e,0.0,Formaldehyde exchange
+EX_fe2_e,-0.010000000001809894,Fe2+ exchange
+EX_fe3_e,0.0,Fe3+ exchange
+EX_fe3dcit_e,0.0,Fe(III)dicitrate exchange
+EX_mmet_e,0.0,S-Methyl-L-methionine exchange
+EX_mn2_e,-0.0023830014721397674,Mn2+ exchange
+EX_mnl_e,0.0,D-Mannitol exchange
+EX_fe3dhbzs_e,0.0,"Ferric 2,3-dihydroxybenzoylserine exchange"
+EX_mobd_e,-0.0023830014721397674,Molybdate exchange
+EX_g3pe_e,0.010000000230320438,Sn-Glycero-3-phosphoethanolamine exchange
+EX_mso3_e,0.0,Methanesulfonate exchange
+EX_fe3hox_e,0.0,Fe(III)hydroxamate exchange
+EX_fe3hox_un_e,0.0,"Fe(III)hydoxamate, unloaded exchange"
+EX_fecrm_e,0.0,Ferrichrome exchange
+EX_n2o_e,0.0,Nitrous oxide exchange
+EX_g3pg_e,0.009999999997996945,Glycerophosphoglycerol exchange
+EX_na1_e,0.0,Sodium exchange
+EX_fecrm_un_e,0.0,Ferrichrome minus Fe(III) exchange
+EX_feenter_e,0.002137869393001537,Fe-enterobactin exchange
+EX_nac_e,0.0,Nicotinate exchange
+EX_feoxam_e,0.0,Ferroxamine exchange
+EX_g3pi_e,-0.0,Sn-Glycero-3-phospho-1-inositol exchange
+EX_feoxam_un_e,0.0,Ferroxamine minus Fe(3) exchange
+EX_nh4_e,-3.2900315148149275,Ammonia exchange
+EX_ni2_e,0.0,Ni2+ exchange
+EX_for_e,64.96736775296813,Formate exchange
+EX_fru_e,-0.0,D-Fructose exchange
+EX_frulys_e,0.0,Fructoselysine exchange
+EX_fruur_e,0.0,D-Fructuronate exchange
+EX_nmn_e,0.0,NMN exchange
+EX_no2_e,0.009999999999990905,Nitrite exchange
+EX_no3_e,-0.5,Nitrate exchange
+EX_no_e,-0.0,Nitric oxide exchange
+EX_g3ps_e,-0.0,Glycerophosphoserine exchange
+EX_o2_e,-0.5,O2 exchange
+EX_o2s_e,0.0,Superoxide anion exchange
+EX_fuc__L_e,-0.0,L-Fucose exchange
+EX_fum_e,0.009999999993851816,Fumarate exchange
+EX_ocdca_e,0.0,Octadecanoate (n-C18:0) exchange
+EX_g6p_e,0.0,D-Glucose 6-phosphate exchange
+EX_ocdcea_e,0.0,Octadecenoate (n-C18:1) exchange
+EX_octa_e,0.0,Octanoate (n-C8:0) exchange
+EX_gal1p_e,-0.0,Alpha-D-Galactose 1-phosphate exchange
+EX_orn_e,0.009999999966794348,Ornithine exchange
+EX_orot_e,0.0,Orotate exchange
+EX_udpgal_e,0.0,UDPgalactose exchange
+EX_udpglcur_e,0.0,UDP-D-glucuronate exchange
+EX_gal_bD_e,0.0,Beta D-Galactose exchange
+EX_ump_e,0.0,UMP exchange
+EX_gal_e,-0.0,D-Galactose exchange
+EX_ura_e,0.0,Uracil exchange
+EX_urea_e,0.009999999999990905,Urea exchange
+EX_oaa_e,0.0,Oxaloacetate exchange
+EX_pacald_e,0.0,Phenylacetaldehyde exchange
+EX_peamn_e,0.0,Phenethylamine exchange
+EX_galct__D_e,-10.0,D-Galactarate exchange
+EX_phe__L_e,0.009999999972467227,L-Phenylalanine exchange
+EX_pheme_e,0.0023317259885488406,Protoheme exchange
+EX_uri_e,0.009999999999990905,Uridine exchange
+EX_pi_e,-0.713179871499392,Phosphate exchange
+EX_galctn__D_e,0.0,D-Galactonate exchange
+EX_val__L_e,0.009999999943488547,L-Valine exchange
+EX_xan_e,-0.0,Xanthine exchange
+EX_pnto__R_e,0.0,(R)-Pantothenate exchange
+EX_galctn__L_e,0.0,L-Galactonate exchange
+EX_ppa_e,0.0,Propionate exchange
+EX_xmp_e,0.0,Xanthosine 5'-phosphate exchange
+EX_xtsn_e,-0.0,Xanthosine exchange
+EX_xyl__D_e,0.0,D-Xylose exchange
+EX_xylu__L_e,0.0,L-Xylulose exchange
+EX_zn2_e,-0.0023830014721397674,Zinc exchange
+EX_ppal_e,0.009999999999990905,Propanal exchange
+EX_pppn_e,0.0,Phenylpropanoate exchange
+EX_ppt_e,0.0,Phosphonate exchange
+EX_pro__L_e,0.0,L-Proline exchange
+BIOMASS_Ec_iAF1260_core_59p81M,0.0,E. coli biomass objective function (iAF1260) - core - with 59.81 GAM estimate
+EX_progly_e,0.0,L-Prolinylglycine exchange
+EX_galt_e,0.0,Galactitol exchange
+EX_psclys_e,0.0,Psicoselysine exchange
+EX_pser__L_e,0.0,O-Phospho-L-serine exchange
+F6PA,-0.010000000006129998,Fructose 6-phosphate aldolase
+F6PP,0.0,D-fructose 6-phosphate phosphatase
+F6Pt6_2pp,0.0,Fructose-6-phosphate transport via phosphate antiport (periplasm)
+EX_ptrc_e,0.009999999999990905,Putrescine exchange
+EX_galur_e,0.0,D-Galacturonate exchange
+EX_pyr_e,-10.0,Pyruvate exchange
+F6Ptex,0.0,Fructose 6-phosphate transport via diffusion (extracellular to periplasm)
+FA100ACPHi,0.009999999999308784,Fatty-acyl-ACP hydrolase
+FA120ACPHi,0.009999999999997122,Fatty-acyl-ACP hydrolase
+EX_r5p_e,0.0,Alpha-D-Ribose 5-phosphate exchange
+EX_gam6p_e,0.0,D-Glucosamine 6-phosphate exchange
+EX_rib__D_e,0.0,D-Ribose exchange
+EX_rmn_e,0.0,L-Rhamnose exchange
+FA140ACPHi,0.009999999999994458,Fatty-acyl-ACP hydrolase
+FA141ACPHi,0.01,Fatty-acyl-ACP hydrolase
+FA160ACPHi,0.01,Fatty-acyl-ACP hydrolase
+EX_sbt__D_e,0.0,D-Sorbitol exchange
+EX_gam_e,0.0,D-Glucosamine exchange
+EX_ser__D_e,0.0,D-Serine exchange
+FA161ACPHi,0.009999999999997122,Fatty-acyl-ACP hydrolase
+FA80ACPHi,0.01,Fatty-acyl-ACP hydrolase
+FACOAE100,0.0,Fatty-acid-CoA thioesterase (decanoate)
+EX_ser__L_e,0.009999999999990905,L-Serine exchange
+EX_gbbtn_e,0.0,Gamma-butyrobetaine exchange
+EX_skm_e,0.0,Shikimate exchange
+EX_so2_e,0.0,Sulfur dioxide exchange
+EX_so3_e,0.0,Sulfite exchange
+EX_so4_e,-0.11204663884313959,Sulfate exchange
+FACOAE120,0.0,Fatty-acid-CoA thioesterase (dodecanoate)
+FACOAE140,0.061368829851478235,Fatty-acid-CoA thioesterase (tetradecanoate)
+FACOAE141,0.0,Fatty-acid-CoA thioesterase (tetradecenoate)
+FACOAE160,0.0532114419460103,Fatty-acid-CoA thioesterase (hexadecanoate)
+FACOAE161,0.0,Fatty-acid-CoA thioesterase (hexadecenoate)
+FACOAE180,0.0,Fatty-acid-CoA thioesterase (octadecanoate)
+EX_spmd_e,0.0,Spermidine exchange
+EX_succ_e,0.009999999999990905,Succinate exchange
+FACOAE181,0.0,Fatty-acid-CoA thioesterase (octadecenoate)
+EX_sucr_e,0.0,Sucrose exchange
+FACOAE60,0.0,Fatty-acid-CoA thioesterase (hexanoate)
+EX_gdp_e,0.0,GDP exchange
+FACOAE80,0.0,Fatty-acid-CoA thioesterase (octanoate)
+FACOAL100t2pp,0.0,Fatty-acid-CoA ligase (decanoate transport via vectoral Co-A coupling)
+EX_sulfac_e,0.0,Sulfoacetate exchange
+EX_tartr__L_e,-0.0,L-tartrate exchange
+EX_taur_e,0.0,Taurine exchange
+EX_tcynt_e,0.0,Thiocyanate exchange
+FACOAL120t2pp,0.0,Fatty-acid-CoA ligase (dodecanoate transport via vectoral Co-A coupling)
+EX_glc__D_e,0.0,D-Glucose exchange
+FACOAL140t2pp,0.0,Fatty-acid-CoA ligase (tetradecanoate transport via vectoral Co-A coupling)
+EX_thm_e,0.0,Thiamin exchange
+EX_thr__L_e,0.010000000000445654,L-Threonine exchange
+FACOAL141t2pp,0.06136882985149642,Fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)
+EX_glcn_e,-0.0,D-Gluconate exchange
+FACOAL160t2pp,0.0,Fatty-acid-CoA ligase (hexadecanoate transport via vectoral Co-A coupling)
+EX_thrp_e,0.0,L-Threonine O-3-phosphate exchange
+EX_thym_e,0.009999999993624442,Thymine exchange
+EX_glcr_e,-10.0,D-Glucarate exchange
+EX_thymd_e,0.010000000000673028,Thymidine exchange
+EX_tma_e,0.0,Trimethylamine exchange
+FACOAL161t2pp,0.031417629722693796,Fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling)
+FACOAL180t2pp,0.016717524887395196,Fatty-acid-CoA ligase (octadecanoate transport via vectoral Co-A coupling)
+FACOAL181t2pp,0.015076287338409829,Fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupling)
+FACOAL60t2pp,0.0,Fatty-acid-CoA ligase (hexanoate transport via vectoral Co-A coupling)
+FACOAL80t2pp,0.0,Fatty-acid-CoA ligase (octanoate transport via vectoral Co-A coupling)
+EX_tmao_e,0.0,Trimethylamine N-oxide exchange
+EX_tre_e,0.0,Trehalose exchange
+EX_trp__L_e,0.00999999998049493,L-Tryptophan exchange
+EX_tsul_e,-0.0,Thiosulfate exchange
+EX_ttdca_e,0.0,Tetradecanoate (n-C14:0) exchange
+FADRx_copy1,0.0,FAD reductase
+EX_ttdcea_e,0.0,Tetradecenoate (n-C14:1) exchange
+EX_glcur1p_e,0.0,D-Glucuronate 1-phosphate exchange
+EX_tungs_e,0.0,Tungstate exchange
+EX_tym_e,0.0,Tyramine exchange
+FADRx2,0.0,FAD reductase
+FALDtex,0.0,Formaldehyde transport via diffusion (extracellular to periplasm)
+FALDtpp,0.0,Formaldehyde transport via diffusion (periplasm)
+EX_tyr__L_e,0.009999999988735908,L-Tyrosine exchange
+EX_glcur_e,-0.0,D-Glucuronate exchange
+EX_tyrp_e,0.0,Phosphotyrosine exchange
+EX_uacgam_e,0.0,UDP-N-acetyl-D-glucosamine exchange
+FALGTHLs,0.0,Formaldehyde glutathione ligase (spontaneous)
+FBA,7.701220747842058,Fructose-bisphosphate aldolase
+EX_udpacgal_e,0.0,UDP-N-acetyl-D-galactosamine exchange
+EX_gln__L_e,0.0,L-Glutamine exchange
+EX_udpg_e,0.0,UDPglucose exchange
+FBP,0.009999999999994458,Fructose-bisphosphatase
+FCI,0.0,L-fucose isomerase
+FCLK,0.0,L-fuculokinase
+EX_glu__L_e,0.009999999999990905,L-Glutamate exchange
+FCLPA,0.0,L-fuculose 1-phosphate aldolase
+EX_gly_e,0.0,Glycine exchange
+FCLT,0.0023317259885495185,Ferrochelatase
+FDH4pp,0.0,Formate dehydrogenase (quinone-8) (periplasm)
+FE3DHBZStonex,0.0,"Ferric 2,3-dihydroxybenzoylserine transport via ton system (extracellular)"
+FE3HOXR1,0.0,Fe(III)hydroxamate reductase
+FE3HOXR2,0.0,Fe(III)hydroxamate reductase
+FE3HOXR3,0.0,Fe(III)hydroxamate reductase
+FE3HOXUtex,0.0,Fe(III)hydroxamate unloaded secretion
+FDH5pp,0.0,Formate Dehydrogenase (menaquinone-8) (periplasm)
+FE2t2pp,0.0,Iron (II) transport in via proton symport (periplasm)
+FE2tex,0.010000000001854562,Iron (II) transport via diffusion (extracellular to periplasm)
+FE2tpp,0.0,Iron (+2) transport in via permease (no H+)
+FE3HOXUtpp,0.0,Fe(III)hydroxamate unloaded secretion (extracellular)
+FE3HOXexs,0.0,Fe(III) hydroxamate Fe-loading reaction (spontaneaous)
+EX_glyald_e,0.009999999999990905,D-Glyceraldehyde exchange
+FE3HOXtonex,0.0,Fe(III)hydroxamine transport via ton system (extracellular)
+FE3Ri,0.0,Fe(III) reduction
+FE3DHBZR,0.0,"Release of Fe(III) from ferric 2,3-dihydroxybenzoylserine"
+FE3DHBZSabcpp,0.0,"Ferric 2,3-dihydroxybenzoylserine transport via ABC system (periplasm)"
+FE3tex,-0.009999999999990905,Iron (III) transport via diffusion (extracellular to periplasm)
+G1PPpp,0.0,Glucose-1-phosphatase
+EX_glyb_e,-0.0,Glycine betaine exchange
+FECRMR1,0.0,Ferrichrome reductase
+FECRMR2,0.0,Ferrichrome reductase
+FECRMR3,0.0,Ferrichrome reductase
+G1PTT,0.021085408031076905,Glucose-1-phosphate thymidylyltransferase
+EX_glyc2p_e,0.0,Glycerol 2-phosphate exchange
+G1Ptex,0.0,D-glucose 1-phosphate transport via diffusion
+FECRMUtex,0.0,Ferrichrome (minus Fe) secretion (to extracellular)
+FECRMUtpp,0.0,Ferrichrome (minus Fe) secretion (to periplasm)
+FECRMabcpp,0.0,Ferrichrome transport via ABC system (periplasm)
+EX_glyc3p_e,0.009999999999990905,Glycerol 3-phosphate exchange
+FECRMexs,0.0,Ferrichrome Fe(III)-loading reaction (spontaneous)
+G1SAT,0.01999999999929969,Glutamate-1-semialdehyde aminotransferase
+G2PPpp,0.0,Glycerol 2-phosphate phosphatase (periplasmic)
+FECRMtonex,0.0,Ferrichrome transport via ton system (extracellular)
+EX_glyc__R_e,0.009999999998626663,(R)-Glycerate exchange
+FEENTERabcpp,0.00786213060700158,Fe-enterobactin transport via ABC system (periplasm)
+FEENTERexs,0.01,Enterobactin Fe(III) binding (spontaneous)
+FEENTERtonex,0.007862130607001132,Fe-enterobactin transport via ton system (extracellular)
+G3PAT120,0.010000000000992711,Glycerol-3-phosphate acyltransferase (C12:0)
+G3PAT140,0.0133805720698539,Glycerol-3-phosphate acyltransferase (C14:0)
+EX_glyc_e,0.01000000000055934,Glycerol exchange
+EX_glyclt_e,0.03772959897855799,Glycolate exchange
+G3PAT141,0.030684414925746806,Glycerol-3-phosphate acyltransferase (C14:1)
+FEENTERtpp,0.0,Enterochelin transport (secretion)
+EX_gmp_e,0.0,GMP exchange
+G3PAT160,0.06236702711352115,Glycerol-3-phosphate acyltransferase (C16:0)
+G3PAT161,0.018991289973223413,Glycerol-3-phosphate acyltransferase (C16:1)
+FEOXAMUtex,0.0,Ferroxamine (minus Fe3) secretion (to extracellular)
+EX_gsn_e,0.0,Guanosine exchange
+FEOXAMUtpp,0.0,Ferroxamine (minus Fe3) secretion (to periplasm)
+FEOXAMabcpp,0.0,Ferroxamine transport via ABC system (periplasm)
+FEOXAMexs,0.0,Ferroxamine Fe3-loading reaction (spontaneous)
+G3PAT180,0.015000000000012302,Glycerol-3-phosphate acyltransferase (C18:0)
+G3PAT181,0.014999999999711236,Glycerol-3-phosphate acyltransferase (C18:1)
+FEOXAMtonex,0.0,Ferroxamine transport via ton system (extracellular)
+EX_gthox_e,0.0,Oxidized glutathione exchange
+FEROpp,0.0025000000001114135,Ferroxidase
+G3PCabcpp,0.0,Sn-glycerol-3-phosphocholine transport via ABC system (periplasm)
+EX_gthrd_e,0.0,Reduced glutathione exchange
+G3PCtex,0.0,Glycero-3-phosphocholine transport via diffusion (extracellular to periplasm)
+FHL,0.0,Formate-hydrogen lyase
+FLDR,5.671269939777623e-09,Flavodoxin reductase (NADPH)
+EX_gtp_e,0.0,GTP exchange
+FLVR,0.0,Flavin reductase
+G3PD2,-0.2074521587384197,Glycerol-3-phosphate dehydrogenase (NADP)
+G3PD5,0.01,Glycerol-3-phosphate dehydrogenase (ubiquinone-8)
+G3PD6,0.01,Glycerol-3-phosphate dehydrogenase (menaquinone-8)
+G3PD7,0.01,Glycerol-3-phosphate dehydrogenase (demethylmenaquinone-8)
+G3PEabcpp,0.0,Sn-glycerol-3-phosphoethanolamine transport via ABC system (periplasm)
+G3PEtex,-0.010000000230320438,Glycero-3-phosphoethanolamine transport via diffusion (extracellular to periplasm)
+FLVRx,0.0,Flavin reductase (NAD)
+FMETTRS,0.0,Methionyl-tRNA formyltransferase
+FMNAT,7.545919797929956e-06,FMN adenylyltransferase
+FMNRx,0.0,FMN reductase
+G3PGabcpp,0.0,Sn-glycerol-3-phosphoglycerol transport via ABC system (periplasm)
+FMNRx2,0.0,FMN reductase
+EX_gua_e,0.0,Guanine exchange
+FORt2pp,0.009999999999980247,"Formate transport via proton symport (uptake only, periplasm)"
+FORtex,-64.96736775296813,Formate transport via diffusion (extracellular to periplasm)
+G3PGtex,-0.009999999998626663,Glycerophoglycerol transport via diffusion (extracellular to periplasm)
+G3PIabcpp,0.0,Sn-glycerol-3-phosphoethanolamine transport via ABC system (periplasm)
+G3PItex,0.0,Glycero-3-phospho-1-inositol transport via diffusion (extracellular to periplasm)
+FORtppi,64.9773677529681,Formate transport via diffusion (cytoplasm to periplasm)
+EX_h2_e,0.0,H2 exchange
+FRD2,0.009999999999308784,Fumarate reductase
+FRD3,0.020000000000000004,Fumarate reductase
+G3PSabcpp,0.0,Sn-glycerol-3-phosphoserine transport via ABC system (periplasm)
+G3PStex,0.0,Glycerophosphserine transport via diffusion (extracellular to periplasm)
+G3PT,0.02999999999928417,Glycerol-3-phosphatase
+FRUK,0.0,Fructose-1-phosphate kinase
+EX_h2o2_e,0.0,Hydrogen peroxide exchange
+FRULYStex,0.0,Fructoselysine transporter via diffusion (extracellular)
+G5SADs,0.20390825558848644,L-glutamate 5-semialdehyde dehydratase (spontaneous)
+G5SD,0.20390825558847325,Glutamate-5-semialdehyde dehydrogenase
+G6PDA,0.009999999999997122,Glucosamine-6-phosphate deaminase
+FRUURtex,0.0,D-fructuronate transport via diffusion (extracellular)
+FRUpts2pp,0.0,Fructose transport via PEP:Pyr PTS (f6p generating) (periplasm)
+FRUptspp,0.0,D-fructose transport via PEP:Pyr PTS (periplasm)
+FRUtex,0.0,D-fructose transport via diffusion (extracellular to periplasm)
+G6PDH2r,0.9743814248110994,Glucose 6-phosphate dehydrogenase
+G6PP,0.0,Glucose-6-phosphate phosphatase
+G6Pt6_2pp,0.0,Glucose-6-phosphate transport via phosphate antiport (periplasm)
+FTHFD,0.5846221057906785,Formyltetrahydrofolate deformylase
+FUCtex,0.0,L-fucose transport via diffusion (extracellular to periplasm)
+G6Ptex,0.0,Glucose 6-phosphate transport via diffusion (extracellular to periplasm)
+EX_h2o_e,-9.719203806364249,H2O exchange
+GAL1PPpp,0.0,D-galactose 1-phosphatase
+GAL1Ptex,0.0,D-galactose 1-phosphate transport via diffusion (extracellular to periplasm)
+FUCtpp,0.0,L-fucose transport via proton symport (periplasm)
+FUM,0.6973843728739172,Fumarase
+FUMt2_2pp,0.01,Fumarate transport via proton symport (2 H) (periplasm)
+FUMtex,-0.009999999993851816,Fumarate transport via diffusion (extracellular to periplasm)
+GALBDtex,0.0,Beta D-galactose transport via diffusion (extracellular to periplasm)
+GALCTNLtex,0.0,L-galactonate transport via diffusion (extracellular to periplasm)
+G1PACT,0.16455972431826807,Glucosamine-1-phosphate N-acetyltransferase
+EX_h2s_e,0.010000000000067316,Hydrogen sulfide exchange
+GALCTNt2pp,0.0,D-galactonate transport via proton symport (periplasm)
+GALCTNtex,0.0,D-galactonate transport via diffusion (extracellular to periplasm)
+EX_h_e,75.99189931808854,H+ exchange
+GALCTt2rpp,10.0,"D-galactarte transport via proton symport, reversible (periplasm)"
+GALCTtex,10.0,D-galactarte transport via diffusion (extracellular to periplasm)
+GALKr,0.0,Galactokinase
+GAMptspp,0.0,D-glucosamine transport via PEP:Pyr PTS (periplasm)
+GAMtex,0.0,D-glucosamine transport via diffusion (extracellular to periplasm)
+GAPD,19.58148664700377,Glyceraldehyde-3-phosphate dehydrogenase
+GARFT,0.3389574350944713,Phosphoribosylglycinamide formyltransferase
+GART,0.0,GAR transformylase-T
+GBBTNtex,0.0,Gamma-butyrobetaine transport via diffusion (extracellular to periplasm)
+GDMANE,0.0,GDP-4-dehydro-6-deoxy-D-mannose epimerase
+GDPDPK,0.009999999999996678,GDP diphosphokinase
+GALM2pp,0.0,Aldose-1-epimerase
+GALS3,0.0,A-galactosidase (melibiose)
+GALT1,0.0024999999999973125,Galactosyltransferase I (LPS core synthesis)
+GALTtex,0.0,Galactitol transport via diffusion (extracellular to periplasm)
+GALURt2rpp,0.0,"D-galacturonate transport via proton symport, reversible (periplasm)"
+GDPMNH,0.0,GDP-mannose mannosyl hydrolase
+GALURtex,0.0,D-galacturonate transport via diffusion (extracellular to periplasm)
+EX_hacolipa_e,0.0,Hepta-acylated core oligosaccharide lipid A (E. coli) exchange
+GALUi,0.030849183969886933,UTP-glucose-1-phosphate uridylyltransferase (irreversible)
+GDPMNP,0.0,GDP-mannose phyrophosphatase
+GDPtex,0.0,GDP transport via diffusion (extracellular to periplasm)
+GALabcpp,0.0,D-galactose transport via ABC system (periplasm)
+GF6PTA,0.09455972432120753,Glutamine-fructose-6-phosphate transaminase
+GALt2pp,0.0,D-galactose transport in via proton symport (periplasm)
+EX_halipa_e,0.0,Hepta-acylated KDO(2)-lipid (A) exchange
+GALtex,0.0,D-galactose transport via diffusion (extracellular to periplasm)
+GAM6Pt6_2pp,0.0,D-Glucosamine 6-phosphate transport via phosphate antiport (periplasm)
+GHMT2r,1.460061383419449,"Glycine hydroxymethyltransferase, reversible"
+GK1,0.20989820675810236,Guanylate kinase (GMP:ATP)
+GLBRAN2,1000.0,"1,4-alpha-glucan branching enzyme (glycogen -> bglycogen)"
+GAMAN6Ptex,0.0,D-glucosamine 6-phosphate transport via diffusion (extracellular to periplasm)
+EX_hdca_e,0.0,Hexadecanoate (n-C16:0) exchange
+GLCATr,0.0,D-glucose O-acetyltransferase
+GLCDpp,0.0,Glucose dehydrogenase (ubiquinone-8 as acceptor) (periplasm)
+EX_hdcea_e,0.0,Hexadecenoate (n-C16:1) exchange
+GLCNt2rpp,0.0,"D-gluconate transport via proton symport, reversible (periplasm)"
+GLXCL,0.0,Glyoxalate carboligase
+GLYALDtex,-0.009999999999990905,Glyceraldehyde transport via diffusion (extracellular to periplasm)
+GLYALDtpp,-0.009999999999990905,Glyceraldehyde facilitated diffusion (periplasm)
+GLCNtex,0.0,D-gluconate transport via diffusion (extracellular to periplasm)
+GLCP,0.01,Glycogen phosphorylase
+GLCP2,0.009999999999997122,Glycogen phosphorylase
+GLYAT,0.009999999999990905,Glycine C-acetyltransferase
+EX_hg2_e,0.0,Hg2+ exchange
+GLYBabcpp,0.009999999999990905,Glycine betaine transport via ABC system (periplasm)
+GLYBtex_copy1,0.009999999999990905,Glycine betaine transport via diffusion (extracellular to periplasm)
+GLYC2Ptex,0.0,Glycerol-2-phosphate transport via diffusion (extracellular to periplasm)
+GLCRAL,20.0,5-dehydro-4-deoxyglucarate aldolase
+GLCRD,10.0,Glucarate dehydratase
+GLCRt2rpp,10.0,"D-glucarate transport via proton symport, reversible (periplasm)"
+GLCRtex,10.0,D-glucarate transport via diffusion (extracellular to periplasm)
+GLYC3Pabcpp,0.0,Sn-Glycerol 3-phosphate transport via ABC system (periplasm)
+GLCS1,0.04073316923610082,Glycogen synthase (ADPGlc)
+GLYC3Pt6pp,0.042290135661810384,Glycerol-3-phosphate : phosphate antiporter (periplasm)
+EX_his__L_e,0.0,L-Histidine exchange
+GLYC3Ptex,-0.009999999999990905,Glycerol-3-phosphate transport via diffusion (extracellular to periplasm)
+GLCTR1,0.0024999999999986526,Glucosyltransferase I (LPS core synthesis)
+GLCTR2,0.0024999999999968606,Glucosyltransferase II (LPS core synthesis)
+GLCTR3,0.0024999999999964087,Glucosyltransferase III (LPS core synthesis)
+GLCUR1Ptex,0.0,D-glucuronate 1-phosphate transport via diffusion (extracellular to periplasm)
+GLYCAt2rpp,-0.009999999997944542,"D-glycerate transport via proton symport, reversible (periplasm)"
+GLYCAtex,-0.009999999997944542,D-glycerate transport via diffusion (extracellular to periplasm)
+GLCURt2rpp,0.0,"D-glucuronate transport via proton symport, reversible (periplasm)"
+EX_hom__L_e,0.010000000000023102,L-Homoserine exchange
+GLCURtex,0.0,D-glucuronat transport via diffusion (extracellular to periplasm)
+GLCabcpp,0.0,D-glucose transport via ABC system (periplasm)
+GLYCDx,0.01999999999998181,Glycerol dehydrogenase
+GLYCK,0.0,Glycerate kinase
+GLYCK2,19.989999999651758,Glycerate kinase
+GLYCL,0.010000000008825172,Glycine Cleavage System
+GLYCLTDx,0.0,Glycolate dehydrogenase (NAD)
+GLYCLTDy,0.0,Glycolate dehydrogenase (NADP)
+GLCptspp,0.0,D-glucose transport via PEP:Pyr PTS (periplasm)
+GLCt2pp,0.0,D-glucose transport in via proton symport (periplasm)
+GLCtex_copy1,-1000.0,Glucose transport via diffusion (extracellular to periplasm)
+GLCtex_copy2,1000.0,Glucose transport via diffusion (extracellular to periplasm)
+GLYCLTt2rpp,-0.03772959897855799,"Glycolate transport via proton symport, reversible (periplasm)"
+GLYCLTt4pp,0.0,Glycolate transport via sodium symport (periplasm)
+GLDBRAN2,999.9900000000007,Glycogen debranching enzyme (bglycogen -> glycogen)
+EX_hxa_e,-0.0,Hexanoate (n-C6:0) exchange
+GLGC,0.04073316923610082,Glucose-1-phosphate adenylyltransferase
+GLNS,1.4756712952638433,Glutamine synthetase
+GLNTRS,0.0,Glutaminyl-tRNA synthetase
+GLYCLTtex,-0.03772959897855799,Glycolate transport via diffusion (extracellular to periplasm)
+GLYCTO2,0.0,Glycolate oxidase
+GLYCTO3,0.0,Glycolate oxidase
+GLYCTO4,0.0,Glycolate oxidase
+GLNabcpp,0.0,L-glutamine transport via ABC system (periplasm)
+EX_hxan_e,0.0,Hypoxanthine exchange
+GLNtex,0.0,L-glutamine transport via diffusion (extracellular to periplasm)
+GLYCtex,-0.01000000000055934,Glycerol transport via diffusion (extracellular to periplasm)
+GLYCtpp,-0.00999999999999733,Glycerol transport via channel (periplasm)
+GLU5K,0.2039082555884688,Glutamate 5-kinase
+EX_idon__L_e,0.0,L-Idonate exchange
+GLUCYS,0.01,Gamma-glutamylcysteine synthetase
+GLYK,0.01,Glycerol kinase
+GLYOX,0.00999999999999357,Hydroxyacylglutathione hydrolase
+GLUDy,-1.973359227707192,Glutamate dehydrogenase (NADP)
+GLYOX3,0.0,Glyoxalase III
+GLUN,0.0,Glutaminase
+EX_ile__L_e,0.00999999998271034,L-Isoleucine exchange
+GLUNpp,0.0,Glutaminase
+GLUPRT,0.3389574350938408,Glutamine phosphoribosyldiphosphate amidotransferase
+GLUR,-0.047279862159900765,Glutamate racemase
+GLYTRS,0.0,Glycyl-tRNA synthetase
+GLYt2pp,0.0,Glycine transport in via proton symport (periplasm)
+GLYtex,0.0,Glycine transport via diffusion (extracellular to periplasm)
+GMAND,0.0,GDP-D-mannose dehydratase
+GLUSy,0.0,Glutamate synthase (NADPH)
+GLUTRR,0.019999999999999997,Glutamyl-tRNA reductase
+EX_imp_e,0.0,IMP exchange
+GLUTRS,0.019999999999999997,Glutamyl-tRNA synthetase
+GLUabcpp,0.0,L-glutamate transport via ABC system (periplasm)
+GMHEPAT,0.009999999999975796,D-glycero-D-manno-hepose 1-phosphate adenyltransferase
+GMHEPK,0.009999999999969495,D-glycero-D-manno-heptose 7-phosphate kinase
+GMHEPPA,0.009999999999973534,"D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase"
+GLUt2rpp,-0.009999999998626663,"L-glutamate transport via proton symport, reversible (periplasm)"
+GLUt4pp,0.009999999998635758,Na+/glutamate symport (periplasm)
+EX_indole_e,0.0,Indole exchange
+GLUtex,-0.009999999999990905,L-glutamate transport via diffusion (extracellular to periplasm)
+GMPR,0.00999999996097567,GMP reductase
+GMPS2,0.20989820672227036,GMP synthase
+EX_inost_e,-0.0,Myo-Inositol exchange
+GMPtex,0.0,GMP transport via diffusion (extracellular to periplasm)
+GND,0.9743814248117815,Phosphogluconate dehydrogenase
+GTHOXtex,0.0,Glutathione (ox) transport via diffusion (extracellular to periplasm)
+EX_ins_e,0.0,Inosine exchange
+GTHOr,0.11204663885359878,Glutathione oxidoreductase
+GTHRDHpp,0.009999999999990905,Glutathione hydralase (periplasmic)
+GNK,0.0,Gluconokinase
+GOFUCR,0.0,GDP-4-oxo-L-fucose reductase
+GTHRDabc2pp,0.01,Glutathione export via ABC system (cytoplasm to periplasm)
+GPDDA1,0.0,Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)
+EX_isetac_e,0.0,Isethionic acid exchange
+GPDDA1pp,0.0,Glycerophosphodiester phosphodiesterase (Glycerophosphocholine)
+GPDDA2,0.011891909179252454,Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine)
+GPDDA2pp,0.024787655668556,Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine)
+GPDDA3,0.0,Glycerophosphodiester phosphodiesterase (Glycerophosphoserine)
+GPDDA3pp,0.0,Glycerophosphodiester phosphodiesterase (Glycerophosphoserine)
+GTHRDabcpp,0.0,Reduced glutathione via ABC system (periplasm)
+GTHRDtex,0.0,Glutathione transport via diffusion (extracellular to periplasm)
+GTHS,0.00999999999999954,Glutathione synthetase
+GTPCI,0.03772959897974664,GTP cyclohydrolase I
+GTPCII2,7.545919795949323e-06,GTP cyclohydrolase II (25drapp)
+GPDDA4,0.0,Glycerophosphodiester phosphodiesterase (Glycerophosphoglycerol)
+GPDDA4pp,0.019477067753476494,Glycerophosphodiester phosphodiesterase (Glycerophosphoglycerol)
+GTPDPDP,0.00999999999999579,"Guanosine-5'-triphosphate,3'-diphosphate diphosphatase"
+EX_k_e,-0.1340155356112973,K+ exchange
+GTPDPK,0.009999999999997122,GTP diphosphokinase
+GTPHs,0.0,GTP amine hydrolysis (spontaneous)
+GPDDA5,0.0,Glycerophosphodiester phosphodiesterase (Glycerophosphoinositol)
+GPDDA5pp,0.0,Glycerophosphodiester phosphodiesterase (Glycerophosphoinositol)
+GRTT,0.0009090909090896382,Geranyltranstransferase
+GRXR,0.11204663885429511,Glutaredoxin reductase
+GTPtex,0.0,GTP transport via diffusion (extracellular to periplasm)
+GUAPRT,0.0,Guanine phosphoribosyltransferase
+GSNK,0.009999999996807674,Guanosine kinase
+EX_kdo2lipid4_e,0.0024999999999953857,KDO(2)-lipid IV(A) exchange
+GSNt2pp,0.0,Guanosine transport in via proton symport (periplasm)
+GSNtex,0.0,Guanosine transport via diffusion (extracellular to periplasm)
+GSPMDA,0.009999999999994458,Glutathionylspermidine amidase
+GUAt2pp,0.0,Guanine transport in via proton symport (periplasm)
+GUAtex,0.0,Guanine transport via diffusion (extracellular to periplasm)
+GSPMDS,0.009999999998605773,Glutathionylspermidine synthetase
+GUAtpp,0.0,Guanine transport via diffusion (periplasm)
+EX_lac__D_e,0.010000011509077922,D-lactate exchange
+GUR1PPpp,0.0,Glucuronate 1-phosphate phosphatase (periplasm)
+H2O2tex,0.0,Hydrogen peroxide transport via diffusion (external)
+H2Otex,9.719203806364249,H2O transport via diffusion (extracellular to periplasm)
+H2Otpp,10.42876835202867,H2O transport via diffusion (periplasm)
+H2SO,0.0,Hydrogen sulfide oxidation
+HMBS,0.0024999999999998634,Hydroxymethylbilane synthase
+H2St1pp,0.010000000000067316,H2s transport (periplasm)
+EX_lac__L_e,0.0,L-Lactate exchange
+H2Stex,-0.010000000000067316,H2s transport via diffusion (extracellular to periplasm)
+HMPK1,0.0,Hydroxymethylpyrimidine kinase (ATP)
+H2tex,0.0,Hydrogen transport via diffusion (extracellular to periplasm)
+HOMt2pp,0.010000000000023102,L-homoserineserine efflux via proton symport
+EX_lcts_e,0.0,Lactose exchange
+HOMtex,-0.010000000000023102,L-homoserine transport via diffusion (extracellular to periplasm)
+HPPK2,0.037729598978501144,6-hydroxymethyl-dihydropterin pyrophosphokinase
+H2tpp,0.0,Hydrogen transport diffusion (periplasm)
+HACD1i,0.009999999998058229,3-hydroxyacyl-CoA dehydrogenase (acetoacetyl-CoA)
+EX_leu__L_e,0.010000000004083631,L-Leucine exchange
+HACD2i,0.009999999999649845,3-hydroxyacyl-CoA dehydrogenase (3-oxohexanoyl-CoA)
+HACD3i,0.010000000000673252,3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA)
+HPPPNtex,0.0,3-(3-hydroxyphenyl)propionate transport via diffusion (extracellular to periplasm)
+HPYRI,-20.00999999999999,Hydroxypyruvate isomerase
+EX_lipa_cold_e,0.0,Cold adapted KDO(2)-lipid (A) exchange
+HPYRRx,20.00999999999999,Hydroxypyruvate reductase (NADH)
+HPYRRy,0.0,Hydroxypyruvate reductase (NADPH)
+HACD4i,0.009999999997661657,3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA)
+EX_lipa_e,0.0,KDO(2)-lipid (A) exchange
+HACD5i,0.00999999999288459,3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA)
+HACD6i,0.010000000000445654,3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA)
+HSDy,-0.4689269763966877,Homoserine dehydrogenase (NADPH)
+HSK,0.37990157674164493,Homoserine kinase
+HACD7i,0.00999999999906187,3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA)
+HSST,0.07902539965501963,Homoserine O-succinyltransferase
+EX_lys__L_e,0.009999999940419002,L-Lysine exchange
+HSTPT,0.05066556929926256,Histidinol-phosphate transaminase
+HXAtex,0.0,Hexanoate transport via diffusion (extracellular to periplasm)
+HXPRT,0.0,Hypoxanthine phosphoribosyltransferase (Hypoxanthine)
+HYPOE,0.0,Hypothetical enyme
+HYXNtex,0.0,Hypoxanthine transport via diffusion (extracellular to periplasm)
+HACD8i,0.031793812222417735,3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA)
+HBZOPT,0.0,Hydroxybenzoate octaprenyltransferase
+HCINNMtex,0.0,3-hydroxycinnamic acid transport via diffusion (extracellular to periplasm)
+HCO3E,1.7208577353474084,HCO3 equilibration reaction
+HDCAtexi,0.0,Hexadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)
+HYXNtpp,0.0,Hypoxanthine transport (periplasm)
+EX_lyx__L_e,0.0,L-Lyxose exchange
+Htex,-75.99189931808854,Proton transport via diffusion (extracellular to periplasm)
+ICDHyr,0.8436247397623902,Isocitrate dehydrogenase (NADP)
+HDCEAtexi,0.0,Hexadecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)
+EX_mal__D_e,0.0,D-Malate exchange
+CTECOAI7,0.031417629722693796,3-cis-2-trans-enoyl-CoA isomerase
+HEMEOS,0.0,Heme O synthase
+ICHORS_copy1,0.0,Isochorismate synthase
+ICHORS_copy2,0.006413608178945651,Isochorismate synthase
+HEPK1,0.002499999999996427,LPS heptose kinase I (LPS core synthesis)
+EX_mal__L_e,-0.2,L-Malate exchange
+HEPK2,0.0024999999999986613,LPS heptose kinase II (LPS core synthesis)
+HEPT1,0.002499999999995081,Heptosyltransferase I (LPS core synthesis)
+ICHORT,0.00641360817801695,Isochorismatase
+ICL,0.0,Isocitrate lyase
+HEPT2,0.002499999999995976,Heptosyltransferase II (LPS core synthesis)
+IDOND,0.0,L-idonate 5-dehydrogenase
+EX_malt_e,0.0,Maltose exchange
+IDOND2,0.0,L-indonate 5-dehydrogenase (NADP)
+HEPT3,0.002499999999997322,Heptosyltransferase III (LPS core synthesis)
+HEPT4,0.0024999999999955128,Heptosyltransferase IV (LPS core synthesis)
+IDONt2rpp,0.0,"L-idonate transport via proton symport, reversible (periplasm)"
+HETZK,0.0,Hydroxyethylthiazole kinase
+EX_malthx_e,0.0,Maltohexaose exchange
+HEX1,0.029999999999972715,Hexokinase (D-glucose:ATP)
+HEX4,0.0,Hexokinase (D-mannose:ATP)
+HEX7,0.0,Hexokinase (D-fructose:ATP)
+IDONtex,0.0,L-idonate transport via diffusion (extracellular to periplasm)
+IG3PS,0.05066556929926256,Imidazole-glycerol-3-phosphate synthase
+IGPDH,0.05066556929926256,Imidazoleglycerol-phosphate dehydratase
+IGPS,0.07631882530813527,Indole-3-glycerol-phosphate synthase
+ILETA,-0.07592190992943415,Isoleucine transaminase
+ILETRS,0.0,Isoleucyl-tRNA synthetase
+HG2abcpp,0.0,Mercury (Hg+2) ABC transporter (periplasm)
+HG2tex,0.0,Mercury (Hg+2) transport via diffusion (extracellular to periplasm)
+ILEabcpp,0.0,L-isoleucine transport via ABC system (periplasm)
+HISTD,0.05066556929926256,Histidinol dehydrogenase
+EX_maltpt_e,0.0,Maltopentaose exchange
+HISTP,0.05066556929926256,Histidinol-phosphatase
+HISTRS,0.0,Histidyl-tRNA synthetase
+HISabcpp,0.009999999998626663,L-histidine transport via ABC system (periplasm)
+ILEt2rpp,-0.009999999982710506,L-isoleucine reversible transport via proton symport (periplasm)
+ILEtex,-0.00999999998271034,L-isoleucine transport via diffusion (extracellular to periplasm)
+IMPC,-0.38962300437970043,IMP cyclohydrolase
+IMPD,0.2098982067200268,IMP dehydrogenase
+HISt2rpp,-0.009999999996807674,L-histidine reversible transport via proton symport (periplasm)
+IMPtex,0.0,IMP transport via diffusion (extracellular to periplasm)
+EX_malttr_e,0.0,Maltotriose exchange
+INDOLEt2pp,0.0,"Indole transport via proton symport, irreversible (periplasm)"
+INDOLEt2rpp,0.0,"Indole transport via proton symport, reversible (periplasm)"
+HIStex,0.0,L-histidine transport via diffusion (extracellular to periplasm)
+EX_maltttr_e,0.0,Maltotetraose exchange
+MLDCP1Bpp,0.0,"Murein L,D-carboxypeptidase (murein4p4p) (periplasm)"
+INDOLEtex,0.0,Indole transport via diffusion (extracellular to periplasm)
+INSH,0.0,Inosine hydrolase
+INSK,0.00999999999964582,Insosine kinase
+INSTtex,0.0,Inositol transport via diffusion (extracellular to periplasm)
+INSt2pp_copy1,0.0009999999999763531,Inosine transport in via proton symport (periplasm)
+INSt2pp_copy2,-0.0009999999999763531,Inosine transport in via proton symport (periplasm)
+KAS14,0.1974825180052449,Beta-ketoacyl-ACP synthase
+KAS15,0.0,Beta-ketoacyl-ACP synthase (2)
+INStex,0.0,Inosine transport via diffusion (extracellular to periplasm)
+EX_man6p_e,0.0,D-Mannose 6-phosphate exchange
+IPDDI,0.0009090909088627086,Isopentenyl-diphosphate D-isomerase
+IPDPS,0.009999999999997346,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp)
+KAT1,0.009999999997376108,3-ketoacyl-CoA thiolase
+ACACT11,0.009999999999308784,3-ketoacyl-CoA thiolase
+ACACT8,0.010000000000673475,3-ketoacyl-CoA thiolase
+IPMD,0.16581645245992152,3-isopropylmalate dehydrogenase
+EX_man_e,0.0,D-Mannose exchange
+IPPMIa,-0.16581645245946675,3-isopropylmalate dehydratase
+IPPMIb,-0.16581645245787513,2-isopropylmalate hydratase
+ACACT13,0.00999999999766299,3-ketoacyl-CoA thiolase
+ACACT10,0.009999999992885256,3-ketoacyl-CoA thiolase
+ACACT9,0.010000000000446544,3-ketoacyl-CoA thiolase
+ACACT12,0.009999999999059206,3-ketoacyl-CoA thiolase
+IPPS,0.16581645245852805,2-isopropylmalate synthase
+EX_manglyc_e,0.0,2(alpha-D-Mannosyl)-D-glycerate exchange
+ISETACtex,0.0,Isethionate transport via diffusion (extracellular to periplasm)
+ACACT8r,0.031793812222417964,"Acetyl-CoA acyltransferase (hexadecanoyl-CoA), (r)"
+LPLIPAL2A161,0.0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:1)"
+KDOCT2,0.012500000000252035,3-deoxy-manno-octulosonate cytidylyltransferase
+KDOPP,0.012500000000250257,3-deoxy-manno-octulosonate-8-phosphatase
+KDOPS,0.012500000000249367,3-deoxy -D-manno-octulosonic -acid 8-phosphate synthase
+KG6PDC,0.0,3-keto-L-gulonate 6-phosphate decarboxylase
+K2L4Aabcpp,0.0024999999999954525,KDO(2)-lipid IV A transport via ABC system (periplasm)
+K2L4Atex,0.002499999999995419,KDO(2)-lipid IV A transport via vector (periplasm to extracellular)
+KARA1,-0.3906004951625164,"Ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)"
+KARA2,0.07592190992875203,Ketol-acid reductoisomerase (2-Acetolactate)
+Kabcpp,0.0,Potassium ABC transporter (periplasm)
+Kt2pp,0.13401553557603485,Potassium transport in via proton symport (periplasm)
+Kt3pp,0.0,Potassium transport out via proton antiport (periplasm)
+Ktex,0.1340155356112973,Potassium transport via diffusion (extracellular to periplasm)
+MALtex,0.2,Malate transport via diffusion (extracellular to periplasm)
+LA4NTpp,0.0,"4-amino-4-deoxy-L-arabinotransferase (LPS lipid A modification, periplasmic face of membrane))"
+MAN6PI,-0.018585408031089656,Mannose-6-phosphate isomerase
+LPLIPAL2A180,0.0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:0)"
+MAN6Pt6_2pp,0.0,Mannose-6-phosphate transport via phosphate antiport (periplasm)
+MAN6Ptex,0.0,Mannose 6-phosphate transport via diffusion (extracellular to periplasm)
+LADGMDH,0.01,L-alanyl-gamma-D-glutamyl-meso-diaminopimelate hydrolase
+LALDO2x,0.01,D-Lactaldehyde:NAD+ 1-oxidoreductase
+LALGP,0.01,L-alanyl-gamma-L-glutamate peptidase
+MANGLYCtex,0.0,2-O-alpha-mannosyl-D-glycerate transport via diffusion (extracellular to periplasm)
+LPLIPAL2A181,0.0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:1)"
+MANptspp,0.0,D-mannose transport via PEP:Pyr PTS (periplasm)
+MANtex,0.0,D-mannose transport via diffusion (extracellular to periplasm)
+LCARR,0.009999999999990905,"Lacaldehyde reductase (R-propane-1,2-diol forming)"
+LCARS,0.0,"Lacaldehyde reductase (S-propane-1,2-diol forming)"
+MCITD,0.009999999999989129,2-methylcitrate dehydratase
+LCTStex,0.0,Lactose transport via diffusion (extracellular to periplasm)
+MCITL2,0.009999999999308784,Methylisocitrate lyase
+LDH_D,0.03999998848928499,D-lactate dehydrogenase
+LPLIPAL2ATE120,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C12:0)"
+LDH_D2,0.0,D-lactate dehydrogenase
+MCITS,0.009999999999991793,2-methylcitrate synthase
+MCOATA,1.3819003002546424,Malonyl-CoA-ACP transacylase
+LEUTAi,0.16581645246037638,Leucine transaminase (irreversible)
+LPLIPAL2ATE140,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C14:0)"
+LEUTRS,0.0,Leucyl-tRNA synthetase
+LEUabcpp,0.0,L-leucine transport via ABC system (periplasm)
+LEUt2rpp,-1000.0,L-leucine reversible transport via proton symport (periplasm)
+LEUtex,-0.010000000004083631,L-leucine transport via diffusion (extracellular to periplasm)
+MCPST,0.0,3-mercaptopyruvate sulfurtransferase
+MCTP1App,0.0,Murein crosslinking transpeptidase 1A:(A2pm->D-ala) (periplasm)
+MCTP1Bpp,0.01,Murein crosslinking transpeptidase 1B:(A2pm->A2pm) (periplasm)
+MCTP2App,0.0,Murein crosslinking transpeptidase 1A:(A2pm->D-ala) (periplasm)
+MDDCP1pp,0.0,"Murein D,D-carboxypeptidase (murein5px4p) (periplasm)"
+LGTHL,0.009999999999989129,Lactoylglutathione lyase
+LIPACabcpp,0.0,Lipid (cold) A transport via ABC system (periplasm)
+MDDCP2pp,0.0,"Murein D,D-carboxypeptidase (murein5px4px4p) (periplasm)"
+LPLIPAL2ATE141,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C14:1)"
+MDDCP3pp,0.009999999999264321,"Murein D,D-carboxypeptidase (murein5p5p) (periplasm)"
+MDDCP4pp,0.009999999999264321,"Murein D,D-carboxypeptidase (murein5p4p) (periplasm)"
+LIPAabcpp,0.0,Lipid A transport via ABC system (periplasm)
+LIPAtex,0.0,Lipid A transport via vector (periplasm to extracellular)
+LPADSS,0.004999999999983344,Lipid A disaccaride synthase
+MDDCP5pp,0.01,"Murein D,D-carboxypeptidase (murein5p3p) (periplasm)"
+LPLIPAL2ATE160,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C16:0)"
+MDDEP1pp,0.0,"Murein D,D-endopeptidase (murein4px4p) (periplasm)"
+MDDEP2pp,0.0,"Murein D,D-endopeptidase (murein3px4p) (periplasm)"
+LPLIPAL1A120pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C12:0) (periplasm)"
+LPLIPAL1A140pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:0) (periplasm)"
+LPLIPAL1A141pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:1) (periplasm)"
+LPLIPAL1A160pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:0) (periplasm)"
+MDDEP3pp,0.0,"Murein D,D-endopeptidase (murein5px4p) (periplasm)"
+LPLIPAL2ATE161,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C16:1)"
+MDDEP4pp,0.0,"Murein D,D-endopeptidase (murein4px4px4p) (periplasm)"
+MDH,-1.880594575747705,Malate dehydrogenase
+MDRPD,0.005282143857164526,5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase
+ME1,0.009999999999989129,Malic enzyme (NAD)
+LPLIPAL1A161pp,0.008025412240002685,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:1) (periplasm)"
+LPLIPAL1A180pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:0) (periplasm)"
+LPLIPAL1A181pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:1) (periplasm)"
+LPLIPAL1E120pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C12:0) (periplasm)"
+ME2,2.7679789486219057,Malic enzyme (NADP)
+LPLIPAL1E140pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:0) (periplasm)"
+LPLIPAL2ATE180,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C18:0)"
+LPLIPAL1E141pp,0.010000000000007109,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:1) (periplasm)"
+LPLIPAL1E160pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:0) (periplasm)"
+MECDPDH2,0.009999999999997122,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase"
+MECDPS,0.009999999999997566,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase"
+MELIBt2pp,0.01,Melibiose transport in via symport (periplasm)
+LPLIPAL1E161pp,0.007683402621344894,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:1) (periplasm)"
+MELIBt3ipp,0.01,Melibiose transport in via antiport (periplasm)
+LPLIPAL2ATE181,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoethanolamine, n-C18:1)"
+MELIBtex,0.0,Melibiose transport via diffusion (extracellular to periplasm)
+MEPCT,0.009999999999998455,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+LPLIPAL1E180pp,0.008841701311018054,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:0) (periplasm)"
+LPLIPAL1E181pp,0.00826255196652708,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:1) (periplasm)"
+LPLIPAL1G120pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C12:0) (periplasm)"
+METAT,0.01,Methionine adenosyltransferase
+LPLIPAL2ATG120,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C12:0)"
+METDabcpp,0.0,D-methionine transport via ABC system (periplasm)
+METDtex,0.0,D-methionine transport via diffusion (extracellular to periplasm)
+METOX1s,0.0,Methionine oxidation (spontaneous)
+LPLIPAL1G140pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:0) (periplasm)"
+LPLIPAL1G141pp,0.02068441492574109,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:1) (periplasm)"
+LPLIPAL1G160pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:0) (periplasm)"
+LPLIPAL1G161pp,0.0,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:1) (periplasm)"
+LPLIPAL1G180pp,0.004517061132637967,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:0) (periplasm)"
+LPLIPAL1G181pp,0.004275591702523714,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:1) (periplasm)"
+LPLIPAL2A120,0.0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C12:0)"
+METOX2s,0.009999999999997788,Methionine oxidation 2 (spontaneous)
+METS,0.0793619476779582,Methionine synthase
+METSOX1abcpp,0.0,L-methionine S-oxide transport via ABC system (periplasm)
+METSOX1tex,0.0,L-methionine S-oxide diffusion (extracellular)
+METSOX2abcpp,0.0,L-methionine R-oxide transport via ABC system (periplasm)
+LPLIPAL2A140,0.0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:0)"
+LPLIPAL2A141,0.0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:1)"
+LPLIPAL2ATG140,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C14:0)"
+LPLIPAL2A160,0.0,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:0)"
+METSOX2tex,0.0,L-methionine R-oxide diffusion (extracellular)
+METSOXR1,0.0,L-methionine-S-oxide reductase
+METSOXR2,0.009999999999998899,L-methionine-R-sulfoxide reductase
+LPLIPAL2ATG141,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C14:1)"
+METTRS,0.0,Methionyl-tRNA synthetase
+MLDCP2App,0.0,"Murein L,D-carboxypeptidase (murein5p5p) (periplasm)"
+MLDCP2Bpp,0.0,"Murein L,D-carboxypeptidase (murein4p3p) (periplasm)"
+METabcpp,0.0,L-methionine transport via ABC system (periplasm)
+LPLIPAL2ATG160,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C16:0)"
+METtex,0.0,L-methionine transport via diffusion (extracellular to periplasm)
+MG2t3_2pp,0.005957503681656817,Magnesium (Mg+2) transport in/out via proton antiport (periplasm)
+MG2tex,0.005957503680519949,Magnesium (Mg+2) transport via diffusion (extracellular to periplasm)
+MLDCP3App,0.0,"Murein L,D-carboxypeptidase (murein5px3p) (periplasm)"
+MLDEP1pp,0.0,"Murein L,D-endopeptidase (murein3px3p) (periplasm)"
+MLDEP2pp,0.01,"Murein L,D-endopeptidase (murein5px3p) (periplasm)"
+MG2tpp,0.0,Magnesium (+2) transport in via diffusion
+MGSA,0.029999999999986253,Methylglyoxal synthase
+LPLIPAL2ATG161,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C16:1)"
+MI1PP,0.0,Myo-inositol 1-phosphatase
+MICITDr,0.009999999999986464,2-methylisocitrate dehydratase
+MINOHPtexi,0.0,Myo-inositol phosphate transport via diffusion (extracellular to periplasm)
+MLTG1,0.0,Maltodextrin glucosidase (maltotriose)
+MLTG2,0.0,Maltodextrin glucosidase (maltotetraose)
+MLTG3,0.009999999999990905,Maltodextrin glucosidase (maltopentaose)
+MLTG4,0.009999999999990905,Maltodextrin glucosidase (maltohexaose)
+MLDCP1App,0.0,"Murein L,D-carboxypeptidase (murein5px4p) (periplasm)"
+MLTG5,0.009999999999990905,Maltodextrin glucosidase (maltoheptaose)
+LPLIPAL2ATG180,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C18:0)"
+MLTGY1pp,0.009999999999264321,Murein lytic transglycosylase (murein4p4p) (periplasm)
+LPLIPAL2ATG181,0.0,"Lysophospholipase L2 (acyltransferase, 2-acyl-glycerophosphoglycerol, n-C18:1)"
+MLTGY2pp,0.01,Murein lytic transglycosylase (murein4p3p) (periplasm)
+LPLIPAL2E120,0.010000000001950234,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C12:0)"
+MLTGY3pp,0.0,Murein lytic transglycosylase (murein3p3p) (periplasm)
+MLTGY4pp,0.0,Murein lytic transglycosylase (murein4px4p4p) (periplasm)
+NADH5,0.01,NADH dehydrogenase (ubiquinone-8 )
+NADH9,0.01,NADH dehydrogenase (demethylmenaquinone-8 & 0 protons)
+LPLIPAL2E140,0.0018919091773037838,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:0)"
+NADK,0.0003999337491222832,NAD kinase
+NADN,0.0,NAD nucleosidase
+MLTP1,-0.009999999999990905,Maltodextrin phosphorylase (maltopentaose)
+MLTP2,-0.009999999998626663,Maltodextrin phosphorylase (maltohexaose)
+MLTP3,-0.009999999998626663,Maltodextrin phosphorylase (maltoheptaose)
+NADPHQR2,0.0,NADPH Quinone Reductase (Ubiquinone-8)
+LPLIPAL2E141,0.0,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:1)"
+NADPHQR3,0.0,NADPH Quinone Reductase (Menaquinone-8)
+MME,0.0,Methylmalonyl-CoA epimerase
+MMETtex,0.0,S-methyl-L-methionine transport via diffusion (extracellular to periplasm)
+NADPHQR4,0.0,NADPH Quinone Reductase (2-Demethylmenaquinone-8)
+LPLIPAL2E160,0.0,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:0)"
+NADPPPS,0.0,NADP phosphatase
+NADS1,0.0020600361042926174,NAD synthase (nh3)
+MN2t3pp,0.007616998527808505,Manganese (Mn+2) transport out via proton antiport (periplasm)
+MN2tpp,0.009999999999995795,Manganese transport in via permease (no H+)
+MN6PP,0.0,Mannose 6-phosphate phosphatase
+MNLptspp,0.0,Mannitol transport via PEP:Pyr PTS (periplasm)
+MNLtex,0.0,Mannitol transport via diffusion (extracellular to periplasm)
+NADTRHD,0.01,NAD transhydrogenase
+NAMNPP,0.0,Nicotinic acid mononucleotide pyrophosphorylase
+MNt2pp,0.0,Manganese (Mn+2) transport in via proton symport (periplasm)
+NAt3_1p5pp,0.0,Sodium proton antiporter (H:NA is 1.5) (periplasm)
+MNtex,0.0023830014721397674,Manganese (Mn+2) transport via diffusion (extracellular to periplasm)
+LPLIPAL2E161,0.0,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:1)"
+MOAT,0.004999999999985585,3-deoxy-D-manno-octulosonic acid transferase
+MOAT2,0.004999999999986929,3-deoxy-D-manno-octulosonic acid transferase
+MOAT3C,0.0025,3-deoxy-D-manno-octulosonic acid transferase III (LPS core biosynthesis)
+NAt3_2pp,0.01,Sodium proton antiporter (H:NA is 2) (periplasm)
+NAtex,0.0,Sodium transport via diffusion (extracellular to periplasm)
+NDPK1,-0.009999999998626663,Nucleoside-diphosphate kinase (ATP:GDP)
+NDPK2,0.5292471722274286,Nucleoside-diphosphate kinase (ATP:UDP)
+NDPK3,0.1813561786648279,Nucleoside-diphosphate kinase (ATP:CDP)
+MOBDabcpp,0.0023830014721872897,Molybdate transport via ABC system (periplasm)
+MOBDtex,0.0023830014713439596,Molybdate transport via diffusion (extracellular to periplasm)
+NDPK4,0.04080817859903618,Nucleoside-diphosphate kinase (ATP:dTDP)
+MOHMT,4.452092686448631e-05,3-methyl-2-oxobutanoate hydroxymethyltransferase
+LPLIPAL2E180,0.0,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:0)"
+MPTG,0.038639931079170964,Murein polymerizing transglycosylase
+NDPK5,-0.00999999999295945,Nucleoside-diphosphate kinase (ATP:dGDP)
+NDPK6,-0.039722770569483146,Nucleoside-diphosphate kinase (ATP:dUDP)
+LPLIPAL2E181,0.0,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:1)"
+NDPK7,-0.009999999994323692,Nucleoside-diphosphate kinase (ATP:dCDP)
+NDPK8,0.009999999995216058,Nucleoside-diphosphate kinase (ATP:dADP)
+NH4tex,3.2900315148149275,Ammonia transport via diffusion (extracellular to periplasm)
+NH4tpp,3.790031514672137,Ammonia reversible transport (periplasm)
+NHFRBO,0.0,NADH:flavorubredoxin oxidoreductase
+MPTG2,0.0,Murein polymerizing transglycosylase 2 (three linked units)
+MSO3tex,0.0,Methanesulfonate transport via diffusion (extracellular to periplasm)
+MTAN,0.005282143857164526,Methylthioadenosine nucleosidase
+MTHFC,1.3132025452643026,Methenyltetrahydrofolate cyclohydrolase
+MTHFD,1.3132025452623566,Methylenetetrahydrofolate dehydrogenase (NADP)
+NI2abcpp,0.0,Nickle (Ni+2) ABC transporter (periplasm)
+NI2t3pp,0.0,Nickle (Ni+2) transport out via proton antiport (periplasm)
+NI2tex,0.0,Nickel transport via diffusion (extracellular to periplasm)
+MTHFR2,0.11709154666762397,"5,10-methylenetetrahydrofolate reductase (NADH)"
+NMNAT,0.0,Nicotinamide-nucleotide adenylyltransferase
+LPLIPAL2G120,0.0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C12:0)"
+NMNDA,0.0,Nicotinamide-nucleotide amidase
+NMNN,0.0,NMN nucleosidase
+MTRI,0.005282143856447874,5-methylthioribose-1-phosphate isomerase
+MTRK,0.005282143857164522,5-methylthioribose kinase
+MTRPOX,0.0,N-methyltryptophan oxidase
+NMNPtpp,0.0,NMN permease (periplasm)
+N2Otex,0.0,Nitrious oxide transport via diffusion (extracellular to periplasm)
+NMNt7pp,0.0,NMN transport via NMN glycohydrolase (periplasm)
+LPLIPAL2G140,0.0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:0)"
+NMNtex,0.0,NMN transport via diffusion (extracellular to periplasm)
+NNAM,0.0,Nicotinamidase
+NNATr,0.0020600361035576498,Nicotinate-nucleotide adenylyltransferase
+N2Otpp,0.0,Nitrious oxide transport (diffusion)
+NACODA,0.0,N-acetylornithine deacetylase
+NACtex,0.0,Nicotinic acid transport via diffusion (extracellular to periplasm)
+NACtpp,0.0,Nicotinic acid uptake (periplasm)
+NADDP,0.0,NAD diphosphatase
+NADH10,0.01,NADH dehydrogenase (menaquinone-8 & 0 protons)
+NADH16pp,1.375664900184347,NADH dehydrogenase (ubiquinone-8 & 3 protons) (periplasm)
+NNDPR,0.0020600361042926174,Nicotinate-nucleotide diphosphorylase (carboxylating)
+NO2t2rpp,0.0,"Nitrite transport in via proton symport, reversible (periplasm)"
+NO2tex,-0.009999999999990905,Nitrite transport via diffusion (extracellular to periplasm)
+NO3R1bpp,0.009999999999999676,Nitrate reductase (Ubiquinol-8)
+NO3R1pp,0.4900000000000003,Nitrate reductase (Ubiquinol-8) (periplasm)
+NO3R2bpp,0.0,Nitrate reductase (Menaquinol-8) (periplasm)
+NADH17pp,1.143897960119884,NADH dehydrogenase (menaquinone-8 & 3 protons) (periplasm)
+NADH18pp,0.0,NADH dehydrogenase (demethylmenaquinone-8 & 3 protons) (periplasm)
+NO3R2pp,0.0,Nitrate reductase (Menaquinol-8) (periplasm)
+LPLIPAL2G141,0.0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:1)"
+NO3t7pp,0.4900000000000001,Nitrate transport in via nitrite antiport (periplasm)
+NO3tex,0.5,Nitrate transport via diffusion (extracellular to periplasm)
+NODOx,0.0,Nitric oxide dioxygenase
+NTD12pp,0.0,5'-nucleotidase (dIMP) (periplasm)
+NODOy,0.0,Nitric oxide dioxygenase
+LPLIPAL2G160,0.0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:0)"
+NOtex,0.0,Nitric oxide transport via diffusion (extracellular to periplasm)
+NTD1pp,0.0,5'-nucleotidase (dUMP)
+NTD2,0.0,5'-nucleotidase (UMP)
+NTD2pp,0.0,5'-nucleotidase (UMP)
+NOtpp,0.0,NO transport (diffusion)
+LPLIPAL2G161,0.0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:1)"
+NPHS,0.0,Naphthoate synthase
+NTD1,0.0,5'-nucleotidase (dUMP)
+NTD3,0.009999999999986908,5'-nucleotidase (dCMP)
+NTD3pp,0.0,5'-nucleotidase (dCMP)
+NTD4,0.02000000000293767,5'-nucleotidase (CMP)
+NTD4pp,0.0,5'-nucleotidase (CMP)
+NTD10,0.0,5'-nucleotidase (XMP)
+NTD10pp,0.0,5'-nucleotidase (XMP)
+NTD11,0.0,5'-nucleotidase (IMP)
+NTD11pp,0.0,5'-nucleotidase (IMP)
+NTD5,0.019999999999972713,5'-nucleotidase (dTMP)
+NTD12,0.0,5'-nucleotidase (dIMP)
+NTD5pp,0.0,5'-nucleotidase (dTMP)
+LPLIPAL2G180,0.0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:0)"
+NTD6,0.0,5'-nucleotidase (dAMP)
+NTD6pp,0.0,5'-nucleotidase (dAMP)
+LPLIPAL2G181,0.0,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:1)"
+NTD7,0.0,5'-nucleotidase (AMP)
+NTD7pp,0.0,5'-nucleotidase (AMP)
+NTD8,0.009999999999081412,5'-nucleotidase (dGMP)
+OPHBDC,0.0,Octaprenyl-hydroxybenzoate decarboxylase
+OPHHX,0.0,2-Octaprenylphenol hydroxylase
+NTD8pp,0.0,5'-nucleotidase (dGMP)
+LSERDHr,0.009999999999990905,L-serine dehydrogenase
+NTD9,0.0,5'-nucleotidase (GMP)
+NTD9pp,0.0,5'-nucleotidase (GMP)
+OPHHX3,0.0,2-Octaprenylphenol hydroxylase (anaerobic)
+ORNDC,0.041692863149920587,Ornithine Decarboxylase
+ORNabcpp,0.0,Ornithine transport via ABC system (periplasm)
+NTP1,0.01,Nucleoside-triphosphatase (ATP)
+NTP10,0.01,Nucleoside-triphosphatase (ITP)
+ORNtex,-0.009999999966794348,Ornithine transport via diffusion (extracellular to periplasm)
+LYSDC,0.01,Lysine decarboxylase
+OROTt2_2pp,0.0,Orotate transport via proton symport (2 H) (periplasm)
+NTP11,0.0,Nucleoside-triphosphatase (dITP)
+NTP12,0.0,Nucleoside-triphosphatase (XTP)
+LYSTRS,0.0,Lysyl-tRNA synthetase
+NTP3,0.009999999999994458,Nucleoside-triphosphatase (GTP)
+NTP5,0.01,Nucleoside-triphosphatase (CTP)
+NTPP1,0.0,Nucleoside triphosphate pyrophosphorylase (dgtp)
+NTPP10,0.0,Nucleoside triphosphate pyrophosphorylase (ditp)
+NTPP11,0.0,Nucleoside triphosphate pyrophosphorylase (xtp)
+NTPP2,0.0,Nucleoside triphosphate pyrophosphorylase (gtp)
+OAAt2_2pp,0.0,Oxaloacetate transport via proton symport 2 H  periplasm
+OROTtex,0.0,Orotate transport via diffusion (extracellular to periplasm)
+OAAtex,0.0,Oxaloacetate transport via diffusion extracellular to periplasm
+ORPT,-0.31610203987941077,Orotate phosphoribosyltransferase
+OXAMTC,0.0,Oxamate transcarbamoylase
+OXGDC2,0.0,2-oxoglutarate decarboxylase
+P5CD,0.009999999999997122,1-pyrroline-5-carboxylate dehydrogenase
+P5CR,0.20390825563965784,Pyrroline-5-carboxylate reductase
+NTPP3,0.0,Nucleoside triphosphate pyrophosphorylase (dctp)
+NTPP4,0.0,Nucleoside triphosphate pyrophosphorylase (ctp)
+NTPP5,0.010000000000034285,Nucleoside triphosphate pyrophosphorylase (datp)
+NTPP6,0.0,Nucleoside triphosphate pyrophosphorylase (atp)
+PA120abcpp,0.0,"Phosphatidate transport via ABC system (n-C12:0, periplasm)"
+LYSabcpp,0.0,L-lysine transport via ABC system (periplasm)
+PA140abcpp,0.0010141716205755889,"Phosphatidate transport via ABC system (n-C14:0, periplasm)"
+PA141abcpp,0.0,"Phosphatidate transport via ABC system (n-C14:1, periplasm)"
+NTPP7,0.0,Nucleoside triphosphate pyrophosphorylase (dttp)
+NTPP8,0.0,Nucleoside triphosphate pyrophosphorylase (utp)
+NTPP9,0.0,Nucleoside triphosphate pyrophosphorylase (itp)
+PA160abcpp,0.005505503083124626,"Phosphatidate transport via ABC system (n-C16:0, periplasm)"
+NTPTP1,0.0,Nucleoside triphosphate tripolyhydrolase
+PA161abcpp,0.008315175560243318,"Phosphatidate transport via ABC system (n-C16:1, periplasm)"
+LYSt2pp,0.0,L-lysine transport in via proton symport (periplasm)
+PA180abcpp,0.00014488166008222713,"Phosphatidate transport via ABC system (n-C18:0, periplasm)"
+PA181abcpp,0.0002173224901233405,"Phosphatidate transport via ABC system (n-C18:1, periplasm)"
+NTPTP2,0.0,Nucleoside triphosphate tripolyhydrolase
+NTRIR2x,0.0,Nitrite Reductase (NADH)
+NTRIR3pp,0.0,"Nitrite Reductase (Ubiquinole-8, periplasm)"
+NTRIR4pp,0.49000000000001803,"Nitrite Reductase (Menaquinole-8, periplasm)"
+O2Stex,0.0,Superoxide anion transport via diffusion (extracellular to periplasm)
+PACALDt2rpp,0.0,Phenylacetaldehyde reversible transport via proton symport (periplasm)
+PACALDtex,0.0,Phenethylacetaldehyde transport via diffusion (extracellular to periplasm)
+PANTS,4.452092686447243e-05,Pantothenate synthase
+PAPA120,0.0,Phosphatidate phosphatase (n-C12:0)
+PAPA120pp,0.0,"Phosphatidate phosphatase (periplasmic, n-C12:0)"
+O2tex,0.5,Oxygen transport via diffusion (extracellular to periplasm)
+O2tpp,0.49749999999789907,O2 transport via diffusion (periplasm)
+PAPA140,0.0,Phosphatidate phosphatase (n-C14:0)
+LYSt3pp,0.019999999940411156,L-lysine transport out via proton antiport (cytoplasm to periplasm)
+PAPA140pp,0.0009930430454080028,"Phosphatidate phosphatase (periplasmic, n-C14:0)"
+PAPA141,0.0,Phosphatidate phosphatase (n-C14:1)
+OAADC,0.0,Oxaloacetate decarboxylase
+OBTFL,0.01,2-Oxobutanoate formate lyase
+PAPA141pp,0.0,"Phosphatidate phosphatase (periplasmic, n-C14:1)"
+LYStex,-0.009999999940419002,L-lysine transport via diffusion (extracellular to periplasm)
+PAPA160,0.0,Phosphatidate phosphatase (n-C16:0)
+PAPA160pp,0.005390805107382192,"Phosphatidate phosphatase (periplasmic, n-C16:0)"
+OCDCAtexi,0.0,Octadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)
+OCDCEAtexi,0.0,Octadecenoate (n-C18:1) transport via facilitated irreversible diffusion (extracellular to periplasm)
+PAPA161,0.0,Phosphatidate phosphatase (n-C16:1)
+LYXI,0.0,Lyxose isomerase
+PAPA161pp,0.00028372658440228653,"Phosphatidate phosphatase (periplasmic, n-C16:1)"
+OCTAtex,0.0,Octanoate transport via diffusion (extracellular to periplasm)
+OCTDPS,0.0,Octaprenyl pyrophosphate synthase
+LYXt2pp,0.0,L-Lyxose transport via proton symport (periplasm)
+CTECOAI8,0.015076287337592479,3-cis-2-trans-enoyl-CoA isomerase
+PAPA180,0.0,Phosphatidate phosphatase (n-C18:0)
+LYXtex,0.0,L-Lyxose transport via diffusion (extracellular to periplasm)
+PAPA180pp,0.00014186329212147533,"Phosphatidate phosphatase (periplasmic, n-C18:0)"
+PAPA181,0.0,Phosphatidate phosphatase (n-C18:1)
+PAPA181pp,0.00021279493843562487,"Phosphatidate phosphatase (periplasmic, n-C18:1)"
+PAPPT3,0.07727986215826377,"Phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)"
+PAPSR,0.0,Phosphoadenylyl-sulfate reductase (thioredoxin)
+PAPSR2,0.11204663885439814,Phosphoadenylyl-sulfate reductase (glutaredoxin)
+OHPBAT,0.0,O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase
+OHPHM,0.0,2-octaprenyl-6-hydroxyphenol methylase
+OMBZLM,0.0,2-Octaprenyl-6-methoxy-benzoquinol methylase
+OMCDC,0.16581645246014895,2-Oxo-4-methyl-3-carboxypentanoate decarboxylation
+OMMBLHX,0.0,"2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase"
+OMMBLHX3,0.0,"2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase (anaerobic)"
+PDH,3.632664194993811,Pyruvate dehydrogenase
+PDX5PO2,0.0,Pyridoxine 5'-phosphate oxidase (anaerboic
+OMPDC,0.31610203987516977,Orotidine-5'-phosphate decarboxylase
+L_LACD2,-0.0,L-Lactate dehydrogenase (ubiquinone)
+OMPHHX,0.0,2-octaprenyl-6-methoxyphenol hydroxylase
+OMPHHX3,0.0,2-octaprenyl-6-methoxyphenol hydroxylase (anaerobic)
+PDX5POi,0.0,Pyridoxine 5'-phosphate oxidase
+PDX5PS,0.0,Pyridoxine 5'-phosphate synthase
+PDXPP,0.0,Pyridoxine 5-phosphate phosphatase
+PE120abcpp,0.010000000001956898,"Phosphatidylethanolamine transport via ABC system (n-C12:0, periplasm)"
+L_LACD3,0.0,L-Lactate dehydrogenase (menaquinone)
+PE140abcpp,0.009978871424571342,"Phosphatidylethanolamine transport via ABC system (n-C14:0, periplasm)"
+PFL,64.32971126658114,Pyruvate formate lyase
+L_LACt2rpp,0.0,L-lactate reversible transport via proton symport (periplasm)
+PG120abcpp,0.0,"Phosphatidylglycerol transport via ABC system (n-C12:0, periplasm)"
+PG140abcpp,0.002366400448009708,"Phosphatidylglycerol transport via ABC system (n-C14:0, periplasm)"
+PE141abcpp,0.01,"Phosphatidylethanolamine transport via ABC system (n-C14:1, periplasm)"
+PE160abcpp,0.04390065218887397,"Phosphatidylethanolamine transport via ABC system (n-C16:0, periplasm)"
+PE161abcpp,0.009993963263472025,"Phosphatidylethanolamine transport via ABC system (n-C16:1, periplasm)"
+PE180abcpp,0.00999698163208162,"Phosphatidylethanolamine transport via ABC system (n-C18:0, periplasm)"
+PE181abcpp,0.00999547244812243,"Phosphatidylethanolamine transport via ABC system (n-C18:1, periplasm)"
+PG141abcpp,0.020684414925761258,"Phosphatidylglycerol transport via ABC system (n-C14:1, periplasm)"
+PG160abcpp,0.012846173860588728,"Phosphatidylglycerol transport via ABC system (n-C16:0, periplasm)"
+PG161abcpp,0.0006761144137170594,"Phosphatidylglycerol transport via ABC system (n-C16:1, periplasm)"
+PG180abcpp,0.004855118339868625,"Phosphatidylglycerol transport via ABC system (n-C18:0, periplasm)"
+PG181abcpp,0.004782677509467703,"Phosphatidylglycerol transport via ABC system (n-C18:1, periplasm)"
+PEAMNtex,0.0,Phenethylamine transport via diffusion (extracellular to periplasm)
+PERD,0.0,Erythronate 4-phosphate (4per) dehydrogenase
+PGAMT,-0.16455972431826807,Phosphoglucosamine mutase
+PETNT161pp,0.0,Phosphoethanolamine transferase (c-C16:1)
+PGCD,2.0282312466596295,Phosphoglycerate dehydrogenase
+L_LACtex,0.0,L-lactate transport via diffusion (extracellular to periplasm)
+PGI,-1.0656345940772194,Glucose-6-phosphate isomerase
+PETNT181pp,0.0,Phosphoethanolamine transferase (c-C16:1)
+PFK,7.711220747842043,Phosphofructokinase
+PGK,-19.58148664700377,Phosphoglycerate kinase
+PFK_2,0.0,Phosphofructokinase
+M1PD,0.0,Mannitol-1-phosphate 5-dehydrogenase
+PGL,0.9743814248117815,6-phosphogluconolactonase
+PGLYCP,0.0,Phosphoglycolate phosphatase
+MACPD,0.01,Malonyl-ACP decarboxylase
+PGM,-17.553255400344142,Phosphoglycerate mutase
+PGMT,-0.12125316926541063,Phosphoglucomutase
+PLIPA1E141pp,0.0,"Phospholipase A1 (phosphatidylethanolamine, n-C14:1) (periplasm)"
+PLIPA1E160pp,0.0,"Phospholipase A1 (phosphatidylethanolamine, n-C16:0) (periplasm)"
+PGP120abcpp,0.0,"Phosphatidylglycerophosphate transport via ABC system (n-C12:0, periplasm)"
+MALDt2_2pp,0.0,D-Malate transport via proton symport (2 H) (periplasm)
+PGP140abcpp,0.0,"Phosphatidylglycerophosphate transport via ABC system (n-C14:0, periplasm)"
+PLIPA1E161pp,0.0,"Phospholipase A1 (phosphatidylethanolamine, n-C16:1) (periplasm)"
+PLIPA1E180pp,0.0,"Phospholipase A1 (phosphatidylethanolamine, n-C18:0) (periplasm)"
+PGP141abcpp,0.0,"Phosphatidylglycerophosphate transport via ABC system (n-C14:1, periplasm)"
+PGP160abcpp,0.0,"Phosphatidylglycerophosphate transport via ABC system (n-C16:0, periplasm)"
+PGP161abcpp,0.0,"Phosphatidylglycerophosphate transport via ABC system (n-C16:1, periplasm)"
+PGP180abcpp,0.0,"Phosphatidylglycerophosphate transport via ABC system (n-C18:0, periplasm)"
+PGP181abcpp,0.0,"Phosphatidylglycerophosphate transport via ABC system (n-C18:1, periplasm)"
+PLIPA1E181pp,0.0,"Phospholipase A1 (phosphatidylethanolamine, n-C18:1) (periplasm)"
+PLIPA1G120pp,0.0,"Phospholipase A1 (phosphatidylglycerol, n-C12:0) (periplasm)"
+PLIPA1G140pp,0.0,"Phospholipase A1 (phosphatidylglycerol, n-C14:0) (periplasm)"
+PLIPA1G141pp,0.0,"Phospholipase A1 (phosphatidylglycerol, n-C14:1) (periplasm)"
+PGPP120,0.0,Phosphatidylglycerol phosphate phosphatase (n-C14:0)
+PGPP120pp,0.0,"Phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:0)"
+PLIPA1G160pp,0.0,"Phospholipase A1 (phosphatidylglycerol, n-C16:0) (periplasm)"
+MALDtex,0.0,D-Malate transport via diffusion (extracellular to periplasm)
+PLIPA1G161pp,0.0,"Phospholipase A1 (phosphatidylglycerol, n-C16:1) (periplasm)"
+PLIPA1G180pp,0.0,"Phospholipase A1 (phosphatidylglycerol, n-C18:0) (periplasm)"
+PGPP140,0.002366400447884942,Phosphatidylglycerol phosphate phosphatase (n-C14:0)
+PGPP140pp,0.0,"Phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:0)"
+PGPP141,0.02068441492575532,Phosphatidylglycerol phosphate phosphatase (n-C14:1)
+PGPP141pp,0.0,"Phosphatidylglycerol phosphate phosphatase (periplasm, n-C14:1)"
+PLIPA1G181pp,0.0,"Phospholipase A1 (phosphatidylglycerol, n-C18:1) (periplasm)"
+MALS,0.0,Malate synthase
+PLIPA2A120pp,0.0,"Phospholipase A2 (phosphatidate, n-C12:0) (periplasm)"
+PLIPA2A140pp,0.0,"Phospholipase A2 (phosphatidate, n-C14:0) (periplasm)"
+PLIPA2A141pp,0.0,"Phospholipase A2 (phosphatidate, n-C14:1) (periplasm)"
+PGPP160,0.01284617386062413,Phosphatidylglycerol phosphate phosphatase (n-C16:0)
+PGPP160pp,0.0,"Phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:0)"
+PGPP161,0.0006761144136677565,Phosphatidylglycerol phosphate phosphatase (n-C16:1)
+PLIPA2A160pp,0.0,"Phospholipase A2 (phosphatidate, n-C16:0) (periplasm)"
+PGPP161pp,0.0,"Phosphatidylglycerol phosphate phosphatase (periplasm, n-C16:1)"
+MALTATr,0.0,Maltose O-acetyltransferase
+PGPP180,0.004855118339930076,Phosphatidylglycerol phosphate phosphatase (n-C18:0)
+PLIPA2A161pp,0.008025412240002685,"Phospholipase A2 (phosphatidate, n-C16:1) (periplasm)"
+PLIPA2A180pp,0.0,"Phospholipase A2 (phosphatidate, n-C18:0) (periplasm)"
+PLIPA2A181pp,0.0,"Phospholipase A2 (phosphatidate, n-C18:1) (periplasm)"
+PLIPA2E120pp,0.0,"Phospholipase A2 (phosphatidylethanolamine, n-C12:0) (periplasm)"
+PGPP180pp,0.0,"Phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:0)"
+PGPP181,0.004782677509587894,Phosphatidylglycerol phosphate phosphatase (n-C18:1)
+PGPP181pp,0.0,"Phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:1)"
+PGSA120,0.0,Phosphatidylglycerol synthase (n-C12:0)
+PLIPA2E140pp,0.0,"Phospholipase A2 (phosphatidylethanolamine, n-C14:0) (periplasm)"
+PLIPA2E141pp,0.010000000000003555,"Phospholipase A2 (phosphatidylethanolamine, n-C14:1) (periplasm)"
+MALTHXabcpp,0.0,Maltohexaose transport via ABC system (periplasm)
+PLIPA2E160pp,0.0,"Phospholipase A2 (phosphatidylethanolamine, n-C16:0) (periplasm)"
+PLIPA2E161pp,0.007683402621344894,"Phospholipase A2 (phosphatidylethanolamine, n-C16:1) (periplasm)"
+PLIPA2E180pp,0.008841701311018054,"Phospholipase A2 (phosphatidylethanolamine, n-C18:0) (periplasm)"
+PGSA140,0.002366400447813888,Phosphatidylglycerol synthase (n-C14:0)
+PGSA141,0.020684414925748212,Phosphatidylglycerol synthase (n-C14:1)
+PGSA160,0.01284617386056297,Phosphatidylglycerol synthase (n-C16:0)
+PGSA161,0.0006761144135918086,Phosphatidylglycerol synthase (n-C16:1)
+PGSA180,0.004855118339896158,Phosphatidylglycerol synthase (n-C18:0)
+PGSA181,0.004782677509481914,Phosphatidylglycerol synthase (n-C18:1)
+PLIPA2E181pp,0.00826255196652708,"Phospholipase A2 (phosphatidylethanolamine, n-C18:1) (periplasm)"
+PLIPA2G120pp,0.0,"Phospholipase A2 (phosphatidylglycerol, n-C12:0) (periplasm)"
+MALTHXtexi,0.0,Maltohexaose transport via diffusion (extracellular to periplasm) irreversible
+PLIPA2G140pp,0.0,"Phospholipase A2 (phosphatidylglycerol, n-C14:0) (periplasm)"
+PLIPA2G141pp,0.020684414925748212,"Phospholipase A2 (phosphatidylglycerol, n-C14:1) (periplasm)"
+PHEMEabcpp,0.0023317259885492925,Protoheme transport via ABC system (periplasm)
+PHEMEtiex,0.0023317259885490666,Protoheme transport irreversible out via diffusion (periplasm to extracellular)
+PHETA1,-0.1146920912489918,Phenylalanine transaminase
+PLIPA2G160pp,0.0,"Phospholipase A2 (phosphatidylglycerol, n-C16:0) (periplasm)"
+MALTPTabcpp,0.0,Maltopentaose transport via ABC system (periplasm)
+PLIPA2G161pp,0.0,"Phospholipase A2 (phosphatidylglycerol, n-C16:1) (periplasm)"
+PLIPA2G180pp,0.004517061132637967,"Phospholipase A2 (phosphatidylglycerol, n-C18:0) (periplasm)"
+PLIPA2G181pp,0.004275591702523714,"Phospholipase A2 (phosphatidylglycerol, n-C18:1) (periplasm)"
+PMDPHT,7.545919795949323e-06,Pyrimidine phosphatase
+PMPK,0.0,Phosphomethylpyrimidine kinase
+PHETRS,0.0,Phenylalanyl-tRNA synthetase
+PHEt2rpp,-0.00999999997247869,L-phenylalanine reversible transport via proton symport (periplasm)
+PHEtex,-0.009999999972467227,L-phenylalanine transport via diffusion (extracellular to periplasm)
+PIt2rpp,0.7801685572551592,Phosphate reversible transport via symport (periplasm)
+PItex,0.7131798715025752,Phosphate transport via diffusion (extracellular to periplasm)
+PIuabcpp,0.0,"Phosphate transport via ABC system (uptake, periplasm)"
+PNTK,4.452092686447243e-05,Pantothenate kinase
+PNTOt4pp,0.0,Pantothenate sodium symporter (periplasm)
+PLIPA1A120pp,0.0,"Phospholipase A1 (phosphatidate, n-C12:0) (periplasm)"
+MALTPTtexi,0.0,MaltopentaoseMaltotriose transport via diffusion (extracellular to periplasm) irreversible
+PLIPA1A140pp,0.0,"Phospholipase A1 (phosphatidate, n-C14:0) (periplasm)"
+PNTOtex,0.0,Pantothenate transport via diffusion (extracellular to periplasm)
+POX,0.0,Pyruvate oxidase
+PLIPA1A141pp,0.0,"Phospholipase A1 (phosphatidate, n-C14:1) (periplasm)"
+PPA,3.1565090713901,Inorganic diphosphatase
+PLIPA1A160pp,0.0,"Phospholipase A1 (phosphatidate, n-C16:0) (periplasm)"
+PPA2,0.0,Inorganic triphosphatase
+MALTTRabcpp,0.0,Maltotriose transport via ABC system (periplasm)
+PLIPA1A161pp,0.0,"Phospholipase A1 (phosphatidate, n-C16:1) (periplasm)"
+PLIPA1A180pp,0.0,"Phospholipase A1 (phosphatidate, n-C18:0) (periplasm)"
+PPAKr,0.009999999999990905,Propionate kinase
+MALTTRtexi,0.0,Maltotriose transport via diffusion (extracellular to periplasm) irreversible
+PPALtex,-0.009999999999990905,Propanal transport via diffusion (extracellular to periplasm)
+PPALtpp,0.00999999999998625,Propanal transport via channel (periplasm)
+PPAt4pp,0.0,Na+/Propionate symporter (periplasm)
+PLIPA1A181pp,0.0,"Phospholipase A1 (phosphatidate, n-C18:1) (periplasm)"
+PLIPA1E120pp,0.010000000001948898,"Phospholipase A1 (phosphatidylethanolamine, n-C12:0) (periplasm)"
+PLIPA1E140pp,0.0018919091773010877,"Phospholipase A1 (phosphatidylethanolamine, n-C14:0) (periplasm)"
+PPAtex,0.0,Propionate transport via diffusion
+PPBNGS,0.009999999999999998,Porphobilinogen synthase
+PPC,0.01,Phosphoenolpyruvate carboxylase
+PRAIi,0.0763188253088174,Phosphoribosylanthranilate isomerase (irreversible)
+MALTTTRabcpp,0.0,Maltotetraose transport via ABC system (periplasm)
+PRAMPC,0.05066556928522914,Phosphoribosyl-AMP cyclohydrolase
+PPCDC,4.4520926864527966e-05,Phosphopantothenoylcysteine decarboxylase
+PPCK,0.009999999999989129,Phosphoenolpyruvate carboxykinase
+PPGPPDP,0.019999999999997124,"Guanosine-3',5'-bis(diphosphate) 3'-diphosphatase"
+PPK2,0.010000000000218279,Polyphosphate kinase
+PRASCSi,0.33895743509310705,Phosphoribosylaminoimidazolesuccinocarboxamide synthase
+MALTTTRtexi,0.0,MaltotetraoseMaltotriose transport via diffusion (extracellular to periplasm) irreversible
+PRATPP,0.05066556928594252,Phosphoribosyl-ATP pyrophosphatase
+PRFGS,0.3389574350938408,Phosphoribosylformylglycinamidine synthase
+PPK,0.0,Polyphosphate kinase
+PPM,-0.049999999999954525,Phosphopentomutase
+PPM2,0.029999999990650394,Phosphopentomutase 2 (deoxyribose)
+MALTabcpp,0.0,Maltose transport via ABC system (periplasm)
+PPNCL2,4.452092686451408e-05,Phosphopantothenate-cysteine ligase
+PRMICI,0.05066556928454702,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase
+PROD2,0.010000000000189807,Proline dehydrogenase
+PPND,0.0403693088074647,Prephenate dehydrogenase
+PROGLYabcpp,0.0,L-Prolinylglycine (Pro-Gly) transport via ABC system (periplasm)
+MALTptspp,0.0,Maltose transport via PEP:Pyr PTS (periplasm)
+PROGLYtex,0.0,L-Prolinylglycine transport via diffusion (extracellular to periplasm)
+PROTRS,0.0,Prolyl-tRNA synthetase
+PROabcpp,0.0,L-proline transport via ABC system (periplasm)
+PROt4pp,0.0,Na+/Proline-L symporter (periplasm)
+PPNDH,0.1146920912492192,Prephenate dehydratase
+PPPGO,0.0,Protoporphyrinogen oxidase (aerobic)
+PPPGO3,0.0023317259885497444,Protoporphyrinogen oxidase (anaerobic)
+PPPNt2rpp,0.0,"3-phenylpropionate transport via proton symport, reversible (periplasm)"
+PPPNtex,0.0,3-phenylpropionate transport via diffusion (extracellular to periplasm)
+PPS,0.01,Phosphoenolpyruvate synthase
+PPTtex,0.0,Phosphonate transport via diffusion (extracellular to periplasm)
+PROtex,0.0,L-proline transport via diffusion (extracellular to periplasm)
+PRPPS,0.7941039056741511,Phosphoribosylpyrophosphate synthetase
+PSCLYStex,0.0,Psicoselysine transporter via diffusion (extracellular)
+PSCVT,0.27552343252273204,3-phosphoshikimate 1-carboxyvinyltransferase
+PSD120,0.010000000001962233,Phosphatidylserine decarboxylase (n-C12:0)
+PRAGSr,0.3389574350928797,Phosphoribosylglycinamide synthase
+PRAIS,0.33895743509350496,Phosphoribosylaminoimidazole synthase
+MALTtexi,0.0,MaltoseMaltotriose transport via diffusion (extracellular to periplasm) irreversible
+EX_airs_e,0.0,Aminoimidazole riboside exchange
+PSD140,0.009978871424748743,Phosphatidylserine decarboxylase (n-C14:0)
+PSD141,0.010000000000003555,Phosphatidylserine decarboxylase (n-C14:1)
+PSD160,0.04390065218887397,Phosphatidylserine decarboxylase (n-C16:0)
+MALt2_2pp,0.19000000000027284,Malate transport via proton symport (2 H) (periplasm)
+PSD161,0.00999396326338342,Phosphatidylserine decarboxylase (n-C16:1)
+PSD180,0.009996981631786639,Phosphatidylserine decarboxylase (n-C18:0)
+SERASr,0.036413608176872,(L-seryl)adenylate synthase
+PSD181,0.009995472448150853,Phosphatidylserine decarboxylase (n-C18:1)
+PSERT,2.0282312466602637,Phosphoserine transaminase
+PSERtex,0.0,Phospho-L-serine transport via diffusion (extracellular to periplasm)
+PSP_L,2.0282312466596295,Phosphoserine phosphatase (L-serine)
+PSP_Lpp,0.0,Phospho-L-serine phosphatase (periplasmic)
+PSSA120,0.010000000001967567,Phosphatidylserine syntase (n-C12:0)
+PSSA140,0.010000000001640924,Phosphatidylserine syntase (n-C14:0)
+PSSA141,0.010000000000007109,Phosphatidylserine syntase (n-C14:1)
+PSSA160,0.04401535017287875,Phosphatidylserine syntase (n-C16:0)
+PSSA161,0.00999999999963833,Phosphatidylserine syntase (n-C16:1)
+PSSA180,0.009999999999914093,Phosphatidylserine syntase (n-C18:0)
+PSSA181,0.010000000000342034,Phosphatidylserine syntase (n-C18:1)
+R5PP,0.0,Ribose 5-phosphate phosphatase
+R5PPpp,0.0,Ribose 5-phosphate phosphatase
+R5Ptex,0.0,Ribose 5-phosphate transport via diffusion (extracellular to periplasm)
+RBFK,7.545919797929956e-06,Riboflavin kinase
+RBFSa,1.5091839591898646e-05,Riboflavin synthase
+RBFSb,7.545919795949323e-06,Riboflavin synthase
+RBK,0.01999999999995694,Ribokinase
+PTA2,0.01,Phosphate acetyltransferase
+PTAr,65.18895645985481,Phosphotransacetylase
+PTHRpp,0.0,Phospho-L-threonine phosphatase (periplasmic)
+PTPATi,4.452092686454185e-05,Pantetheine-phosphate adenylyltransferase
+RBK_L1,13.3,L-ribulokinase (L-ribulose)
+RBP4E,13.3,L-ribulose-phosphate 4-epimerase
+PTRCORNt7pp,-0.01999999999998181,Putrescine/ornithine antiporter (periplasm)
+SERAT,0.11204663878720567,Serine O-acetyltransferase
+PTRCTA,0.00999999999999912,Putrescine Transaminase
+PTRCabcpp,0.0,Putrescine transport via ABC system (periplasm)
+RHAT1,0.0024999999999995486,Rhamnosyltransferase I (LPS core biosynthesis)
+RHCCE,0.00033654802289933975,S-ribosylhomocysteine cleavage enzyme
+RIBabcpp,0.0,D-ribose transport via ABC system (periplasm)
+PTRCt2pp,0.01,Putrescine transport in via proton symport
+PTRCtex,-0.009999999999990905,Putrescine transport via diffusion (extracellular to periplasm)
+RIBtex,0.0,Ribose transport via diffusion (extracellular to periplasm)
+SERD_D,0.009999999999990905,D-serine deaminase
+RMI,0.0,L-rhamnose isomerase
+PUNP1,-0.009999999879255483,Purine-nucleoside phosphorylase (Adenosine)
+PUNP2,-0.010000000000900403,Purine-nucleoside phosphorylase (Deoxyadenosine)
+PUNP3,-0.009999999998626663,Purine-nucleoside phosphorylase (Guanosine)
+RMK,-0.0,Rhamnulokinase
+SERTRS,0.0,Seryl-tRNA synthetase
+RMNtex,0.0,L-rhamnose transport via diffusion (extracellular to periplasm)
+RMNtpp,0.0,L-rhamnose transport via proton symport (periplasm)
+PUNP4,0.009999999998626663,Purine-nucleoside phosphorylase (Deoxyguanosine)
+PUNP5,-0.009999999999649845,Purine-nucleoside phosphorylase (Inosine)
+PUNP6,0.009999999999308784,Purine-nucleoside phosphorylase (Deoxyinosine)
+PUNP7,0.0,Purine-nucleoside phosphorylase (Xanthosine)
+PYAM5PO,0.019999999999997124,Pyridoxamine 5'-phosphate oxidase
+PYDAMK,0.0,Pyridoxamine kinase
+PYDXK,0.0,Pyridoxal kinase
+RMPA,0.0,Rhamnulose-1-phosphate aldolase
+RNDR1,0.0,Ribonucleoside-diphosphate reductase (ADP)
+RNDR1b,0.0,Ribonucleoside-diphosphate reductase (ADP) (glutaredoxin)
+RNDR2,0.0,Ribonucleoside-diphosphate reductase (GDP)
+PYDXNK,0.0,Pyridoxine kinase
+RNDR2b,0.0,Ribonucleoside-diphosphate reductase (GDP) (glutaredoxin)
+SERTRS2,0.0,Seryl-tRNA synthetase (selenocystein)
+RNDR3,0.0,Ribonucleoside-diphosphate reductase (CDP)
+PYDXPP,0.0,Pyridoxal 5-phosphate phosphatase
+PYK,36.912428672786646,Pyruvate kinase
+PYNP2r,-0.01999999999998181,Pyrimidine-nucleoside phosphorylase (uracil)
+RNDR3b,0.0,Ribonucleoside-diphosphate reductase (CDP) (glutaredoxin)
+PYRt2rpp,10.0,Pyruvate reversible transport via proton symport (periplasm)
+SERt2rpp,-0.01999999999998181,L-serine reversible transport via proton symport (periplasm)
+PYRtex,10.0,Pyruvate transport via diffusion (extracellular to periplasm)
+RNDR4,0.0,Ribonucleoside-diphosphate reductase (UDP)
+RNDR4b,0.0,Ribonucleoside-diphosphate reductase (UDP) (glutaredoxin)
+QMO2,0.0,Quinol monooxygenase (Ubiquinol-8)
+RNTR1c,0.019722770572080363,Ribonucleoside-triphosphate reductase (ATP) (flavodoxin)
+QMO3,0.0,Quinol monooxygenase (menaquinol 8)
+SERt4pp,0.009999999999990905,L-serine via sodium symport (periplasm)
+QULNS,0.002060036104294165,Quinolinate synthase
+RNTR2c,0.031556429079715086,Ribonucleoside-triphosphate reductase (GTP) (flavodoxin)
+RNTR3c,0.03155642908107933,Ribonucleoside-triphosphate reductase (CTP) (flavodoxin)
+RNTR4c,0.03972277057064545,Ribonucleoside-triphosphate reductase (UTP) (flavodoxin)
+RPE,-4.429999525976541,Ribulose 5-phosphate 3-epimerase
+RPI,-5.391865858948154,Ribose-5-phosphate isomerase
+S7PI,0.009999999999967233,Sedoheptulose 7-phosphate isomerase
+TDSR2,0.0,Thiol:disulfide reductase (DsbG)
+THD2pp,0.01,NAD(P) transhydrogenase (periplasm)
+SADH,0.0,Succinylarginine dihydrolase
+SERtex,-0.009999999999990905,L-serine transport via diffusion (extracellular to periplasm)
+SADT2,0.11204663885493081,Sulfate adenyltransferase
+SBTPD,0.0,Sorbitol-6-phosphate dehydrogenase
+THDPS,0.2922628229714519,Tetrahydrodipicolinate succinylase
+THIORDXi,0.009999999998762697,Hydrogen peroxide reductase (thioredoxin)
+SBTptspp,0.0,D-sorbitol transport via PEP:Pyr PTS (periplasm)
+THMDt2pp_copy1,0.010000000000218279,Thymidine transport in via proton symport (periplasm)
+SFGTHi,0.0,S-Formylglutathione hydralase
+THMDt2pp_copy2,-0.020000000000209184,Thymidine transport in via proton symport (periplasm)
+THMDtex,-0.009999999999990905,Thymidine transport via diffusion (extracellular to periplasm)
+THMabcpp,0.0,Thiamine transport via ABC system (periplasm)
+SBTtex,0.0,D-sorbitol transport via diffusion (extracellular to periplasm)
+SDPDS,0.2922628229725888,Succinyl-diaminopimelate desuccinylase
+SDPTA,-0.2922628229725888,Succinyldiaminopimelate transaminase
+SELCYSS,0.0,Selenocysteine synthase
+SGDS,0.0,Succinylglutamate desuccinylase
+SELNPS,0.0,Selenophosphate synthase
+THMtex,0.0,Thiamine transport via diffusion (extracellular to periplasm)
+THRA2,0.01999999993063284,L-allo-Threonine Aldolase
+THRA,0.01,Threonine aldolase
+THRD,0.009999999930600698,L-threonine dehydrogenase
+THRD_L,0.08592190992938235,L-threonine deaminase
+TTDCAtexi,0.0,Tetradecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)
+THRPtex,0.0,Phospho-L-threonine transport via diffusion (extracellular to periplasm)
+SGSAD,0.0,Succinylglutamic semialdehyde dehydrogenase
+THRS,0.37990157674304925,Threonine synthase
+THRTRS,0.0,Threonyl-tRNA synthetase
+TTDCEAtexi,0.0,Tetradecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)
+TUNGSabcpp,0.0,Tungstate transport via ABC system (periplasm)
+TUNGStex,0.0,Tungstate transport via diffusion (extracellular to periplasm)
+THRabcpp,0.0,L-threonine transport via ABC system (periplasm)
+SHCHCS2,0.0,"2-succinyl-6-hydroxy-2,4-cyclohexadiene 1-carboxylate synthase"
+THRt2pp,0.0,L-threonine efflux transport via proton antiport (periplasm)
+TYMtex,0.0,Tyramine transport via diffusion (extracellular to periplasm)
+TYRPpp,0.0,Phospho-L-tyrosine phosphatase (periplasmic)
+SHCHD2,0.00016827401144966987,Sirohydrochlorin dehydrogenase (NAD)
+TYRPtex,0.0,Phopho-L-tyrosine transport via diffusion (extracellular to periplasm)
+TYRTA,-0.0403693088074647,Tyrosine transaminase
+THRt2rpp,-0.01999999999929969,L-threonine reversible transport via proton symport (periplasm)
+THRt4pp,0.009999999999308784,L-threonine  via sodium symport (periplasm)
+THRtex,-0.009999999999990905,L-threonine transport via diffusion (extracellular to periplasm)
+TYRTRS,0.0,Tyrosyl-tRNA synthetase
+SHCHF,0.00016827401144966987,Sirohydrochlorin ferrochelatase
+TYRt2rpp,-0.009999999988735908,L-tyrosine reversible transport via proton symport (periplasm)
+TYRtex,-0.009999999988735908,L-tyrosine transport via diffusion (extracellular to periplasm)
+THYMt3pp,0.009999999993624442,Thymine transport out via proton antiport (periplasm)
+THYMtex,-0.009999999993624442,Thymine transport via diffusion (extracellular to periplasm)
+TKT1,4.5777619533960205,Transketolase
+U23GAAT,0.009999999999988674,UDP-3-O-(3-hydroxymyristoyl)glucosamine acyltransferase
+UAAGDS,0.04727986215990803,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase"
+UACGALPpp,0.0,UDP-N-acetyl-D-galactosamine pyrophosphohydrolase (periplasm)
+UACGAMPpp,0.0,UDP-N-acetyl-D-glucosamine pyrophosphohydrolase (periplasm)
+TKT2,4.292238520626597,Transketolase
+TMAOR1pp,0.0,Trimethylamine N-oxide reductase (menaquinol 8) (periplasm)
+TMAOR2pp,0.0,Trimethylamine N-oxide reductase (demethylmenaquinol 8) (periplasm)
+UACGAMtex,0.0,UDP-N-acetyl-D-glucosamine transport via diffusion (extracellular to periplasm)
+TMAOtex,0.0,Trimethylamine N-oxide transport via diffusion (extracellular to periplasm)
+SHK3Dr,0.27552343252637,Shikimate dehydrogenase
+TMAtex,0.0,Trimethylamine transport via diffusion (extracellular to periplasm)
+TMDK1,0.0,Thymidine kinase (ATP:thymidine)
+UACMAMO,0.0,UDP-N-acetyl-D-mannosamine oxidoreductase
+UAG2E,0.0,UDP-N-acetylglucosamine 2-epimerase
+UAGAAT,0.00999999999908141,UDP-N-acetylglucosamine acyltransferase
+TMDPP,0.009999999993624442,Thymidine phosphorylase
+SHKK,0.27552343252341416,Shikimate kinase
+TMDS,0.039722770569483146,Thymidylate synthase
+TMK,0.0,Thiamine kinase
+UAGCVT,0.07727986215852682,UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+UAGDP,0.16455972431804045,UDP-N-acetylglucosamine diphosphorylase
+UAGPT3,0.07727986215829219,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+TMPK,0.0,Thiamine-phosphate kinase
+SKMtex,0.0,Shikimate transport via diffusion (extracellular to periplasm)
+TMPPP,0.0,Thiamine-phosphate diphosphorylase
+UAMAGS,0.047279862159900765,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase
+UAMAS,0.04727986215989349,UDP-N-acetylmuramoyl-L-alanine synthetase
+TPI,7.491708552999378,Triose-phosphate isomerase
+SO2tex,0.0,SO2 transport via diffusion (extracellular to periplasm)
+TPRDCOAS,0.0,Triphosphoribosyl-dephospho-CoA synthase
+TRDR,0.019999999998590173,Thioredoxin reductase (NADPH)
+UAPGR,0.07727986215842723,UDP-N-acetylenolpyruvoylglucosamine reductase
+UDCPDP,0.0781889530675277,Undecaprenyl-diphosphatase
+UDCPDPS,0.0009090909090908494,Undecaprenyl diphosphate synthase
+UDCPDPpp,0.01767631712201448,Undecaprenyl-diphosphatase (periplasm)
+UDCPPtppi,0.017676317122011283,Undecaprenyl phosphate transport (cytoplasm to periplasm)
+TRE6PH,0.0,Trehalose-6-phosphate hydrolase
+TRE6PP,0.0,Trehalose-phosphatase
+TRE6PS,0.0,"Alpha,alpha-trehalose-phosphate synthase (UDP-forming)"
+TREH,0.0,"Alpha,alpha-trehalase"
+UDPACGALtex,0.0,UDP-N-acetyl-D-galactosamine transport via diffusion (extracellular to periplasm)
+SO2tpp,0.0,SO2 transport via diffusion (periplasm)
+UDPG4E,0.018585408027320227,UDPglucose 4-epimerase
+UDPGALPpp,0.0,UDPgalactose pyrophosphohydrolase
+UDPGALtex,0.0,UDPgalactose transport via diffusion (extracellular to periplasm)
+TREHpp,0.0,"Alpha,alpha-trehalase (periplasm)"
+TREptspp,0.0,Trehalose transport via PEP:Pyr PTS (periplasm)
+TREtex,0.0,Trehalose transport via diffusion (extracellular to periplasm)
+TRPS1,0.07631882530859004,Tryptophan synthase (indoleglycerol phosphate)
+UDPGD,0.0,UDPglucose 6-dehydrogenase
+UDPGDC,0.0,UDP-glucuronate C-4'' decarboxylase
+TRPS2,0.0,Tryptophan synthase (indole)
+SO3tex,0.0,Sulfite transport via diffusion (extracellular to periplasm)
+TRPS3,0.0,Tryptophan synthase (indoleglycerol phosphate)
+TRPTRS,0.0,Tryptophanyl-tRNA synthetase
+UDPGLCURtex,0.0,UDP-D-glucuronate transport via diffusion (extracellular to periplasm)
+UDPGPpp,0.0,UDPglucose pyrophosphohydrolase
+UDPGtex,0.0,UDPglucose transport via diffusion (extracellular to periplasm)
+SO4tex,0.1120466388525756,Sulfate transport via diffusion (extracellular to periplasm)
+UDPKAAT,0.0,UDP-4''-ketopentose:UDP-4-amino-4-deoxy-L-arabinose aminotransferase
+UGLCURPpp,0.0,UDP-D-glucuronate pyrophosphohydrolase (periplasm)
+UGLT,0.0,UDPglucose--hexose-1-phosphate uridylyltransferase
+TRPt2rpp,-0.009999999980550456,L-tryptophan reversible transport via proton symport (periplasm)
+TRPtex,-0.009999999980550456,L-tryptophan transport via diffusion (extracellular to periplasm)
+TRSARr,-0.009999999999990905,Tartronate semialdehyde reductase
+TSULabcpp,0.0,Thiosulfate transport via ABC system (periplasm)
+TSULtex,0.0,Thiosulfate transport via diffusion (extracellular to periplasm)
+UGLYCH,0.0,Ureidoglycolate hydrolase
+UGMDDS,0.07727986215821403,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase"
+UHGADA,0.009999999999990905,UDP-3-O-acetylglucosamine deacetylase
+SOTA,0.0,Succinylornithine transaminase
+ULA4NFT,0.0,UDP-L-Ara4N formyltransferase
+URDGLYCD,0.0,Ureidoglycolate dehydrogenase
+ULA4Ntppi,0.0,Transport (cytoplasm to periplasm)
+SPMDAT1,0.0,Spermidine acetyltransferase
+UREAtex,-0.009999999999990905,Urea transport via diffusion (extracellular to periplasm)
+UREAtpp,-0.009999999999990905,Urea transport via facilitate diffusion (periplasm)
+SPMDAT2,0.0,Spermidine acetyltransferase (N8)
+URIC,0.0,Uricase
+URIDK2r,-0.039722770569483146,Uridylate kinase (dUMP)
+URIH,0.009999999999994458,Uridine hydrolase
+UM3PL,0.0199999999983689,UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase
+UM4PCP,0.009999999999976694,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate-D-alanine L,D-carboxypeptidase"
+UM4PL,0.00999999999996958,UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate-D-alanine ligase
+URIK2,0.009999999999997565,Uridine kinase (GTP:Uridine)
+SPMDabcpp,0.0,Spermidine transport via ABC system (periplasm)
+URIt2pp_copy1,999.99,Uridine transport in via proton symport (periplasm)
+UMPK,0.43696731002899014,UMP kinase
+UMPtex,0.0,UMP transport via diffusion (extracellular to periplasm)
+URIt2pp_copy2,-1000.0,Uridine transport in via proton symport (periplasm)
+SPMDtex,0.0,Spermidine transport via diffusion (extracellular to periplasm)
+URItex,-0.009999999999990905,Uridine transport via diffusion (extracellular to periplasm)
+USHD,0.0050000000000084525,UDP-sugar hydrolase
+UNK3,0.0052821438571645125,2-keto-4-methylthiobutyrate transamination
+UPLA4FNF,0.0,Undecaprenyl phosphate-L-Ara4FN formylase
+UPLA4FNT,0.0,Undecaprenyl phosphate-L-Ara4FN transferase
+UPP3MT,0.00016827401144966987,Uroporphyrinogen methyltransferase
+UPP3S,0.0024999999999997524,Uroporphyrinogen-III synthase
+VALTA,999.0486850089086,Valine transaminase
+VALTRS,0.0,Valyl-tRNA synthetase
+VALabcpp,0.0,L-valine transport via ABC system (periplasm)
+VALt2rpp,-0.009999999998626663,L-valine reversible transport via proton symport (periplasm)
+VALtex,-0.009999999943488547,L-valine transport via diffusion (extracellular to periplasm)
+UPPRT,0.010000000004449122,Uracil phosphoribosyltransferase
+URAt2pp,0.0,Uracil transport in via proton symport (periplasm)
+SPMS,0.005282143857164522,Spermidine synthase
+URAtex,0.0,Uracil transport via diffusion (extracellular to periplasm)
+VPAMTr,999.2734245306857,Valine-pyruvate aminotransferase
+X5PL3E,0.0,L-xylulose 5-phosphate 3-epimerase
+SPODM,0.0,Superoxide dismutase
+XANt2pp,0.0,Xanthine transport in via proton symport (periplasm)
+SPODMpp,0.0,Superoxide dismutase
+XANtex,0.0,Xanthine transport via diffusion (extracellular to periplasm)
+XANtpp,0.0,Xanthine reversible transport (periplasm)
+XMPtex,0.0,XMP transport via diffusion (extracellular to periplasm)
+XPPT,0.0,Xanthine phosphoribosyltransferase
+12PPDRDH,0.009999999999984474,R Propane 1 2 diol dehydratase
+SSALx,0.0,Succinate-semialdehyde dehydrogenase (NAD)
+PPDD,0.0,Propanediol dehydratase
+XTSNH,0.0,Xanthosine hydrolase
+XTSNt2rpp,0.0,Xanthosine transport via proton symport (periplasm)
+XTSNtex,0.0,Xanthosine transport via diffusion (extracellular to periplasm)
+ALCD3ir,0.0,Alcohol dehydrogenase Propanal
+SSALy,0.009999999999996012,Succinate-semialdehyde dehydrogenase (NADP)
+XYLI1,0.0,Xylose isomerase
+XYLI2,0.0,Xylose isomerase
+XYLK,-0.0,Xylulokinase
+XYLK2,0.0,L-xylulokinase
+XYLUt2pp,0.0,L-xylulose transport in via proton symport (periplasm)
+XYLUtex,0.0,L-xylulose transport via diffusion (extracellular to periplasm)
+XYLtex,0.0,D-xylose transport via diffusion (extracellular to periplasm)
+MMSAD2,-0.009999999999990905,Methylmalonate-semialdehyde dehydrogenase (propanol)
+DSCLCOCH,0.0,Sirohydrochlorin cobaltochelatase
+Cobalt2abcppI,0.0,Cobalt II transport via ABC system periplasm I
+COBALT2tpp_copy2,-999.9976169985279,Cobalt transport in via permease (no H+)
+XYLt2pp,0.0,D-xylose transport in via proton symport (periplasm)
+ZN2abcpp,0.0,"Zinc (Zn+2) ABC transporter, efflux (periplasm)"
+CPC2MT,-0.0,Precorrin-2 C20-methyltransferase
+SUCBZL,0.0,O-succinylbenzoate-CoA ligase
+CPC3MT,0.0,Precorrin-3B C17-methyltransferase
+CODSCL4MT,0.0,Cobalt precorrin 4 methyltransferase
+CODSCL5DA,0.0,Cobalt precorrin 5a deacetylation
+CODSCL5BMT,0.0,Cobalt precorrin 5b methyltransferase
+ZN2t3pp,0.00761699852781271,Zinc (Zn+2) transport out via proton antiport (periplasm)
+ZN2tpp,0.01,Zinc transport in via permease (no H+)
+ZNabcpp,0.0,Zinc (Zn+2) transport via ABC system (periplasm)
+Zn2tex,0.00238300147168502,Zinc (Zn+2) transport via diffusion (extracellular to periplasm)
+GCALDD,0.037729598978501144,Glycolaldehyde dehydrogenase
+THZPSN,0.0,Thiazole phosphate synthesis
+CPC6R,0.0,Precorrin-6A reductase
+CODSCL6BMT,-0.0,Cobalt precorrin 6b methyltransferase
+SUCBZS,0.0,O-succinylbenzoate-CoA synthase
+CODSCL7MTDC,-0.0,Cobalt precorrin 7 methyltransferase decarboxylase
+CODSCL8XI,0.0,Cobalt precorrin 8x isomerase
+EX_AEP_e,0.0,AEP exchange
+COBNAD,0.0,Cobyrinate amidation
+SUCCt2_2pp,0.009999999999308784,Succinate transport via proton symport (2 H) (periplasm)
+COB2NDARED,0.0,Cob II yrinate a c diamide reductase
+COB1NDAAT1,-0.01,Cob I yrinate a c diamide adenosyltransferase 1
+COB1NDAAT2,0.01,Cob I yrinate a c diamide adenosyltransferase 2
+ADCOBNSYN,0.0,Adenosylcobyric acid synthase
+AEPtex,0.0,AEP transport via diffusion extracellular to periplasm
+AEPabcpp,0.0,AEP transport via ABC system periplasm
+AEPPYRTA,0.0,2 aminoethylphosphonate pyruvate transaminase
+PALDH,0.0,Phosphonoacetaldehyde hydrolase
+LTHRK,0.0,L threonine kinase
+THRPDC,0.0,L threonine phosphate decarboxylase
+EX_4hoxpac_e,0.0,4 hydroxy phenylacetic acid exhcnage
+ADOCBIPS,0.0,Adenosyl cobinamide phosphate synthase
+4hoxpactex,0.0,4 hydroxyphenylacetate transport via diffusion extracellular to periplasm
+SUCCt3pp,0.05999999999315151,Succinate transport out via proton antiport (periplasm)
+4HOXPACt2pp_1,0.0,4 hydroxyphenylacetate transport in via proton symport periplasm
+ADOCBLPS,0.0,Adenosylcobalamin phosphate synthase
+ADOCBLPP,0.0,Adenosylcobalamin phosphate phosphatase
+FADRx_copy2,0.0,FAD reductase
+ADOCBIK,0.0,Adenosyl cobinamide kinase
+SUCCtex,-0.009999999999990905,Succinate transport via diffusion (extracellular to periplasm)
+4HOXPACMON,0.0,4 hydroxyphenylacetate 3 monooxygenase nadh
+4HOXPACMOF_1,0.0,4 hydroxyphenylacetate 3 monooxygenase FADH2
+CBLAT,0.0,Cob(I)alamin adenosyltransferase
+APPK,0.0,1 amino 2 propanol kinase
+34DHPACDO,0.0,3 4 dihydroxyphenylacetate 2 3 dioxygenase
+SUCDi,0.05699291419025031,Succinate dehydrogenase (irreversible)
+CMCMSAD,0.0,4 carboxy 2 hydroxymuconate 6 semialdehyde dehydrogenase
+EX_remnant1_e,0.0,Residual atoms of reaction DMBZIDSYN exchange
+REMNANT1tex,0.0,Residual atoms of reaction DMBZIDSYN transport via diffusion extracellular to periplasm
+CMHMI,0.0,5 carboxymethyl 2 hydroxymuconate delta isomerase
+SUCOAS,0.3612904864023676,Succinyl-CoA synthetase (ADP-forming)
+OPTCCL,0.0,5 carboxy 2 oxohept 3 enedioate decarboxylation
+2HH24DDH,0.0,2hh24dd hydratase
+4H2KPILY,0.0,4h2kpi Lyase
+EX_colipa20Oag_e,0.0,O antigen x20 core oligosaccharide lipid A exchange
+colipa20Oagtex,0.0,O antigen x20 core oligosaccharide lipid A transport periplasm to extracellular
+udcdp20OagLpp,0.0,O antigen x20 ligase periplasm
+udcdpgalrmnmanabetpp,0.0,Undecaprenyl diphosphate galactose rhamnose mannose abequose flippase cytoplasm to periplasm
+OGLT,0.0,Galactosyltransferase LPS O antigen biosynthesis
+ORLT,0.0,Rhamnosyl transferase LPS O antigen biosynthesis
+SUCRtex,0.0,Sucrose transport transport via diffusion (extracellular to periplasm)
+OMLT,0.0,Mannosyl transferase LPS O antigen biosynthesis
+OAP19pp,0.0,O antigen polymerase 19 periplasm
+OALT,0.0,Abequosyl transferase LPS O antigen biosynthesis
+SULFACtex,0.0,Sulfoaceate transport via diffusion (extracellular to periplasm)
+MAN1PT2,0.018585408031089656,Mannose-1-phosphate guanylyltransferase (GDP)
+G1PCTYT,0.018585408031075445,Alpha-D-glucose cytidylyltransferase
+SULR,0.0,Sulfite reductase (NADPH2)
+CDPGLC46DH,0.018585408031089656,CDP glucose 4 6 dehydratase
+PMANM,-0.018585408031089656,Phosphomannomutase
+OAP1pp,0.0,O antigen polymerase 1 periplasm
+OAP2pp,0.0,O antigen polymerase 2 periplasm
+CDP4D6DGLCRx,0.018585408031102132,CDP 4 dehydro 6 deoxyglucose reductase
+SULabcpp,0.11204663885506584,Sulfate transport via ABC system (periplasm)
+CDPABEQS,0.018585408031089656,CDP abequose synthase
+OAP3pp,0.0,O antigen polymerase 3 periplasm
+OAP4pp,0.0,O antigen polymerase 4 periplasm
+SALCHS4FEexs,0.0,Salmochelin S4 Fe III binding spontaneous
+OAP5pp,0.0,O antigen polymerase 5 periplasm
+EX_salchs4_e,0.0,Salmochelin S4 exchange
+T2DECAI,0.11935140979699099,Trans-2-decenoyl-ACP isomerase
+EX_salchs4fe_e,0.0,Salmochelin S4 Fe III exchange
+SALCHS4FEabcpp,0.0,Salmochelin S4 Fe III transport via ABC system periplasm
+OAP6pp,0.0,O antigen polymerase 6 periplasm
+OAP7pp,0.0,O antigen polymerase 7 periplasm
+OAP8pp,0.0,O antigen polymerase 8 periplasm
+OAP9pp,0.0,O antigen polymerase 9 periplasm
+OAP10pp,0.0,O antigen polymerase 10 periplasm
+OAP11pp,0.0,O antigen polymerase 11 periplasm
+OAP12pp,0.0,O antigen polymerase 12 periplasm
+SALCHS4tex,0.0,Salmochelin S4 transport secretion periplasm
+TALA,4.567761953395575,Transaldolase
+OAP13pp,0.0,O antigen polymerase 13 periplasm
+OAP14pp,0.0,O antigen polymerase 14 periplasm
+OAP15pp,0.0,O antigen polymerase 15 periplasm
+TARTRtex,0.0,Tartrate transport via diffusion (extracellular to periplasm)
+OAP16pp,0.0,O antigen polymerase 16 periplasm
+OAP17pp,0.0,O antigen polymerase 17 periplasm
+TAURtex,0.0,Taurine transport via diffusion (extracellular to periplasm)
+OAP18pp,0.0,O antigen polymerase 18 periplasm
+TCYNTtex,0.0,Thiocyanate transport via diffusion (extracellular to periplasm)
+CTECOAI6,0.061368829851501785,3-cis-2-trans-enoyl-CoA isomerase
+AIRStex,0.0,Aminoimidazole riboside transport via diffusion extracellular to periplasm
+AIRStpp,0.0,Aminoimidazole riboside facilitated transport periplasm
+REMNANT1tpp,0.0,Residual atoms of reaction DMBZIDSYN facilitated transport periplasm
+SALCHS4abcpp,0.0,Salmochelin S4 transport via ABC system periplasm
+FEENTER2tpp,0.01,Enterochelin transport2 via ABC system periplasm
+TDP,0.0,Thiamin pyrophosphatase
+EX_salchsx_e,0.0,Salmochelin SX exchange
+ARGDr,0.01,Arginine deiminase
+OCBT,0.1287044039161173,Ornithine carbamoyltransferase
+SALCHSXtex,0.0,Salmochelin SX via diffusion extracellular to periplasm
+TDPADGAT,0.0,"DTDP-4-amino-4,6-dideoxy-D-glucose acetyltransferase"
+SALCHSXtpp,0.0,Salmochelin SX facilitated transport periplasm
+CSNt2pp,0.0,Cytosine transport in via proton symport (periplasm)
+CBMKr,0.4448064437957555,Carbamate kinase
+3PGt6pp,0.0,3 Phospho D glycerate phosphate antiporter periplasm
+2PGt6pp,0.0,D Glycerate 2 phosphate phosphate antiporter periplasm
+PEPt6pp,0.0,Phosphoenolpyruvate phosphate antiporter periplasm
+CSND,0.009999999999983137,Cytosine deaminase
+ALCD19,-0.009999999999990905,Alcohol dehydrogenase (glycerol)
+ALCD2x,-0.009999999999990905,Alcohol dehydrogenase (ethanol)
+EX_pep_e,0.0,Phosphoenolpyruvate exchange
+FALDH2,0.0,Formaldehyde dehydrogenase
+TDPAGTA,0.0,"DTDP-4-amino-4,6-dideoxy-D-glucose transaminase"
+DPR,4.452092686447243e-05,2-dehydropantoate 2-reductase
+PEPtex,0.0,Phosphoenolpyruvate transport via diffusion extracellular to periplasm
+EX_2pg_e,0.0,D Glycerate 2 phosphate exchange
+2PGtex,0.0,D Glycerate 2 phosphate transport via diffusion extracellular to periplasm
+EX_3pg_e,0.0,3 Phospho D glycerate exchange
+LIPAHT2ex,0.0,Core oligosaccharide lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane)
+LIPAHTex,0.0,Lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane)
+3PGtex,0.0,3 Phospho D glycerate transport via diffusion extracellular to periplasm
+TDPDRE,0.021085408031138037,"DTDP-4-dehydrorhamnose 3,5-epimerase"
+SERD_L,0.009999999999997122,L-serine deaminase
+CYTBD2pp,0.0,Cytochrome oxidase bd (menaquinol-8: 2 protons) (periplasm)
+CYTBDpp,0.009999999999999343,Cytochrome oxidase bd (ubiquinol-8: 2 protons) (periplasm)
+TARTD,0.0,L(+)-tartrate dehydratase
+TDPDRR,0.02108540803115612,DTDP-4-dehydrorhamnose reductase
+TARTRtpp,0.0,Tartrate facilitated transport periplasm
+NI2tpp,0.0,Nickel (+2) transport in via permease (no H+)
+ACANTHAT,0.0,Acetyl-CoA:anthranilate acetyltransferase
+GLTPD,0.0,Galactitol-1-phosphate dehydrogenase
+TGBPA,0.0,Tagatose-bisphosphate aldolase
+CAT,0.0,Catalase
+CHORM,0.1550614000566839,Chorismate mutase
+GUI1,0.0,Glucuronate isomerase (D-glucuronate)
+TDPGDH,0.02108540803110213,"DTDPglucose 4,6-dehydratase"
+GUI2,0.0,Glucuronate isomerase (D-galacturonate)
+MNNH,0.0,D-mannonate hydrolyase
+MANAO,0.0,Mannonate oxidoreductase
+DAPAL,0.0,"2,3-diaminopropionate amonnia lyase"
+UDPGALM,0.0,UDPgalactopyranose mutase
+HYD1pp,0.0,Hydrogenase (ubiquinone-8: 2 protons) (periplasm)
+HYD2pp,0.0,Hydrogenase (menaquinone8: 2 protons) (periplasm)
+HYD3pp,0.0,Hydrogenase (Demethylmenaquinone-8: 2 protons) (periplasm)
+OAADCS,0.0009999999999763531,Oxaloacetate decarboxylase sodium pump
+CITt4pp,0.0,Citrate transport via sodium symport periplasm
+EX_tet_e,0.0,Tetrathionate exchange
+TDSK,0.004999999999984243,Tetraacyldisaccharide 4'kinase
+TETtex,0.0,Tetrathionate transport via diffusion extracellular to periplasm
+EX_frmd_e,0.0,Formamide exchange
+FOAMtex,0.0,Formamide transport via diffusion extracellular to periplasm
+DDGLCNt2rpp,0.0,"2-dehydro-3-deoxy-D-gluconate transport via proton symport, reversible (periplasm)"
+CITt_kt,0.0,Citrate proton symport periplasm
+CITtupp,0.0,Citrate transport periplasm
+EX_tartr__D_e,-0.0,D-tartrate exchange
+TARTRDtex,0.0,D-tartrate transport via diffusion (extracellular to periplasm)
+ICITtupp,0.0,Isocitrate transport periplasm
+TDSR1,0.0,Thiol:disulfide reductase (DsbC)
+ACONCtupp,0.0,Cisaconitate transport periplasm
+NI2uabcpp,0.0,"Nickel transport via ABC system (uptake, periplasm)"
+TARTRDtpp,0.0,D Tartrate facilitated transport periplasm
+GALCTD,10.0,Galactarate dehydratase
+SHSL1,0.07902539965503748,O-succinylhomoserine lyase (L-cysteine)
+GALTptspp,0.0,Galactitol transport via PEP:Pyr PTS (periplasm)
+ASPt2_3pp,0.01,L-asparate transport via proton symport (3 H) (periplasm)
+FEROXBFEabcpp,0.0,Ferrioxamine B fe transport via ABC system periplasm
+SUCFUMtpp,-0.02999999999385182,Succinate:fumarate antiporter (periplasm)
+SUCCt2_3pp,0.01,Succintate transport via proton symport (3 H) (periplasm)
+FUMt2_3pp,0.01,Fumarate transport via proton symport (3 H) (periplasm)
+MALt2_3pp,0.010000000000000009,Malate transport via proton symport (3 H) (periplasm)
+ALAALAD_1,0.0,D alanine D alanine dipeptidase
+DMSOR1pp,0.0,Dimethyl sulfoxide reductase (Menaquinol 8) (periplasm)
+DMSOR2pp,0.0,Dimethyl sulfoxide reductase (Demethylmenaquinol 8) (periplasm)
+NAt3pp,0.01999999999884494,Sodium transport out via proton antiport (cytoplasm to periplasm)
+EX_tag__D_e,0.0,D Tagatose exchange
+TAGtex,0.0,D Tagatose transport via diffusion extracellular to periplasm
+TAGptspp,0.0,D Tagatose transport via PEPPyr PTS periplasm
+TAG1PK,0.0,D Tagatose 1 phosphate kinase
+FE2abcpp,0.0,Iron (II) transport via ABC system (periplasm)
+MNabc_1,0.0,Manganese Mn2 transport via ABC system periplasm
+TETDHpp1,0.0,Tetrathionate Dehydrogenase menaquinone 8  periplasm
+TSULDHpp1,0.0,Thiosulfate Dehydrogenase menaquinone 8  periplasm
+TETDHpp2,0.0,Tetrathionate Dehydrogenase Demethylmenaquinol 8 periplasm
+TSULDHpp2,0.0,Thiosulfate Dehydrogenase Demethylmenaquinol 8  periplasm
+4IZ5PPH,0.0,4 Imidazolone 5 propanoate propionase
+NFLGLNH,0.0,N Formimino L glutamate formiminohydrolase
+FEROXEFEabcpp,0.0,Ferrioxamine E fe transport via ABC system periplasm
+EX_4abz_e,0.0,4 Aminobenzoate exchange
+4ABZt,0.0,4 Aminobenzoate mitochondrial transport via diffusion
+TETDHpp3,0.0,Tetrathionate Dehydrogenase ubiquinone 8  periplasm
+TSULDHpp3,0.0,Thiosulfate Dehydrogenase ubiquinone 8  periplasm
+SO3R,0.11204663885477475,Sulfite reductase
+EX_feroxB_e,0.0,Ferrioxamine B exchange
+FEROXGFEabcpp,0.0,Ferrioxamine G fe transport via ABC system periplasm
+EX_feroxBfe_e,0.0,Ferrioxamine B fe exchange
+EX_feroxE_e,0.0,Ferrioxamine E exchange
+EX_feroxEfe_e,0.0,Ferrioxamine E fe exchange
+EX_feroxG_e,0.0,Ferrioxamine G exchange
+EX_feroxGfe_e,0.0,Ferrioxamine G fe exchange
+MG2uabcpp,0.0,"Magnesium (Mg+2) ABC transporter (ubtake, periplasm)"
+UPPDC1,0.0023317259885503295,Uroporphyrinogen decarboxylase (uroporphyrinogen III)
+AIRSK,0.0,Aminoimidazole riboside kinase
+FEROXGFEtonex,0.0,Ferrioxamine G fe transport via ton system extermal
+OA5VL_ST,0.0,O-antigen 5 polymerase with very long chain
+OAO4t3pp,0.0,O-antigen translocase
+FEENTERR3,0.0,Fe-enterobactin reduction (Fe(III)-unloading)
+FEROXBFEtex,0.0,Ferrioxamine B fe transport via diffusion extracellular to periplasm
+OAO4t3ex,0.0,O-antigen translocase
+PYDXtex,0.0,Pyridoxal transport via diffusion (extracellular)
+SALCHS4FER1,0.0,Salmochelin S4 Fe III reduction Fe III unloading
+FEROXEFEtex,0.0,Ferrioxamine E fe transport via diffusion extracellular to periplasm
+SALCHS4FER2,0.0,Salmochelin S4 Fe III reduction Fe III unloading
+SALCHS4FER3,0.0,Salmochelin S4 Fe III reduction Fe III unloading
+PYDXtpp,0.0,Pyridoxal import
+PYDXNtex,0.0,Pyridoxine transport via diffusion (extracellular)
+PYDXNtpp,0.0,Pyridoxine import
+HEXt2rpp,0.0,"Hexanoate transport via proton symport, reversible (periplasm)"
+SALCHS4FEtonex,0.0,Salmochelin S4 Fe III transport via ton system extracellular
+4HTHRtex,0.0,4-hydroxy-L-threonine transport
+FEROXGtex,0.0,Ferrioxamine G transport via diffusion extracellular to periplasm
+4HTHRtrpp,0.0,4-hydroxy-L-threonine transport
+4HTHRK,0.0,4-Hydroxy-L-threonine kinase
+HISDr,0.0,Histidase r
+FEROXEtex,0.0,Ferrioxamine E transport via diffusion extracellular to periplasm
+AB6PGH,0.0,Arbutin 6-phosphate glucohydrolase
+SARCOX,0.0,Sarcosine oxidase
+PDE1,0.009999999999995346,"3',5'-cyclic-nucleotide phosphodiesterase"
+URCN,0.0,Urocanase
+AADDGT,0.0,"DTDP-N-4-acetamido-4,6-dideoxy-D-galactose transferase"
+ENTERHpp,0.0,Enterobactin hydrolase
+SALCHS4Hpp,-0.0,Salmochelin s4 hydrolase
+FE3HOXabcpp,0.0,Ferric-dicitrate transport via ABC system (periplasm)
+FEOXAMR1,0.0,Ferroxamine reductase
+FEOXAMR2,0.0,Ferroxamine reductase
+FEOXAMR3,0.0,Ferroxamine reductase
+DHBSH_1,0.029999999999996696,2 3 dihydroxybenzoylserine hydrolase
+SALCHS4FEHpp,-0.0,Salmochelin s4 fe3 hydrolase
+DHBSZ3tex,0.0,23dhbsz secretion
+ALPATE160pp_1,0.0,Apolipoprotein N acyltransferase phosphatidylethanolamine periplasm
+DHBSZ3FEexs,0.0,23dhbsz3 Fe III sequestration
+FEROXBtex,0.0,Ferrioxamine B transport via diffusion extracellular to periplasm
+DHBSZ3FEtonex,0.0,23dhbsz3  Fe III import
+ALPATG160pp_1,0.0,Apolipoprotein N acyltransferase phosphatidylglycerol periplasm
+CYSDS_copy2,0.0,Cysteine Desulfhydrase
+INOSTtpp,0.0,Myo-inositol transport
+DHBSZ3FEabcpp,0.0,23dhbsz3 Fe III transport via ABC system periplasm
+HDCAt2pp,0.0,Hexadecanoate transport via proton symport
+FEDHBZS3R1,0.0,Fe3dhbzs3 Fe III reduction and offloading
+FEROXBtpp,0.0,Ferrioxamine B facilitated transport periplasm
+FEDHBZS3R2,0.0,Fe3dhbzs3 Fe III reduction and offloading
+FEDHBZS3R3,0.0,Fe3dhbzs3 Fe III reduction and offloading
+OCDCAt2pp,0.01,Octadecanoate transport via proton symport
+OCDCEAt2pp,0.009999999999309672,Octadecenoate transport via proton symport
+TTDCAt2pp,0.0018919091874847593,Tetradecanoate transport via proton symport
+SALCHS2tex,-0.0,Salmochelin s2 secretion
+FEROXEtpp,0.0,Ferrioxamine E facilitated transport periplasm
+SALCHS2FEexs,0.0,Salmochelin s2 Fe III sequestration
+SALCHS2FEtonex,0.0,Salmochelin s2 Fe III import
+DDCAt2pp,0.010000000001941772,Dodecanoate transport via proton symport
+BIOMASS_iRR1083_metals,0.7545919797933153,Biomass equation from http://www.biomedcentral.com/1752-0509/3/38 including metals from iAF1260 biomass function
+EX_rnam_e,0.0,N-Ribosylnicotinamide Exchange
+EX_udcpo5_e,0.0009090909090751741,Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose-acetyl Exchange
+EX_tcb_e,0.0,Tricarballylate Exchange
+SALCHS2FEabcpp,0.0,Salmochelin s2 Fe III transport via ABC system periplasm
+EX_tton_e,0.0,Trithionate Exchange
+FEROXGtpp,0.0,Ferrioxamine G facilitated transport periplasm
+EX_colipaOA_e,0.0,Membrane LPS mixture Exchange
+EX_udcpo4_e,0.0,Undecaprenyl diphosphate galactose-rhamnose-mannose-abequose Exchange
+EX_4hthr_e,0.0,4-Hydroxy-L-threonine Exchange
+SALCHS2FER1,0.0,Salmochelin s2 Fe III reduction and offloading
+SALCHS2FER2,0.0,Salmochelin s2 Fe III reduction and offloading
+SALCHS2FER3,0.0,Salmochelin s2 Fe III reduction and offloading
+EX_23dhbzs3_e,0.0,2-3-dihydroxybenzoylserine trimer Exchange
+EX_fe3dhbzs3_e,0.0,2-3-dihydroxybenzoylserine trimer-Fe-III Exchange
+SALCHS2H,0.0,Salmochelin s2 hydrolase
+EX_drib_e,-0.0,Deoxy D Ribose exchange
+SALCHS1H,0.0,Salmochelin s1 hydrolase
+ENTERH,0.009999999999999998,Enterobactin hydrolase
+DHBZS3H,0.009999999999999565,23DHBS polymer hydrolase
+EX_salchs2_e,-0.0,Salmochelin-S2 Exchange
+EX_salchs2fe_e,0.0,Salmochelin-S2-Fe-III Exchange
+EX_guln__L_e,0.0,L-gulonate Exchange
+EX_dxyl_e,0.0,1-deoxy-D-xylulose Exchange
+DHBZS2H,0.009999999999999232,23DHBS polymer hydrolase
+DRIBtpp,0.0,Deoxy D ribose transport via proton symport periplasm
+FEENTERtex,0.009999999999996234,Enterochelin transport (secretion periplasm)
+ENTERGLCT1,0.0,Glycosyl transferase
+ENTERGLCT2,0.0,Glycosyl transferase
+DRBK,0.0,Deoxyribokinase
+FEROXBFER1,0.0,Ferrioxamine Fe III reduction and offloading
+FEROXBFER2,0.0,Ferrioxamine Fe III reduction and offloading
+DRIBtex,0.0,Deoxyribose transport via diffusion extracellular to periplasm
+SCYSSL,0.0,S-sulfo-L-cysteine sulfite lyase
+FEROXBFER3,0.0,Ferrioxamine Fe III reduction and offloading
+SLCYSS,0.0,O-acetyl-L-serine sulfhydrylase
+FEROXEFER1,0.0,Ferrioxamine Fe III reduction and offloading
+FEROXEFER2,0.0,Ferrioxamine Fe III reduction and offloading
+FEROXEFER3,0.0,Ferrioxamine Fe III reduction and offloading
+FEROXGFER1,0.0,Ferrioxamine Fe III reduction and offloading
+FEROXGFER2,0.0,Ferrioxamine Fe III reduction and offloading
+GTHPi,0.0,Glutathione peridoxase
+FEROXGFER3,0.0,Ferrioxamine Fe III reduction and offloading
+GULNLtex,0.0,L-gulonate transport
+GULNLtpp,0.0,L-gulonate transport
+GULNLR,-0.0,L-gulonate reductase
+HHDDI,0.0,"2-hydroxyhepta-2,4-diene-1,7-dioate isomerase"
+DXYLUDtex,0.0,1-deoxy-d-xyluose transport
+DXYLUDtpp,0.0,1-deoxy-d-xyluose transport
+MUREINLPPTP,0.0,"L,D-transpeptidase"
+INOSR,0.0,Ketoinositol reductase
+APOLPPS,0.0,Lpp signal peptidase - murein
+PROLPPOATPE160,0.0,O-acyl Transferase - murein
+PROLPPOATPG160,0.0,O-acyl Transferase - murein
+MMSAD3,0.0,Methylmalonate-semialdehyde dehydrogenase (malonic semialdehyde)
+PROLPPGT160,0.0,Glyceryl Transferase - murein
+DMBZIDS,0.0,DMB synthase
+2HH24DDH1,0.0,2hh24dd hydratase
+GALCTND,0.0,Galactonate dehydratase
+DDPGALA,0.0,2-dehydro-3-deoxy-6-phosphogalactonate aldolase
+FOAMtrpp,0.0,Formamide transport
+CHITPH,0.0,Chitobiose-6-phosphate hydrolase
+FEENTERR1,0.00393106530350079,Fe-enterobactin reduction (Fe(III)-unloading)
+FEENTERR2,0.0,Fe-enterobactin reduction (Fe(III)-unloading)
+D5KGK,0.0,2-Deoxy-5-Keto-D-gluconate kinase
+D5KGPA,0.0,2-Deoxy-5-keto-D-gluconate 6-phosphate aldolase
+DHEDAA,0.0,"2,4-dihydroxyhept-2-ene-1,7-dioic acid aldolase"
+DKDID,0.0,"D-2,3-Diketo 4-deoxy-epi-inositol dehydratase"
+2INSD,0.0,2-Inosose dehydratase
+DTARTD,0.0,D(-)-tartrate dehydratase
+NMNR,0.0,Nmn hydrolysis
+RNMK,0.0,Ribosylnicotinamide kinase
+OACT,0.01858540803110032,O-antigen Acetyl-Transferase
+UDCPAT,0.018585408031096765,Abequosyl transferase
+UDCPMT,0.01858540803110032,Mannosyl transferase
+UDCPRT,0.018585408031103878,Rhamnosyl transferase
+UDCPGT,0.018585408031289434,Undecaprenol-phosphate galactosephosphotransferase
+TCBO,0.0,Tricarballylate oxidase
+GLYBtex_copy2,-0.009999999999990905,Glycine betaine transport via diffusion (extracellular to periplasm)
+GLYBt2pp,-0.009999999999990905,Glycine betaine transport via proton symport (periplasm)
+CHITOBex,0.0,Chitobiose transport into periplasm
+CHITOBpts,0.0,Chitobiose transport via PTS
+RNAMtex,0.0,Nicotinamide riboside transport into periplasm
+RNAMtpp,0.0,Nicotinamide riboside transport
+OAO5t3ex,0.0009090909090751741,O-antigen unit (O5) translocase
+OAO5t3pp,0.018585408031103878,O-antigen unit (O5) translocase
+TCBt2pp,0.0,Tricarballylate transport in via proton symport
+TCBt2ex,0.0,Tricarballylate transport into periplasm
+TTONR1pp,0.0,Trithionate Reductase
+TTONtex,0.0,Trithionate transport
+TTONR2pp,0.0,Trithionate Reductase
+LEUt4rpp,999.99,L-leucine transport in via sodium symport
+UPLA4NT,0.0,Undecaprenyl phosphate 4-amino-4-deoxy L-arabinose synthase
+PSUDS,0.0,Pseudouridylate synthase
+PFOR,0.1225583936322503,Pyruvate flavodoxin oxidoreductase
+NNDMBRT,0.0,Nicotinate-nucleotide dimethylbenzimidazole phosphoribosyltransferase
+BIOMASS_iRR1083,0.0,Biomass equation from http://www.biomedcentral.com/1752-0509/3/38
+peptido_ST,0.01863993107974693,Peptido ST formation reaction
+pe2_ST,0.0005776401601451653,Membrane phosphatidylethanolamine composition based on http://www.biomedcentral.com/1752-0509/3/38
+pg2_ST,0.0001584643155183585,Membrane phosphatidylglycerol composition based on http://www.biomedcentral.com/1752-0509/3/38
+clpn2_ST,5.282143858553207e-06,Membrane cardiolipin composition based on http://www.biomedcentral.com/1752-0509/3/38
+pa2_ST,1.5091839595866305e-06,Membrane phosphatidate composition based on http://www.biomedcentral.com/1752-0509/3/38
+ps2_ST,1.5091840637271661e-06,Membrane phosphatidylserine composition based on http://www.biomedcentral.com/1752-0509/3/38
+12dgr2_ST,7.093164610057163e-05,Membrane 1-2-diacylglycerol composition based on http://www.biomedcentral.com/1752-0509/3/38
+OAL_ST,0.0007070526850663365,O-antigen ligase
+OA4L_ST,0.0,O-antigen 4 polymerase with long chain
+OA5L_ST,0.0007070526851280659,O-antigen 5 polymerase with long chain
+OA4VL_ST,0.0,O-antigen 4 polymerase with very long chain
