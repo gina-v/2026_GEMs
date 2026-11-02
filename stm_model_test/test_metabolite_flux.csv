@@ -1,0 +1,77 @@
+flux,reaction,percent,Type,Metabolite ID,Metabolite Name,Reaction Name,Objective Value,Model Name
+0.0038323711965647586,EX_ca2_e,1.0,Producing,ca2_e,Calcium,Calcium exchange,0.809029173857876,stm_unconstrained
+-0.0038323711965647586,CA2tex,1.0,Consuming,ca2_e,Calcium,Calcium (Ca+2) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,CBL1tonex,,Consuming,cbl1_e,Cob(I)alamin,Cob(1)alamin transport via ton system (extermal),0.809029173857876,stm_unconstrained
+0.0,EX_cbl1_e,,Consuming,cbl1_e,Cob(I)alamin,Cob(I)alamin exchange,0.809029173857876,stm_unconstrained
+0.0038323711965647586,EX_cl_e,1.0,Producing,cl_e,Chloride,Chloride exchange,0.809029173857876,stm_unconstrained
+-0.0038323711965647586,CLtex,1.0,Consuming,cl_e,Chloride,Chloride (Cl-1) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+8.205151132102753,CO2tex,1.0,Producing,co2_e,CO2 CO2,CO2 transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+-8.205151132102753,EX_co2_e,1.0,Consuming,co2_e,CO2 CO2,CO2 exchange,0.809029173857876,stm_unconstrained
+0.0025549141310431726,EX_cobalt2_e,1.0,Producing,cobalt2_e,Co2+,Co2+ exchange,0.809029173857876,stm_unconstrained
+-0.0025549141310431726,COBALT2tex,1.0,Consuming,cobalt2_e,Co2+,Cobalt (Co+2) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0025549141310431726,EX_cu2_e,1.0,Producing,cu2_e,Copper,Cu2+ exchange,0.809029173857876,stm_unconstrained
+-0.0025549141310431726,CU2tex,1.0,Consuming,cu2_e,Copper,Copper (Cu+2) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.00638728532760793,EX_mg2_e,1.0,Producing,mg2_e,Magnesium,Mg exchange,0.809029173857876,stm_unconstrained
+-0.00638728532760793,MG2tex,1.0,Consuming,mg2_e,Magnesium,Magnesium (Mg+2) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.005929374815204374,EX_fe2_e,1.0,Producing,fe2_e,Fe2+ mitochondria,Fe2+ exchange,0.809029173857876,stm_unconstrained
+-0.005929374815204374,FE2tex,1.0,Consuming,fe2_e,Fe2+ mitochondria,Iron (II) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,ARBTNexs,,Consuming,fe3_e,Iron (Fe3+),Aerobactin Fe-loading reaction (spontaneous),0.809029173857876,stm_unconstrained
+0.0,CPGNexs,,Consuming,fe3_e,Iron (Fe3+),Coprogen Fe-loading reaction (spontaneaous),0.809029173857876,stm_unconstrained
+0.0,DHBSZ3FEexs,,Consuming,fe3_e,Iron (Fe3+),23dhbsz3 Fe III sequestration,0.809029173857876,stm_unconstrained
+0.0,EX_fe3_e,,Consuming,fe3_e,Iron (Fe3+),Fe3+ exchange,0.809029173857876,stm_unconstrained
+0.0,FE3HOXexs,,Consuming,fe3_e,Iron (Fe3+),Fe(III) hydroxamate Fe-loading reaction (spontaneaous),0.809029173857876,stm_unconstrained
+0.0,FE3tex,,Consuming,fe3_e,Iron (Fe3+),Iron (III) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,FECRMexs,,Consuming,fe3_e,Iron (Fe3+),Ferrichrome Fe(III)-loading reaction (spontaneous),0.809029173857876,stm_unconstrained
+0.0,FEENTERexs,,Consuming,fe3_e,Iron (Fe3+),Enterobactin Fe(III) binding (spontaneous),0.809029173857876,stm_unconstrained
+0.0,FEOXAMexs,,Consuming,fe3_e,Iron (Fe3+),Ferroxamine Fe3-loading reaction (spontaneous),0.809029173857876,stm_unconstrained
+0.0,SALCHS2FEexs,,Consuming,fe3_e,Iron (Fe3+),Salmochelin s2 Fe III sequestration,0.809029173857876,stm_unconstrained
+0.0,SALCHS4FEexs,,Consuming,fe3_e,Iron (Fe3+),Salmochelin S4 Fe III binding spontaneous,0.809029173857876,stm_unconstrained
+0.0025549141310431726,EX_mn2_e,1.0,Producing,mn2_e,Manganese,Mn2+ exchange,0.809029173857876,stm_unconstrained
+-0.0025549141310431726,MNtex,1.0,Consuming,mn2_e,Manganese,Manganese (Mn+2) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0025549141310431726,EX_mobd_e,1.0,Producing,mobd_e,Molybdate,Molybdate exchange,0.809029173857876,stm_unconstrained
+-0.0025549141310431726,MOBDtex,1.0,Consuming,mobd_e,Molybdate,Molybdate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,EX_na1_e,,Consuming,na1_e,Sodium,Sodium exchange,0.809029173857876,stm_unconstrained
+0.0,NAtex,,Consuming,na1_e,Sodium,Sodium transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+3.4156103103378346,EX_nh4_e,1.0,Producing,nh4_e,Ammonium,Ammonia exchange,0.809029173857876,stm_unconstrained
+-3.4156103103378346,NH4tex,1.0,Consuming,nh4_e,Ammonium,Ammonia transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.5,EX_o2_e,1.0,Producing,o2_e,O2 O2,O2 exchange,0.809029173857876,stm_unconstrained
+-0.5,O2tex,1.0,Consuming,o2_e,O2 O2,Oxygen transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.7174660835628002,EX_pi_e,1.0,Producing,pi_e,Phosphate,Phosphate exchange,0.809029173857876,stm_unconstrained
+0.0,NMNR,0.0,Producing,pi_e,Phosphate,Nmn hydrolysis,0.809029173857876,stm_unconstrained
+-0.7174660835628002,PItex,1.0,Consuming,pi_e,Phosphate,Phosphate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0025549141310431726,EX_zn2_e,1.0,Producing,zn2_e,Zinc,Zinc exchange,0.809029173857876,stm_unconstrained
+-0.0025549141310431726,Zn2tex,1.0,Consuming,zn2_e,Zinc,Zinc (Zn+2) transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.09868699668553145,EX_so4_e,1.0,Producing,so4_e,Sulfate,Sulfate exchange,0.809029173857876,stm_unconstrained
+-0.09868699668553145,SO4tex,1.0,Consuming,so4_e,Sulfate,Sulfate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,EX_glc__D_e,,Consuming,glc__D_e,D-Glucose,D-Glucose exchange,0.809029173857876,stm_unconstrained
+0.0,GLCtex_copy1,,Consuming,glc__D_e,D-Glucose,Glucose transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,GLCtex_copy2,,Consuming,glc__D_e,D-Glucose,Glucose transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,EX_tungs_e,,Consuming,tungs_e,Tungstate,Tungstate exchange,0.809029173857876,stm_unconstrained
+0.0,TUNGStex,,Consuming,tungs_e,Tungstate,Tungstate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+10.191291107774486,EX_h2o_e,1.0,Producing,h2o_e,H2O H2O,H2O exchange,0.809029173857876,stm_unconstrained
+0.0,LIPAHT2ex,0.0,Producing,h2o_e,H2O H2O,Core oligosaccharide lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane),0.809029173857876,stm_unconstrained
+0.0,LIPAHTex,0.0,Producing,h2o_e,H2O H2O,Lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane),0.809029173857876,stm_unconstrained
+-10.191291107774486,H2Otex,1.0,Consuming,h2o_e,H2O H2O,H2O transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.0,NMNR,0.0,Consuming,h2o_e,H2O H2O,Nmn hydrolysis,0.809029173857876,stm_unconstrained
+77.61119935910152,Htex,1.0,Producing,h_e,H+,Proton transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+-77.61119935910152,EX_h_e,1.0,Consuming,h_e,H+,H+ exchange,0.809029173857876,stm_unconstrained
+0.0,LIPAHT2ex,0.0,Consuming,h_e,H+,Core oligosaccharide lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane),0.809029173857876,stm_unconstrained
+0.0,LIPAHTex,0.0,Consuming,h_e,H+,Lipid A:hexadecanoate transferase (n-C16:0) (extracellular membrane),0.809029173857876,stm_unconstrained
+0.14368358127715877,EX_k_e,1.0,Producing,k_e,Potassium,K+ exchange,0.809029173857876,stm_unconstrained
+-0.14368358127715877,Ktex,1.0,Consuming,k_e,Potassium,Potassium transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.5,EX_no3_e,1.0,Producing,no3_e,Nitrate,Nitrate exchange,0.809029173857876,stm_unconstrained
+-0.5,NO3tex,1.0,Consuming,no3_e,Nitrate,Nitrate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+66.50567014360031,FORtex,1.0,Producing,for_e,Formate,Formate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+-66.50567014360031,EX_for_e,1.0,Consuming,for_e,Formate,Formate exchange,0.809029173857876,stm_unconstrained
+5.0,EX_asp__L_e,1.0,Producing,asp__L_e,L-Aspartate,L-Aspartate exchange,0.809029173857876,stm_unconstrained
+-5.0,ASPtex,1.0,Consuming,asp__L_e,L-Aspartate,L-aspartate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+0.2,EX_mal__L_e,1.0,Producing,mal__L_e,L-Malate,L-Malate exchange,0.809029173857876,stm_unconstrained
+-0.2,MALtex,1.0,Consuming,mal__L_e,L-Malate,Malate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+10.0,EX_galct__D_e,1.0,Producing,galct__D_e,D-Galactarate,D-Galactarate exchange,0.809029173857876,stm_unconstrained
+-10.0,GALCTtex,1.0,Consuming,galct__D_e,D-Galactarate,D-galactarte transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+10.0,EX_glcr_e,1.0,Producing,glcr_e,D-Glucarate,D-Glucarate exchange,0.809029173857876,stm_unconstrained
+-10.0,GLCRtex,1.0,Consuming,glcr_e,D-Glucarate,D-glucarate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+10.0,EX_pyr_e,1.0,Producing,pyr_e,Pyruvate,Pyruvate exchange,0.809029173857876,stm_unconstrained
+-10.0,PYRtex,1.0,Consuming,pyr_e,Pyruvate,Pyruvate transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained
+13.3,EX_arab__L_e,1.0,Producing,arab__L_e,L-Arabinose,L-Arabinose exchange,0.809029173857876,stm_unconstrained
+-13.3,ARBtex,1.0,Consuming,arab__L_e,L-Arabinose,L-arabinose transport via diffusion (extracellular to periplasm),0.809029173857876,stm_unconstrained

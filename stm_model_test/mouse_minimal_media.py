@@ -1,15 +1,14 @@
-# Set the gurobi solver 
-
 import os
 from cobra.core.configuration import Configuration
 
+# path to gurobi license file
 os.environ["GRB_LICENSE_FILE"] = "/home/gmvaz/.gurobi.lic"
+
+# change default cobra solver to gurobi
 Configuration().solver = "gurobi"
 
 # Read in the gene weights CSV files
-
 import pandas as pd
-
 stm_threshold_10_90 = pd.read_csv("../imat_prep_test/stm_threshold_10_90.csv")
 stm_threshold_15_85 = pd.read_csv("../imat_prep_test/stm_threshold_15_85.csv")
 stm_threshold_25_75 = pd.read_csv("../imat_prep_test/stm_threshold_25_75.csv")
@@ -18,8 +17,7 @@ mixed_stm_threshold_10_90 = pd.read_csv("../imat_prep_test/mixed_stm_threshold_1
 mixed_stm_threshold_15_85 = pd.read_csv("../imat_prep_test/mixed_stm_threshold_15_85.csv")
 mixed_stm_threshold_25_75 = pd.read_csv("../imat_prep_test/mixed_stm_threshold_25_75.csv")
 
-# Make a python set of each gene weights CSV
-
+# Make a set of each gene weights CSV
 stm_set_10_90 = set(stm_threshold_10_90["genes"].astype(str).str.strip())
 stm_set_15_85 = set(stm_threshold_15_85["genes"].astype(str).str.strip())
 stm_set_25_75 = set(stm_threshold_25_75["genes"].astype(str).str.strip())
@@ -33,20 +31,17 @@ print("STM1090 gene count",len(stm_set_10_90), "|", "STM1585 gene count", len(st
 print("Mixed STM1090 gene count",len(mixed_stm_set_10_90), "|", "Mixed STM1585 gene count", len(mixed_stm_set_15_85), "|", "Mixed STM2575 gene count", len(mixed_stm_set_25_75))
 
 # Load STM_V1_0
-
 from cobra.io import load_model, load_json_model
 
 control_model = load_model("STM_v1_0")
 
 # Save all genes in the control model in a set
-
 model_genes = set([g.id for g in control_model.genes])
 
 # QC: Check the count of genes
 print("STM_V1_0 Control Model has", len(model_genes), "total genes")
 
 # Subset the gene weights lists for each sample to keep only the genes also found in the control model
-
 stm1090_model = stm_threshold_10_90[stm_threshold_10_90["genes"].isin(model_genes)]
 stm1585_model = stm_threshold_15_85[stm_threshold_15_85["genes"].isin(model_genes)]
 stm2575_model = stm_threshold_25_75[stm_threshold_25_75["genes"].isin(model_genes)]
@@ -56,7 +51,6 @@ mixed_stm1585_model = mixed_stm_threshold_15_85[mixed_stm_threshold_15_85["genes
 mixed_stm2575_model = mixed_stm_threshold_25_75[mixed_stm_threshold_25_75["genes"].isin(model_genes)]
 
 # Align the gene weights lists to the control model genes list and assign missing genes a weight of 0
-
 subset_weights_stm1090 = stm1090_model.set_index("genes")["threshold_category"].reindex(model_genes, fill_value=0)
 subset_weights_stm1585 = stm1585_model.set_index("genes")["threshold_category"].reindex(model_genes, fill_value=0)
 subset_weights_stm2575 = stm2575_model.set_index("genes")["threshold_category"].reindex(model_genes, fill_value=0)
@@ -67,7 +61,6 @@ subset_weights_mixedstm2575 = mixed_stm2575_model.set_index("genes")["threshold_
 
 
 # QC: Confirm all samples have the same amount of gene weights
-
 # 1. Make a list of the subset gene weights
 subset_gene_weights = [
     subset_weights_stm1090,
@@ -90,7 +83,6 @@ else:
 # Convert gene weights to reaction weights with iMAT
 
 from imatpy.parse_gpr import gene_to_rxn_weights
-
 rxn_weights_stm1090 = gene_to_rxn_weights(control_model, subset_weights_stm1090)
 rxn_weights_stm1585 = gene_to_rxn_weights(control_model, subset_weights_stm1585)
 rxn_weights_stm2575 = gene_to_rxn_weights(control_model, subset_weights_stm2575)
@@ -100,7 +92,6 @@ rxn_weights_mixedstm1585 = gene_to_rxn_weights(control_model, subset_weights_mix
 rxn_weights_mixedstm2575 = gene_to_rxn_weights(control_model, subset_weights_mixedstm2575)
 
 # QC: Confirm all samples have the same amount of reaction weights
-
 # 1. Make a list of the reaction weights
 reaction_weights = [
     rxn_weights_stm1090,
@@ -121,22 +112,23 @@ else:
     print(reactions_counts)
 
 # Generate constrained models with iMAT by integrating the reaction weights
-
 from imatpy.model_creation import generate_model
 
-#stm1090_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm1090, method = "imat_restrictions")
-#stm1585_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm1585, method = "imat_restrictions")
-#stm2575_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm2575, method = "imat_restrictions")
+stm1090_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm1090, method = "imat_restrictions")
+stm1585_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm1585, method = "imat_restrictions")
+stm2575_model = generate_model(model = control_model, rxn_weights = rxn_weights_stm2575, method = "imat_restrictions")
 
 mixedstm1090_model = generate_model(model = control_model, rxn_weights = rxn_weights_mixedstm1090, method = "imat_restrictions")
 mixedstm1585_model = generate_model(model = control_model, rxn_weights = rxn_weights_mixedstm1585, method = "imat_restrictions")
 mixedstm2575_model = generate_model(model = control_model, rxn_weights = rxn_weights_mixedstm2575, method = "imat_restrictions")
 
-# %%
-# make a dictionary of all the models 
 
+# make a dictionary of all the models 
 models = {
     "stm_unconstrained": control_model,
+    "stm1090": stm1090_model,
+    "stm1585": stm1585_model,
+    "stm2575": stm2575_model,
     "mixed_stm1090": mixedstm1090_model,
     "mixed_stm1585": mixedstm1585_model,
     "mixed_stm2575": mixedstm2575_model,
@@ -146,7 +138,6 @@ models = {
 default_medium = dict(models["stm_unconstrained"].medium)
 
 # Add mouse-derived, gut metabolites to the default medium to create a nouse gut minimal medium
-
 mouse_min_medium = dict(default_medium)
 mouse_min_medium.update({
     "EX_o2_e": 0.5, # updating to anoxic conditions
@@ -165,8 +156,8 @@ import pandas as pd
 
 results_dir = ("/home/gmvaz/2026_GEMs/stm_model_test/minimal_mouse_media_results")
 
+# Add Tetrathionate loop
 for name, model in models.copy().items():
-    
     min_media = dict(mouse_min_medium)
     tet_min_media = dict(mouse_min_medium)
     tet_min_media.update({
@@ -223,7 +214,10 @@ for name, model in models.copy().items():
 
     min_summary_flux_df["Objective Value"] = pd.NA
     min_summary_flux_df.loc[0, "Objective Value"] = min_solution.objective_value
-
+    min_summary_flux_df["Reaction Name"] = pd.NA
+    min_summary_flux_df["Reaction Name"] = min_summary_flux_df["reaction"].map(
+        lambda rxn: min_model.reactions.get_by_id(rxn).name
+    )
     min_summary_flux_df.to_csv(
      f"{results_dir}/{name}_minimal_media_summary_flux.csv",
         index=False
@@ -245,6 +239,10 @@ for name, model in models.copy().items():
 
     tet_summary_flux_df["Objective Value"] = pd.NA
     tet_summary_flux_df.loc[0, "Objective Value"] = tet_solution.objective_value
+    tet_summary_flux_df["Reaction Name"] = pd.NA
+    tet_summary_flux_df["Reaction Name"] = tet_summary_flux_df["reaction"].map(
+        lambda rxn: tet_model.reactions.get_by_id(rxn).name
+    )
 
     tet_summary_flux_df.to_csv(
         f"{results_dir}/{name}_tet_minimal_media_summary_flux.csv",
@@ -338,6 +336,7 @@ for name, model in models.copy().items():
         index=False
     )
 
+# Ads succinate loop
 for name, model in models.copy().items():
 
     min_media = dict(mouse_min_medium)
@@ -408,6 +407,12 @@ for name, model in models.copy().items():
         index=False
     )
 
+    min_summary_flux_df["Reaction Name"] = pd.NA
+    min_summary_flux_df["Reaction Name"] = min_summary_flux_df["reaction"].map(
+        lambda rxn: min_model.reactions.get_by_id(rxn).name
+    )
+
+
     # Succinate minimal media summary flux dataframe
 
     succ_summary = succ_model.summary(solution=succ_solution)
@@ -425,6 +430,11 @@ for name, model in models.copy().items():
 
     succ_summary_flux_df["Objective Value"] = pd.NA
     succ_summary_flux_df.loc[0, "Objective Value"] = succ_solution.objective_value
+
+    succ_summary_flux_df["Reaction Name"] = pd.NA
+    succ_summary_flux_df["Reaction Name"] = succ_summary_flux_df["reaction"].map(
+        lambda rxn: succ_model.reactions.get_by_id(rxn).name
+    )
 
     succ_summary_flux_df.to_csv(
         f"{results_dir}/{name}_succ_minimal_media_summary_flux.csv",
@@ -519,6 +529,7 @@ for name, model in models.copy().items():
         index=False
     )
 
+# Add tetrathionate and succinate loop
 for name, model in models.copy().items():
 
     min_media = dict(mouse_min_medium)
@@ -589,6 +600,11 @@ for name, model in models.copy().items():
     min_summary_flux_df["Objective Value"] = pd.NA
     min_summary_flux_df.loc[0, "Objective Value"] = min_solution.objective_value
 
+    min_summary_flux_df["Reaction Name"] = pd.NA
+    min_summary_flux_df["Reaction Name"] = min_summary_flux_df["reaction"].map(
+        lambda rxn: min_model.reactions.get_by_id(rxn).name
+    )
+
     min_summary_flux_df.to_csv(
         f"{results_dir}/{name}_minimal_media_summary_flux.csv",
         index=False
@@ -614,6 +630,10 @@ for name, model in models.copy().items():
     tet_and_succ_summary_flux_df["Objective Value"] = pd.NA
     tet_and_succ_summary_flux_df.loc[0, "Objective Value"] = (
         tet_and_succ_solution.objective_value
+    )
+    tet_and_succ_summary_flux_df["Reaction Name"] = pd.NA
+    tet_and_succ_summary_flux_df["Reaction Name"] = tet_and_succ_summary_flux_df["reaction"].map(
+        lambda rxn: tet_and_succ_model.reactions.get_by_id(rxn).name
     )
 
     tet_and_succ_summary_flux_df.to_csv(
@@ -713,6 +733,7 @@ for name, model in models.copy().items():
         index=False
     )
 
+# Add ppd loop
 for name, model in models.copy().items():
 
     min_media = dict(mouse_min_medium)
@@ -778,6 +799,10 @@ for name, model in models.copy().items():
 
     min_summary_flux_df["Objective Value"] = pd.NA
     min_summary_flux_df.loc[0, "Objective Value"] = min_solution.objective_value
+    min_summary_flux_df["Reaction Name"] = pd.NA
+    min_summary_flux_df["Reaction Name"] = min_summary_flux_df["reaction"].map(
+        lambda rxn: min_model.reactions.get_by_id(rxn).name
+    )
 
     min_summary_flux_df.to_csv(
         f"{results_dir}/{name}_minimal_media_summary_flux.csv",
@@ -801,6 +826,10 @@ for name, model in models.copy().items():
 
     ppd_summary_flux_df["Objective Value"] = pd.NA
     ppd_summary_flux_df.loc[0, "Objective Value"] = ppd_solution.objective_value
+    ppd_summary_flux_df["Reaction Name"] = pd.NA
+    ppd_summary_flux_df["Reaction Name"] = ppd_summary_flux_df["reaction"].map(
+        lambda rxn: ppd_model.reactions.get_by_id(rxn).name
+    )
 
     ppd_summary_flux_df.to_csv(
         f"{results_dir}/{name}_ppd_minimal_media_summary_flux.csv",
@@ -895,6 +924,7 @@ for name, model in models.copy().items():
         index=False
     )
 
+# Add tetrathionate, succinate, and ppd loop
 for name, model in models.copy().items():
 
     tet_succ_ppd_min_media = dict(mouse_min_medium)
@@ -953,6 +983,10 @@ for name, model in models.copy().items():
 
     tet_succ_ppd_summary_flux_df.loc[0, "Objective Value"] = (
         tet_succ_ppd_solution.objective_value
+    )
+    tet_succ_ppd_summary_flux_df["Reaction Name"] = pd.NA
+    tet_succ_ppd_summary_flux_df["Reaction Name"] = tet_succ_ppd_summary_flux_df["reaction"].map(
+        lambda rxn: tet_succ_ppd_model.reactions.get_by_id(rxn).name
     )
 
     tet_succ_ppd_summary_flux_df.to_csv(
